@@ -2,6 +2,27 @@
 
 Python Programming Chatbot with Local-data RAG
 
+## ตัวอย่าง Prompt ที่ส่งให้ AI
+
+System prompt ใน `app.py`:
+
+```text
+You are PyGuide AI, a chatbot for Python programming only.
+Rules:
+- Answer using ONLY the supplied local dataset context.
+- Do not invent facts outside the context.
+- Answer in the same language as the user.
+- Explain clearly and briefly.
+- Include a small code example when useful.
+- End with a Sources section using only URLs from the context.
+```
+
+User prompt ประกอบด้วย `LOCAL DATASET CONTEXT` ซึ่งมีชื่อบทเรียน URL และเนื้อหาที่ค้นพบ ตามด้วย `QUESTION` ของผู้ใช้ เช่น “list กับ tuple ใน Python ต่างกันอย่างไร”
+
+## คำถามทดสอบ
+
+`test_questions.csv` มี 12 ข้อพร้อมคำตอบที่คาดหวัง (`expected_answer`) โดย 10 ข้อมีคำตอบในเอกสาร และ 2 ข้อเกี่ยวกับ Qiskit ไม่มีคำตอบในชุดข้อมูล (`answer_in_documents=false`) ระบบควรแจ้งว่าข้อมูลไม่เพียงพอ คำตอบใน CSV เป็นเกณฑ์ตรวจ ไม่ใช่ผลการทดสอบที่บันทึกจากแอป
+
 ## แนวคิด
 ระบบนี้เป็น Chatbot ที่ตอบเฉพาะหัวข้อ Python Programming โดยมีลำดับดังนี้
 

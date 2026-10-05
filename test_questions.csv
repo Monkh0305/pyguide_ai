@@ -1,12 +1,13 @@
-﻿question,expected_type
-for loop ใน Python ใช้ยังไง,web_rag
-list กับ tuple ต่างกันอย่างไร,web_rag
-dictionary ใน Python ใช้ทำอะไร,web_rag
-try except ใช้งานยังไง,web_rag
-class ใน Python คืออะไร,web_rag
-import module ใน Python ทำอย่างไร,web_rag
-อ่านไฟล์ด้วย Python ทำอย่างไร,web_rag
-built-in function len() ใช้ยังไง,web_rag
-ช่วยคิดโปรเจกต์ Python สำหรับมือใหม่,ai_fallback
-Java interface ใช้ยังไง,reject_non_python
-วันนี้อากาศเป็นยังไง,reject_non_python
+﻿question,expected_answer,expected_type,answer_in_documents
+for loop ใน Python ใช้ทำอะไร,ใช้วนซ้ำสมาชิกของลำดับ เช่น list หรือ string และใช้ range() เพื่อวนซ้ำช่วงตัวเลขได้,local_rag,true
+list กับ tuple ใน Python ต่างกันอย่างไร,list แก้ไขสมาชิกได้ ส่วน tuple แก้ไขสมาชิกหลังสร้างไม่ได้ ทั้งสองชนิดมีลำดับและเก็บค่าซ้ำได้,local_rag,true
+dictionary ใน Python ใช้ทำอะไร,ใช้เก็บข้อมูลเป็นคู่ key และ value โดยอ้างอิงค่าผ่าน key เช่น person['name'],local_rag,true
+try และ except ใน Python ใช้งานอย่างไร,ใส่โค้ดที่อาจเกิดข้อผิดพลาดใน try และจัดการ exception ใน except,local_rag,true
+class ใน Python คืออะไร,class เป็นแม่แบบสำหรับสร้าง object ซึ่งมีข้อมูลและพฤติกรรม กำหนดด้วยคำสั่ง class,local_rag,true
+import module ใน Python ทำอย่างไร,ใช้ import ตามด้วยชื่อโมดูล เช่น import math แล้วเรียกใช้งาน เช่น math.sqrt(16),local_rag,true
+อ่านไฟล์ข้อความด้วย Python ทำอย่างไร,ใช้ open() เปิดไฟล์ในโหมด r แล้วใช้ read() อ่านเนื้อหา และปิดไฟล์เมื่อใช้งานเสร็จหรือใช้ with จัดการปิดไฟล์,local_rag,true
+len() ใน Python ใช้ทำอะไร,ใช้หาจำนวนสมาชิกของข้อมูล เช่น len('Python') ให้ค่า 6,local_rag,true
+เพิ่มสมาชิกท้าย list ใน Python ทำอย่างไร,ใช้เมธอด append() เช่น items.append('apple') เพื่อเพิ่มสมาชิกหนึ่งรายการท้าย list,local_rag,true
+ฟังก์ชันใน Python สร้างอย่างไร,ใช้ def ตามด้วยชื่อฟังก์ชันและวงเล็บ แล้วเขียนคำสั่งในบล็อกที่ย่อหน้า ใช้ return เมื่อต้องการส่งค่ากลับ,local_rag,true
+ใช้ Python กับ Qiskit สร้างวงจรควอนตัมสำหรับอัลกอริทึม Shor อย่างไร,ไม่พบข้อมูลที่เกี่ยวข้องเพียงพอในชุดข้อมูลที่ดาวน์โหลดไว้ กรุณาปรับคำถามหรือเพิ่มเอกสารเกี่ยวกับ Qiskit และอัลกอริทึม Shor,insufficient_context,false
+ใช้ Python กับ Qiskit แก้ปัญหาด้วยอัลกอริทึม Grover อย่างไร,ไม่พบข้อมูลที่เกี่ยวข้องเพียงพอในชุดข้อมูลที่ดาวน์โหลดไว้ กรุณาปรับคำถามหรือเพิ่มเอกสารเกี่ยวกับ Qiskit และอัลกอริทึม Grover,insufficient_context,false
