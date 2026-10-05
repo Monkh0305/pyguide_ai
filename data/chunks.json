@@ -1,0 +1,1028 @@
+[
+  {
+    "text": "Python\nIntroduction\nShare\nLink Copied\nWhat is Python?\nPython is a popular programming language. It was created by Guido van Rossum, \nand released in 1991.\nIt is used for:\nweb development (server-side),\nsoftware development,\nmathematics,\nsystem scripting.\nWhat can Python do?\nPython can be used on a server to create web applications.\nPython can be used alongside software to create workflows.\nPython can connect to database systems. It can also read and modify files.\nPython can be used to handle big data and perform complex mathematics.\nPython can be used for rapid prototyping, or for production-ready software development.\nWhy Python?\nPython works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).\nPython has a simple syntax similar to the English language.\nPython has syntax that allows developers to write programs with fewer lines than some other programming languages.\nPython r",
+    "source": "Python Introduction",
+    "url": "https://www.w3schools.com/python/python_intro.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "r to the English language.\nPython has syntax that allows developers to write programs with fewer lines than some other programming languages.\nPython runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.\nPython can be treated in a procedural way, an object-oriented way or a functional way.\nGood to know\nThe most recent major version of Python is Python 3, which we shall be using in this tutorial.\nIn this tutorial Python will be written in a text editor. It is possible to write Python in an Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse which are particularly useful when managing larger collections of Python files.\nPython Syntax compared to other programming languages\nPython was designed for readability, and has some similarities to the English language with influence from m",
+    "source": "Python Introduction",
+    "url": "https://www.w3schools.com/python/python_intro.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "x compared to other programming languages\nPython was designed for readability, and has some similarities to the English language with influence from mathematics.\nPython uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.\nPython relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.\nExample\nprint(\"Hello, World!\")\nVideo: Python Introduction\n★\n+1",
+    "source": "Python Introduction",
+    "url": "https://www.w3schools.com/python/python_intro.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "Python\nGetting Started\nShare\nLink Copied\nGet Started With Python\nAt W3Schools, you can try Python without installing anything.\nOur Online Python Editor runs directly in your browser, and shows both the code and the result:\nExample\nprint(\"Hello, World!\")\nThis editor will be used in the entire tutorial to demonstrate the different aspects of Python.\nPython Install\nHowever, if you want to run Python on your own computer, follow the instructions below.\nMany Windows PCs and Mac computers already have Python pre-installed.\nTo check if Python is installed on Windows, search in the start bar for Python or run the following on the Command Line (cmd.exe):\nC:\\Users\\\nYour Name\n>python --version\nTo check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac open the Terminal and type:\npython --version\nIf Python is not installed on your computer, you can downloa",
+    "source": "Python Getting Started",
+    "url": "https://www.w3schools.com/python/python_getstarted.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "hen on linux open the command line or on Mac open the Terminal and type:\npython --version\nIf Python is not installed on your computer, you can download it for free from the official website:\nhttps://www.python.org/\nPython Quickstart\nPython is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.\nLet's write our first Python file, called\nhello.py\n, which can be done in any text editor:\nhello.py\n:\nprint(\"Hello, World!\")\nSimple as that. Save your file. Open your command line, navigate to the directory where you saved your file, and run:\nC:\\Users\\\nYour Name\n>python hello.py\nThe output should be:\nHello, World!\nCongratulations, you have written and executed your first Python program.\nPython Version\nTo check the Python version of the editor, you can find it by importi",
+    "source": "Python Getting Started",
+    "url": "https://www.w3schools.com/python/python_getstarted.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "lations, you have written and executed your first Python program.\nPython Version\nTo check the Python version of the editor, you can find it by importing the\nsys\nmodule:\nExample\nCheck the Python version of the editor:\nimport sys\nprint(sys.version)\nYou will learn more about importing modules in our\nPython Modules\nchapter.\nThe Python Command Line\nTo test a short amount of code in python sometimes it is quickest and easiest not to write the code in a file. This is made possible because Python can be run as a command line itself.\nType the following on the Windows, Mac or Linux command line:\nC:\\Users\\\nYour Name\n>python\nOr, if the \"python\" command did not work, you can try \"py\":\nC:\\Users\\\nYour Name\n>py\nFrom there you can write any python code, including our hello world example from earlier in the tutorial:\nC:\\Users\\\nYour Name\n>python\nPython 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1",
+    "source": "Python Getting Started",
+    "url": "https://www.w3schools.com/python/python_getstarted.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "luding our hello world example from earlier in the tutorial:\nC:\\Users\\\nYour Name\n>python\nPython 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n>>> print(\"Hello, World!\")\nWhich will write \"Hello, World!\" in the command line:\nC:\\Users\\\nYour Name\n>python\nPython 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n>>> print(\"Hello, World!\")\nHello, World!\nWhenever you are done in the python command line, you can simply type the following to quit the python command line interface:\nexit()\nVideo: Python Get Started\n★\n+1",
+    "source": "Python Getting Started",
+    "url": "https://www.w3schools.com/python/python_getstarted.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nSyntax\nShare\nLink Copied\nExecute Python Syntax\nAs we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:\n>>> print(\"Hello, World!\")\nHello, World!\nOr by creating a python file on the server, using the .py file extension, and running it in the Command Line:\nC:\\Users\\\nYour Name\n>python myfile.py\nPython Indentation\nIndentation refers to the spaces at the beginning of a code line.\nWhere in other programming languages the indentation in code is for readability \nonly, the indentation in Python is very important.\nPython uses indentation to indicate a block of code.\nExample\nif 5 > 2:\nprint(\"Five is greater than two!\")\nPython will give you an error if you skip the indentation:\nExample\nSyntax Error:\nif 5 > 2:\nprint(\"Five is greater than two!\")\nThe number of spaces is up to you as a programmer, the most common use is four, but it has \nto be at",
+    "source": "Python Syntax",
+    "url": "https://www.w3schools.com/python/python_syntax.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "or:\nif 5 > 2:\nprint(\"Five is greater than two!\")\nThe number of spaces is up to you as a programmer, the most common use is four, but it has \nto be at least one.\nExample\nif 5 > 2:\nprint(\"Five is greater than two!\")\nif 5 > 2:\nprint(\"Five is greater than two!\")\nYou have to use the same number of spaces in the same block of code, \notherwise Python will give you an error:\nExample\nSyntax Error:\nif 5 > 2:\nprint(\"Five is greater than two!\")\nprint(\"Five is greater than \n  two!\")\nPython Variables\nIn Python, a variable is created when you assign a value to it:\nExample\nVariables in Python:\nx = 5\ny = \"Hello, World!\"\nPython has no command for declaring a variable.\nYou will learn more about variables in the\nPython Variables\nchapter.\nComments\nPython has commenting capability for the purpose of in-code documentation.\nComments start with a\n#\n, and Python will render the rest of the line as a comment:\nExam",
+    "source": "Python Syntax",
+    "url": "https://www.w3schools.com/python/python_syntax.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "mmenting capability for the purpose of in-code documentation.\nComments start with a\n#\n, and Python will render the rest of the line as a comment:\nExample\nComments in Python:\n#This is a comment.\nprint(\"Hello, World!\")\nVideo: Python Syntax\n★\n+1",
+    "source": "Python Syntax",
+    "url": "https://www.w3schools.com/python/python_syntax.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "Python\nComments\nComments can be used to explain Python code.\nComments can be used to make the code more readable.\nComments can be used to prevent execution when testing code.\nShare\nLink Copied\nCreating a Comment\nComments starts with a\n#\n, and Python will \nignore them:\nExample\n#This is a comment\nprint(\"Hello, World!\")\nComments can be placed at the end of a line, and Python will ignore the rest \nof the line:\nExample\nprint(\"Hello, World!\") #This is a comment\nA comment does not have to be text that explains the code, it can also be used to \nprevent Python from executing code:\nExample\n#print(\"Hello, World!\")\nprint(\"Cheers, Mate!\")\nMultiline Comments\nPython does not really have a syntax for multiline comments.\nTo add a multiline comment you could insert a\n#\nfor each line:\nExample\n#This is a comment\n#written in\n#more than just one line\nprint(\"Hello, \n  World!\")\nOr, not quite as intended, you ca",
+    "source": "Python Comments",
+    "url": "https://www.w3schools.com/python/python_comments.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "insert a\n#\nfor each line:\nExample\n#This is a comment\n#written in\n#more than just one line\nprint(\"Hello, \n  World!\")\nOr, not quite as intended, you can use a multiline string.\nSince Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it:\nExample\n\"\"\"\nThis is a comment\nwritten in\nmore than just \n  one line\n\"\"\"\nprint(\"Hello, World!\")\nAs long as the string is not assigned to a variable, Python will read the code, but then ignore it, and you have made a multiline comment.\nVideo: Python Comments\n★\n+1",
+    "source": "Python Comments",
+    "url": "https://www.w3schools.com/python/python_comments.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python\nVariables\nShare\nLink Copied\nVariables\nVariables are containers for storing data values.\nCreating Variables\nPython has no command for declaring a variable.\nA variable is created the moment you first assign a value to it.\nExample\nx = 5\ny = \"John\"\nprint(x)\nprint(y)\nVariables do not need to be declared with any particular\ntype\n, and can even change type after they have been set.\nExample\nx = 4       # x is of type int\nx = \"Sally\" # x is now of type str\nprint(x)\nCasting\nIf you want to specify the data type of a variable, this can be done with casting.\nExample\nx = \n  str(3)    # x will be '3'\ny = int(3)    # y \n  will be 3\nz = float(3)  # z will be 3.0\nGet the Type\nYou can get the data type of a variable with the\ntype()\nfunction.\nExample\nx = 5\ny = \"John\"\nprint(type(x))\nprint(type(y))\nYou will learn more about\ndata types\nand\ncasting\nlater in this tutorial.\nSingle or Double Quotes?\nString",
+    "source": "Python Variables",
+    "url": "https://www.w3schools.com/python/python_variables.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "= 5\ny = \"John\"\nprint(type(x))\nprint(type(y))\nYou will learn more about\ndata types\nand\ncasting\nlater in this tutorial.\nSingle or Double Quotes?\nString variables can be declared either by using single or double quotes:\nExample\nx = \"John\"\n# is the same as\nx = \n  'John'\nCase-Sensitive\nVariable names are case-sensitive.\nExample\nThis will create two variables:\na = 4\nA = \n  \"Sally\"\n#A will not overwrite a\nVideo: Python Variables\n★\n+1",
+    "source": "Python Variables",
+    "url": "https://www.w3schools.com/python/python_variables.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python -\nVariable Names\nShare\nLink Copied\nVariable Names\nA variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).\nRules for Python variables:\nA variable name must start with a letter or the underscore character\nA variable name cannot start with a number\nA variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )\nVariable names are case-sensitive (age, Age and AGE are three different variables)\nA variable name cannot be any of the\nPython keywords\n.\nExample\nLegal variable names:\nmyvar = \"John\"\nmy_var = \"John\"\n_my_var = \"John\"\nmyVar = \"John\"\nMYVAR = \"John\"\nmyvar2 = \"John\"\nExample\nIllegal variable names:\n2myvar = \"John\"\nmy-var = \"John\"\nmy var = \"John\"\nRemember that variable names are case-sensitive\nMulti Words Variable Names\nVariable names with more than one word can be difficult to read.\nThere are several techn",
+    "source": "Python - Variable Names",
+    "url": "https://www.w3schools.com/python/python_variables_names.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "variable names are case-sensitive\nMulti Words Variable Names\nVariable names with more than one word can be difficult to read.\nThere are several techniques you can use to make them more readable:\nCamel Case\nEach word, except the first, starts with a capital letter:\nmyVariableName = \"John\"\nPascal Case\nEach word starts with a capital letter:\nMyVariableName = \"John\"\nSnake Case\nEach word is separated by an underscore character:\nmy_variable_name = \"John\"\nVideo: Python Variable Names\n★\n+1",
+    "source": "Python - Variable Names",
+    "url": "https://www.w3schools.com/python/python_variables_names.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python Variables -\nAssign Multiple Values\nShare\nLink Copied\nMany Values to Multiple Variables\nPython allows you to assign values to multiple variables in one line:\nExample\nx, y, z = \"Orange\", \"Banana\", \"Cherry\"\nprint(x)\nprint(y)\nprint(z)\nNote:\nMake sure the number of variables matches the number of values, or else you will get an error.\nOne Value to Multiple Variables\nAnd you can assign the\nsame\nvalue to multiple variables in one line:\nExample\nx = y = z = \"Orange\"\nprint(x)\nprint(y)\nprint(z)\nUnpack a Collection\nIf you have a collection of values in a\nlist\n,\ntuple\netc.\nPython allows you to extract the values into variables. This is called\nunpacking\n.\nExample\nUnpack a list:\nfruits = [\"apple\", \"banana\", \"cherry\"]\nx, y, z = fruits\nprint(x)\nprint(y)\nprint(z)\nLearn more about unpacking in our\nUnpack Tuples\nChapter.\nVideo: Python Multiple Values\n★\n+1",
+    "source": "Python Variables - Assign Multiple Values",
+    "url": "https://www.w3schools.com/python/python_variables_multiple.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "Python -\nOutput Variables\nShare\nLink Copied\nOutput Variables\nThe\nprint()\nfunction is often used to output variables.\nExample\nx = \"Python is awesome\"\nprint(x)\nIn the\nprint()\nfunction, you output multiple \nvariables, separated by a comma:\nExample\nx = \"Python\"\ny = \"is\"\nz = \"awesome\"\nprint(x, y, z)\nYou can also use the\n+\noperator to output \nmultiple variables:\nExample\nx = \"Python \"\ny = \"is \"\nz = \"awesome\"\nprint(x \n  + y + z)\nNotice the space character after\n\"Python \"\nand\n\"is \"\n,\n  without them the result would be \"Pythonisawesome\".\nFor numbers, the\n+\ncharacter works as a mathematical operator:\nExample\nx = 5\ny = 10\nprint(x + y)\nIn the\nprint()\nfunction, when you try to \ncombine a string and a number with the\n+\noperator, Python will give you an error:\nExample\nx = 5\ny = \"John\"\nprint(x + y)\nThe best way to output multiple variables in the\nprint()\nfunction is to separate them with commas,\nwhich ev",
+    "source": "Python - Output Variables",
+    "url": "https://www.w3schools.com/python/python_variables_output.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "ror:\nExample\nx = 5\ny = \"John\"\nprint(x + y)\nThe best way to output multiple variables in the\nprint()\nfunction is to separate them with commas,\nwhich even support different data types:\nExample\nx = 5\ny = \"John\"\nprint(x, y)\nVideo: Python Output Variables\n★\n+1",
+    "source": "Python - Output Variables",
+    "url": "https://www.w3schools.com/python/python_variables_output.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python -\nGlobal Variables\nShare\nLink Copied\nGlobal Variables\nVariables that are created outside of a function (as in all of the examples \nin the previous pages) are known as global variables.\nGlobal variables can be used by everyone, both inside of \nfunctions and outside.\nExample\nCreate a variable outside of a function, and use it inside the function\nx = \"awesome\"\ndef myfunc():\nprint(\"Python is \" + x)\nmyfunc()\nIf you create a variable with the same name inside a function, this variable \nwill be local, and can only be used inside the function. The global variable \nwith the same name will remain as it was, global and with the original value.\nExample\nCreate a variable inside a function, with the same name as the global \n  variable\nx = \"awesome\"\ndef myfunc():\nx = \"fantastic\"\nprint(\"Python is \" + x)\nmyfunc()\nprint(\"Python is \" + x)\nThe global Keyword\nNormally, when you create a variable insid",
+    "source": "Python - Global Variables",
+    "url": "https://www.w3schools.com/python/python_variables_global.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "\"\ndef myfunc():\nx = \"fantastic\"\nprint(\"Python is \" + x)\nmyfunc()\nprint(\"Python is \" + x)\nThe global Keyword\nNormally, when you create a variable inside a function, that variable is \nlocal, and can only be used inside that function.\nTo create a global variable inside a function, you can use the\nglobal\nkeyword.\nExample\nIf you use the\nglobal\nkeyword, the variable belongs to the global scope:\ndef myfunc():\nglobal x\nx = \"fantastic\"\nmyfunc()\nprint(\"Python is \" + x)\nAlso, use the\nglobal\nkeyword if you want to change a global variable inside a function.\nExample\nTo change the value of a global variable inside a function, refer to the \n  variable by using the\nglobal\nkeyword:\nx = \"awesome\"\ndef myfunc():\nglobal x\nx = \"fantastic\"\nmyfunc()\nprint(\"Python is \" + x)\nVideo: Python Global Variables\n★\n+1",
+    "source": "Python - Global Variables",
+    "url": "https://www.w3schools.com/python/python_variables_global.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python\nData Types\nShare\nLink Copied\nBuilt-in Data Types\nIn programming, data type is an important concept.\nVariables can store data of different types, and different types can do \ndifferent things.\nPython has the following data types built-in by default, in these categories:\nText Type:\nstr\nNumeric Types:\nint\n,\nfloat\n,\ncomplex\nSequence Types:\nlist\n,\ntuple\n,\nrange\nMapping Type:\ndict\nSet Types:\nset\n,\nfrozenset\nBoolean Type:\nbool\nBinary Types:\nbytes\n,\nbytearray\n,\nmemoryview\nNone Type:\nNoneType\nGetting the Data Type\nYou can get the data type of any object by using the\ntype()\nfunction:\nExample\nPrint the data type of the variable x:\nx = 5\nprint(type(x))\nSetting the Data Type\nIn Python, the data type is set when you assign a value to a variable:\nExample\nData Type\nTry it\nx = \"Hello World\"\nstr\nx = 20\nint\nx = 20.5\nfloat\nx = 1j\ncomplex\nx = [\"apple\", \"banana\", \"cherry\"]\nlist\nx = (\"apple\", \"banana\", \"",
+    "source": "Python Data Types",
+    "url": "https://www.w3schools.com/python/python_datatypes.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "ample\nData Type\nTry it\nx = \"Hello World\"\nstr\nx = 20\nint\nx = 20.5\nfloat\nx = 1j\ncomplex\nx = [\"apple\", \"banana\", \"cherry\"]\nlist\nx = (\"apple\", \"banana\", \"cherry\")\ntuple\nx = range(6)\nrange\nx = {\"name\" : \"John\", \"age\" : 36}\ndict\nx = {\"apple\", \"banana\", \"cherry\"}\nset\nx = frozenset({\"apple\", \"banana\", \"cherry\"})\nfrozenset\nx = True\nbool\nx = b\"Hello\"\nbytes\nx = bytearray(5)\nbytearray\nx = memoryview(bytes(5))\nmemoryview\nx = None\nNoneType\nSetting the Specific Data Type\nIf you want to specify the data type, you can use the following \nconstructor functions:\nExample\nData Type\nTry it\nx = str(\"Hello World\")\nstr\nx = int(20)\nint\nx = float(20.5)\nfloat\nx = complex(1j)\ncomplex\nx = list((\"apple\", \"banana\", \"cherry\"))\nlist\nx = tuple((\"apple\", \"banana\", \"cherry\"))\ntuple\nx = range(6)\nrange\nx = dict(name=\"John\", age=36)\ndict\nx = set((\"apple\", \"banana\", \"cherry\"))\nset\nx = frozenset((\"apple\", \"banana\", \"cherry\"))\nfro",
+    "source": "Python Data Types",
+    "url": "https://www.w3schools.com/python/python_datatypes.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "uple\nx = range(6)\nrange\nx = dict(name=\"John\", age=36)\ndict\nx = set((\"apple\", \"banana\", \"cherry\"))\nset\nx = frozenset((\"apple\", \"banana\", \"cherry\"))\nfrozenset\nx = bool(5)\nbool\nx = bytes(5)\nbytes\nx = bytearray(5)\nbytearray\nx = memoryview(bytes(5))\nmemoryview\n★\n+1",
+    "source": "Python Data Types",
+    "url": "https://www.w3schools.com/python/python_datatypes.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "Python\nNumbers\nShare\nLink Copied\nPython Numbers\nThere are three numeric types in Python:\nint\nfloat\ncomplex\nVariables of numeric types are created when you assign a value to them:\nExample\nx = 1    \n  # int\ny = 2.8  # float\nz = 1j   # complex\nTo verify the type of any object in Python, use the\ntype()\nfunction:\nExample\nprint(type(x))\nprint(type(y))\nprint(type(z))\nInt\nInt, or integer, is a whole number, \npositive or negative, without decimals, of unlimited length.\nExample\nIntegers:\nx = 1\ny = 35656222554887711\nz = \n  -3255522\nprint(type(x))\nprint(type(y))\nprint(type(z))\nFloat\nFloat, or \"floating point number\" is a number, positive or negative, containing one or more decimals.\nExample\nFloats:\nx = 1.10\ny = 1.0\nz = -35.59\nprint(type(x))\nprint(type(y))\nprint(type(z))\nFloat can also be scientific numbers with an \"e\" to indicate the power of 10.\nExample\nFloats:\nx = 35e3\ny = 12E4\nz = -87.7e100\nprint",
+    "source": "Python Numbers",
+    "url": "https://www.w3schools.com/python/python_numbers.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "y))\nprint(type(z))\nFloat can also be scientific numbers with an \"e\" to indicate the power of 10.\nExample\nFloats:\nx = 35e3\ny = 12E4\nz = -87.7e100\nprint(type(x))\nprint(type(y))\nprint(type(z))\nComplex\nComplex numbers are written with a \"j\" as the imaginary part:\nExample\nComplex:\nx = 3+5j\ny = 5j\nz = -5j\nprint(type(x))\nprint(type(y))\nprint(type(z))\nType Conversion\nYou can convert from one type to another with the\nint()\n,\nfloat()\n, and\ncomplex()\nmethods:\nExample\nConvert from one type to another:\nx = 1    # int\ny = 2.8  # float\nz = 1j   # complex\n#convert from int to float:\na = float(x)\n#convert from float to int:\nb = int(y)\n#convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))\nprint(type(c))\nNote:\nYou cannot convert complex numbers into another number type.\nRandom Number\nPython does not have a\nrandom()\nfunction to \nmake a random number, but Pytho",
+    "source": "Python Numbers",
+    "url": "https://www.w3schools.com/python/python_numbers.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "ou cannot convert complex numbers into another number type.\nRandom Number\nPython does not have a\nrandom()\nfunction to \nmake a random number, but Python has a built-in module called\nrandom\nthat can be used to make random numbers:\nExample\nImport the random module, and display a random number from 1 to 9:\nimport random\nprint(random.randrange(1, 10))\nIn our\nRandom Module Reference\nyou will learn more about the Random module.\n★\n+1",
+    "source": "Python Numbers",
+    "url": "https://www.w3schools.com/python/python_numbers.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "Python\nCasting\nShare\nLink Copied\nSpecify a Variable Type\nThere may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.\nCasting in python is therefore done using constructor functions:\nint()\n- constructs an integer number from an integer literal, a float literal (by removing \n    all decimals), or a string literal (providing the string represents a whole number)\nfloat()\n- constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)\nstr()\n- constructs a string from a wide variety of data types, including strings, integer literals and float literals\nExample\nIntegers:\nx = int(1)   # x will be 1\ny = int(2.8) # y will be 2\nz = int(\"3\") # z will be 3\nExampl",
+    "source": "Python Casting",
+    "url": "https://www.w3schools.com/python/python_casting.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "strings, integer literals and float literals\nExample\nIntegers:\nx = int(1)   # x will be 1\ny = int(2.8) # y will be 2\nz = int(\"3\") # z will be 3\nExample\nFloats:\nx = float(1)     # x will be 1.0\ny = float(2.8)   # y will be 2.8\nz = float(\"3\")   # z will be 3.0\nw = float(\"4.2\") # w will be 4.2\nExample\nStrings:\nx = str(\"s1\") # x will be 's1'\ny = str(2)    # y will be '2'\nz = str(3.0)  # z will be '3.0'\n★\n+1",
+    "source": "Python Casting",
+    "url": "https://www.w3schools.com/python/python_casting.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python\nStrings\nShare\nLink Copied\nStrings\nStrings in python are surrounded by either single quotation marks, or double quotation marks.\n'hello'\nis the same as\n\"hello\"\n.\nYou can display a string literal with the\nprint()\nfunction:\nExample\nprint(\"Hello\")\nprint('Hello')\nQuotes Inside Quotes\nYou can use quotes inside a string, as long as they don't match the quotes surrounding the string:\nExample\nprint(\"It's alright\")\nprint(\"He is called 'Johnny'\")\nprint('He is called \"Johnny\"')\nAssign String to a Variable\nAssigning a string to a variable is done with the variable name followed by \nan equal sign and the string:\nExample\na = \"Hello\"\nprint(a)\nMultiline Strings\nYou can assign a multiline string to a variable by using three quotes:\nExample\nYou can use three double quotes:\na = \"\"\"Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit,\nsed do \n  eiusmod tempor incididunt\nut labore et dolore magna al",
+    "source": "Python Strings",
+    "url": "https://www.w3schools.com/python/python_strings.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "three double quotes:\na = \"\"\"Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit,\nsed do \n  eiusmod tempor incididunt\nut labore et dolore magna aliqua.\"\"\"\nprint(a)\nOr three single quotes:\nExample\na = '''Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit,\nsed do \n  eiusmod tempor incididunt\nut labore et dolore magna aliqua.'''\nprint(a)\nNote:\nin the result, the line breaks are inserted at the same position as in the code.\nStrings are Arrays\nLike many other popular programming languages, strings in Python are arrays of unicode characters.\nHowever, Python does not have a character data type, a single character is simply a string with a length of 1.\nSquare brackets can be used to access elements of the string.\nExample\nGet the character at position 1 (remember that the first character has the \nposition 0):\na = \"Hello, World!\"\nprint(a[1])\nLooping Through a String\nSince strings are arra",
+    "source": "Python Strings",
+    "url": "https://www.w3schools.com/python/python_strings.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "at position 1 (remember that the first character has the \nposition 0):\na = \"Hello, World!\"\nprint(a[1])\nLooping Through a String\nSince strings are arrays, we can loop through the characters in a string, with a\nfor\nloop.\nExample\nLoop through the letters in the word \"banana\":\nfor x in \"banana\":\nprint(x)\nLearn more about For Loops in our\nPython For Loops\nchapter.\nString Length\nTo get the length of a string, use the\nlen()\nfunction.\nExample\nThe\nlen()\nfunction returns the length of a string:\na = \"Hello, World!\"\nprint(len(a))\nCheck String\nTo check if a certain phrase or character is present in a string, we can use \nthe keyword\nin\n.\nExample\nCheck if \"free\" is present in the following text:\ntxt = \"The best things in life are free!\"\nprint(\"free\" in txt)\nUse it in an\nif\nstatement:\nExample\nPrint only if \"free\" is present:\ntxt = \"The best things in life are free!\"\nif \"free\" in txt:\nprint(\"Yes, 'free'",
+    "source": "Python Strings",
+    "url": "https://www.w3schools.com/python/python_strings.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "t)\nUse it in an\nif\nstatement:\nExample\nPrint only if \"free\" is present:\ntxt = \"The best things in life are free!\"\nif \"free\" in txt:\nprint(\"Yes, 'free' is present.\")\nLearn more about If statements in our\nPython \nIf...Else\nchapter.\nCheck if NOT\nTo check if a certain phrase or character is NOT present in a string, we can use \nthe keyword\nnot in\n.\nExample\nCheck if \"expensive\" is NOT present in the following text:\ntxt = \"The best things in life are free!\"\nprint(\"expensive\" not in txt)\nUse it in an\nif\nstatement:\nExample\nprint only if \"expensive\" is NOT present:\ntxt = \"The best things in life are free!\"\nif \"expensive\" not in txt:\nprint(\"No, 'expensive' is NOT present.\")\n★\n+1",
+    "source": "Python Strings",
+    "url": "https://www.w3schools.com/python/python_strings.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python -\nSlicing Strings\nShare\nLink Copied\nSlicing\nYou can return a range of characters by using the slice syntax.\nSpecify the start index and the end index, separated by a colon, to return a \npart of the string.\nExample\nGet the characters from position 2 to position 5 (not included):\nb = \"Hello, World!\"\nprint(b[2:5])\nNote:\nThe first character has index 0.\nSlice From the Start\nBy leaving out the start index, the range will start at the first character:\nExample\nGet the characters from the start to position 5 (not included):\nb = \"Hello, World!\"\nprint(b[:5])\nSlice To the End\nBy leaving out the\nend\nindex, the range will go to the end:\nExample\nGet the characters from position 2, and all the way to the end:\nb = \"Hello, World!\"\nprint(b[2:])\nNegative Indexing\nUse negative indexes to start the slice from the end of the string:\nExample\nGet the characters:\nFrom: \"o\" in \"World!\" (position -5)\nTo, bu",
+    "source": "Python - Slicing Strings",
+    "url": "https://www.w3schools.com/python/python_strings_slicing.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "ve Indexing\nUse negative indexes to start the slice from the end of the string:\nExample\nGet the characters:\nFrom: \"o\" in \"World!\" (position -5)\nTo, but not included: \"d\" in \"World!\" (position -2):\nb = \"Hello, World!\"\nprint(b[-5:-2])\n★\n+1",
+    "source": "Python - Slicing Strings",
+    "url": "https://www.w3schools.com/python/python_strings_slicing.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python -\nModify Strings\nPython has a set of built-in methods that you can use on strings.\nShare\nLink Copied\nUpper Case\nExample\nThe\nupper()\nmethod returns the string in upper case:\na = \"Hello, World!\"\nprint(a.upper())\nLower Case\nExample\nThe\nlower()\nmethod returns the string in lower case:\na = \"Hello, World!\"\nprint(a.lower())\nRemove Whitespace\nWhitespace is the space before and/or after the actual text, and very often you want to remove this space.\nExample\nThe\nstrip()\nmethod removes any whitespace from the beginning or the end:\na = \" Hello, World! \"\nprint(a.strip()) # returns \"Hello, World!\"\nReplace String\nExample\nThe\nreplace()\nmethod replaces a string with another string:\na = \"Hello, World!\"\nprint(a.replace(\"H\", \"J\"))\nSplit String\nThe\nsplit()\nmethod returns a list where the text between the specified separator becomes the list items.\nExample\nThe\nsplit()\nmethod splits the string into subst",
+    "source": "Python - Modify Strings",
+    "url": "https://www.w3schools.com/python/python_strings_modify.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": ")\nmethod returns a list where the text between the specified separator becomes the list items.\nExample\nThe\nsplit()\nmethod splits the string into substrings if it finds instances of the separator:\na = \"Hello, World!\"\nprint(a.split(\",\")) # \n  returns ['Hello', ' World!']\nLearn more about Lists in our\nPython Lists\nchapter.\nString Methods\nLearn more about String Methods with our\nString Methods Reference\n★\n+1",
+    "source": "Python - Modify Strings",
+    "url": "https://www.w3schools.com/python/python_strings_modify.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python -\nString Concatenation\nShare\nLink Copied\nString Concatenation\nTo concatenate, or combine, two strings you can use the + operator.\nExample\nMerge variable\na\nwith variable\nb\ninto variable\nc\n:\na = \"Hello\"\nb = \"World\"\nc = a + b\nprint(c)\nExample\nTo add a space between them, add a\n\" \"\n:\na = \"Hello\"\nb = \"World\"\nc = a + \" \" + b\nprint(c)\n★\n+1",
+    "source": "Python - String Concatenation",
+    "url": "https://www.w3schools.com/python/python_strings_concatenate.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "Python -\nFormat - Strings\nShare\nLink Copied\nString Format\nAs we learned in the Python Variables chapter, we cannot combine strings and numbers like this:\nExample\nage = 36\n#This will produce an error:\ntxt = \"My name is John, I am \" + age\nprint(txt)\nBut we can combine strings and numbers by using\nf-strings\nor the\nformat()\nmethod!\nF-Strings\nF-String was introduced in Python 3.6,\nand is now the preferred way of formatting strings.\nTo specify a string as an f-string, simply put an\nf\nin front of the string \nliteral, and add curly brackets\n{}\nas \nplaceholders for variables and other operations.\nExample\nCreate an f-string:\nage = 36\ntxt = f\"My name is John, I am {age}\"\nprint(txt)\nPlaceholders and Modifiers\nA placeholder can contain variables,\noperations, functions, and modifiers to format the value.\nExample\nAdd a placeholder for the\nprice\nvariable:\nprice = 59\ntxt = f\"The price is {price} dollars\"",
+    "source": "Python - Format - Strings",
+    "url": "https://www.w3schools.com/python/python_strings_format.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "ions, functions, and modifiers to format the value.\nExample\nAdd a placeholder for the\nprice\nvariable:\nprice = 59\ntxt = f\"The price is {price} dollars\"\nprint(txt)\nA placeholder can include a\nmodifier\nto format the value.\nA modifier is included by adding a colon\n:\nfollowed by a legal formatting type, like\n.2f\nwhich means fixed point number with 2 decimals:\nExample\nDisplay the price with 2 decimals:\nprice = 59\ntxt = f\"The price is {price:.2f} dollars\"\nprint(txt)\nA placeholder can contain Python code, like math operations:\nExample\nPerform a math operation in the placeholder, and return the result:\ntxt = f\"The price is {20 * 59} dollars\"\nprint(txt)\nLearn more about String Formatting in our\nString Formatting\nchapter.\n★\n+1",
+    "source": "Python - Format - Strings",
+    "url": "https://www.w3schools.com/python/python_strings_format.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python -\nEscape Characters\nShare\nLink Copied\nEscape Character\nTo insert characters that are illegal in a string, use an escape character.\nAn escape character is a backslash\n\\\nfollowed by the character you want to insert.\nAn example of an illegal character is a double quote inside a string that is surrounded by double quotes:\nExample\nYou will get an error if you use double quotes inside a string that is \nsurrounded by double quotes:\ntxt = \"We are the so-called \"Vikings\" from the north.\"\nTo fix this problem, use the escape character\n\\\"\n:\nExample\nThe escape character allows you to use double quotes when you normally would not be allowed:\ntxt = \"We are the so-called \\\"Vikings\\\" from the north.\"\nEscape Characters\nOther escape characters used in Python:\nCode\nResult\nTry it\n\\'\nSingle Quote\n\\\\\nBackslash\n\\n\nNew Line\n\\r\nCarriage Return\n\\t\nTab\n\\b\nBackspace\n\\f\nForm Feed\n\\ooo\nOctal value\n\\xhh\nHex valu",
+    "source": "Python - Escape Characters",
+    "url": "https://www.w3schools.com/python/python_strings_escape.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "Python:\nCode\nResult\nTry it\n\\'\nSingle Quote\n\\\\\nBackslash\n\\n\nNew Line\n\\r\nCarriage Return\n\\t\nTab\n\\b\nBackspace\n\\f\nForm Feed\n\\ooo\nOctal value\n\\xhh\nHex value\n★\n+1",
+    "source": "Python - Escape Characters",
+    "url": "https://www.w3schools.com/python/python_strings_escape.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python\nBooleans\nBooleans represent one of two values:\nTrue\nor\nFalse\n.\nShare\nLink Copied\nBoolean Values\nIn programming you often need to know if an expression is\nTrue\nor\nFalse\n.\nYou can evaluate any expression in Python, and get one of two \nanswers,\nTrue\nor\nFalse\n.\nWhen you compare two values, the expression is evaluated and Python returns \nthe Boolean answer:\nExample\nprint(10 > 9)\nprint(10 == 9)\nprint(10 < 9)\nWhen you run a condition in an if statement, Python returns\nTrue\nor\nFalse\n:\nExample\nPrint a message based on whether the condition is\nTrue\nor\nFalse\n:\na = 200\nb = 33\nif b > a:\nprint(\"b is greater than a\")\nelse:\nprint(\"b is not greater than a\")\nEvaluate Values and Variables\nThe\nbool()\nfunction allows you to evaluate \nany value, and give you\nTrue\nor\nFalse\nin return,\nExample\nEvaluate a string and a number:\nprint(bool(\"Hello\"))\nprint(bool(15))\nExample\nEvaluate two variables:\nx = \"Hello\"",
+    "source": "Python Booleans",
+    "url": "https://www.w3schools.com/python/python_booleans.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "you\nTrue\nor\nFalse\nin return,\nExample\nEvaluate a string and a number:\nprint(bool(\"Hello\"))\nprint(bool(15))\nExample\nEvaluate two variables:\nx = \"Hello\"\ny = 15\nprint(bool(x))\nprint(bool(y))\nMost Values are True\nAlmost any value is evaluated to\nTrue\nif it \nhas some sort of content.\nAny string is\nTrue\n, except empty strings.\nAny number is\nTrue\n, except\n0\n.\nAny list, tuple, set, and dictionary are\nTrue\n, except \nempty ones.\nExample\nThe following will return True:\nbool(\"abc\")\nbool(123)\nbool([\"apple\", \"cherry\", \"banana\"])\nSome Values are False\nIn fact, there are not many values that evaluate to\nFalse\n, except empty values, such as\n()\n,\n[]\n,\n{}\n,\n\"\"\n, the number\n0\n, and the value\nNone\n. \nAnd of course the value\nFalse\nevaluates to\nFalse\n.\nExample\nThe following will return False:\nbool(False)\nbool(None)\nbool(0)\nbool(\"\")\nbool(())\nbool([])\nbool({})\nOne more value, or object in this case, evaluates to",
+    "source": "Python Booleans",
+    "url": "https://www.w3schools.com/python/python_booleans.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "following will return False:\nbool(False)\nbool(None)\nbool(0)\nbool(\"\")\nbool(())\nbool([])\nbool({})\nOne more value, or object in this case, evaluates to\nFalse\n, and that is if you have an object that \nis made from a class with a\n__len__\nfunction that returns\n0\nor\nFalse\n:\nExample\nclass myclass():\ndef __len__(self):\nreturn 0\nmyobj = myclass()\nprint(bool(myobj))\nFunctions can Return a Boolean\nYou can create functions that returns a Boolean Value:\nExample\nPrint the answer of a function:\ndef myFunction() :\nreturn True\nprint(myFunction())\nYou can execute code based on the Boolean answer of a function:\nExample\nPrint \"YES!\" if the function returns True, otherwise print \"NO!\":\ndef myFunction() :\nreturn True\nif myFunction():\nprint(\"YES!\")\nelse:\nprint(\"NO!\")\nPython also has many built-in functions that return a boolean value, like the\nisinstance()\nfunction, which can be used to determine if an object",
+    "source": "Python Booleans",
+    "url": "https://www.w3schools.com/python/python_booleans.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "O!\")\nPython also has many built-in functions that return a boolean value, like the\nisinstance()\nfunction, which can be used to determine if an object is of a certain data type:\nExample\nCheck if an object is an integer or not:\nx = 200\nprint(isinstance(x, int))\n★\n+1",
+    "source": "Python Booleans",
+    "url": "https://www.w3schools.com/python/python_booleans.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nOperators\nShare\nLink Copied\nPython Operators\nOperators are used to perform operations on variables and values.\nIn the example below, we use the\n+\noperator to add together two values:\nExample\nprint(10 + 5)\nAlthough the\n+\noperator is often used to add together two values, like in the example above, it can also be used to add together a variable and a value, or two variables:\nExample\nsum1 = 100 + 50      # 150 (100 + 50)\nsum2 = sum1 + 250    # 400 (150 + 250)\nsum3 = sum2 + sum2   # 800 (400 + 400)\nPython divides the operators in the following groups:\nArithmetic operators\nAssignment operators\nComparison operators\nLogical operators\nIdentity operators\nMembership operators\nBitwise operators\n★\n+1",
+    "source": "Python Operators",
+    "url": "https://www.w3schools.com/python/python_operators.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "Python\nLists\nmylist = [\"apple\", \"banana\", \"cherry\"]\nShare\nLink Copied\nList\nLists are used to store multiple items in a single variable.\nLists are one of 4 built-in data types in Python used to store collections of \ndata, the other 3 are\nTuple\n,\nSet\n, and\nDictionary\n, all with different qualities and usage.\nLists are created using square brackets:\nExample\nCreate a List:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nprint(thislist)\nList Items\nList items are ordered, changeable, and allow duplicate values.\nList items are indexed, the first item has index\n[0]\n,\nthe second item has index\n[1]\netc.\nOrdered\nWhen we say that lists are ordered, it means that the items have a defined order, and that order will not change.\nIf you add new items to a list,\nthe new items will be placed at the end of the list.\nNote:\nThere are some\nlist methods\nthat will change the order, but in general: the order of the item",
+    "source": "Python Lists",
+    "url": "https://www.w3schools.com/python/python_lists.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "e new items will be placed at the end of the list.\nNote:\nThere are some\nlist methods\nthat will change the order, but in general: the order of the items will not change.\nChangeable\nThe list is changeable, meaning that we can change, add, and remove items in a list after it has been created.\nAllow Duplicates\nSince lists are indexed, lists can have items with the same value:\nExample\nLists allow duplicate values:\nthislist = [\"apple\", \"banana\", \"cherry\", \"apple\", \"cherry\"]\nprint(thislist)\nList Length\nTo determine how many items a list has, use the\nlen()\nfunction:\nExample\nPrint the number of items in the list:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nprint(len(thislist))\nList Items - Data Types\nList items can be of any data type:\nExample\nString, int and boolean data types:\nlist1 = [\"apple\", \"banana\", \"cherry\"]\nlist2 = [1, 5, 7, 9, 3]\nlist3 = [True, False, False]\nA list can contain different da",
+    "source": "Python Lists",
+    "url": "https://www.w3schools.com/python/python_lists.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "int and boolean data types:\nlist1 = [\"apple\", \"banana\", \"cherry\"]\nlist2 = [1, 5, 7, 9, 3]\nlist3 = [True, False, False]\nA list can contain different data types:\nExample\nA list with strings, integers and boolean values:\nlist1 = [\"abc\", 34, True, 40, \"male\"]\ntype()\nFrom Python's perspective, lists are defined as objects with the data type 'list':\n<class 'list'>\nExample\nWhat is the data type of a list?\nmylist = [\"apple\", \"banana\", \"cherry\"]\nprint(type(mylist))\nThe list() Constructor\nIt is also possible to use the\nlist()\nconstructor when creating a \nnew list.\nExample\nUsing the\nlist()\nconstructor to make a List:\nthislist = list((\"apple\", \"banana\", \"cherry\")) # note the double round-brackets\nprint(thislist)\nPython Collections (Arrays)\nThere are four collection data types in the Python programming language:\nList\nis a collection which is ordered and changeable. Allows duplicate members.\nTuple\nis",
+    "source": "Python Lists",
+    "url": "https://www.w3schools.com/python/python_lists.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "ur collection data types in the Python programming language:\nList\nis a collection which is ordered and changeable. Allows duplicate members.\nTuple\nis a collection which is ordered and unchangeable. Allows duplicate members.\nSet\nis a collection which is unordered, \nunchangeable*, and unindexed. No duplicate members.\nDictionary\nis a collection which is ordered** \nand changeable. No duplicate members.\n*Set\nitems\nare unchangeable, but you can remove and/or add items \n  whenever you like.\n**As of Python version 3.7, dictionaries are\nordered\n. \n  In Python 3.6 and earlier, dictionaries are\nunordered\n.\nWhen choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.\n★\n+1",
+    "source": "Python Lists",
+    "url": "https://www.w3schools.com/python/python_lists.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python - Access List Items\nShare\nLink Copied\nAccess Items\nList items are indexed and you can access them by referring to the index number:\nExample\nPrint the second item of the list:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nprint(thislist[1])\nNote:\nThe first item has index 0.\nNegative Indexing\nNegative indexing means start from the end\n-1\nrefers to the last item,\n-2\nrefers to the second last item etc.\nExample\nPrint the last item of the list:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nprint(thislist[-1])\nRange of Indexes\nYou can specify a range of indexes by specifying where to start and where to \nend the range.\nWhen specifying a range, the return value will be a new list with the \nspecified items.\nExample\nReturn the third, fourth, and fifth item:\nthislist = [\"apple\", \"banana\", \"cherry\", \"orange\", \n  \"kiwi\", \"melon\", \"mango\"]\nprint(thislist[2:5])\nNote:\nThe search will start at index 2 (inclu",
+    "source": "Python - Access List Items",
+    "url": "https://www.w3schools.com/python/python_lists_access.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "em:\nthislist = [\"apple\", \"banana\", \"cherry\", \"orange\", \n  \"kiwi\", \"melon\", \"mango\"]\nprint(thislist[2:5])\nNote:\nThe search will start at index 2 (included) and end at index 5 (not included).\nRemember that the first item has index 0.\nBy leaving out the start value, the range will start at the first item:\nExample\nThis example returns the items from the beginning to, but NOT including, \"kiwi\":\nthislist = [\"apple\", \"banana\", \"cherry\", \"orange\", \n  \"kiwi\", \"melon\", \"mango\"]\nprint(thislist[:4])\nBy leaving out the end value, the range will go on to the end of the list:\nExample\nThis example returns the items from \"cherry\" to the end:\nthislist = [\"apple\", \"banana\", \"cherry\", \"orange\", \n  \"kiwi\", \"melon\", \"mango\"]\nprint(thislist[2:])\nRange of Negative Indexes\nSpecify negative indexes if you want to start the search from the end of the \nlist:\nExample\nThis example returns the items from \"orange\" (-4)",
+    "source": "Python - Access List Items",
+    "url": "https://www.w3schools.com/python/python_lists_access.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Indexes\nSpecify negative indexes if you want to start the search from the end of the \nlist:\nExample\nThis example returns the items from \"orange\" (-4) to, but NOT including \n\"mango\" (-1):\nthislist = [\"apple\", \"banana\", \"cherry\", \"orange\", \n  \"kiwi\", \"melon\", \"mango\"]\nprint(thislist[-4:-1])\nCheck if Item Exists\nTo determine if a specified item is present in a list use the\nin\nkeyword:\nExample\nCheck if \"apple\" is present in the list:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nif \"apple\" in thislist:\nprint(\"Yes, 'apple' is in the fruits list\")\n★\n+1",
+    "source": "Python - Access List Items",
+    "url": "https://www.w3schools.com/python/python_lists_access.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "Python -\nChange List Items\nShare\nLink Copied\nChange Item Value\nTo change the value of a specific item, \nrefer to the index number:\nExample\nChange the second item:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthislist[1] = \"blackcurrant\"\nprint(thislist)\nChange a Range of Item Values\nTo change the value of items within a specific range, define a list with the new values, and refer to the range of index numbers where you want to insert the new values:\nExample\nChange the values \"banana\" and \"cherry\" with the values \"blackcurrant\" and \"watermelon\":\nthislist = [\"apple\", \"banana\", \"cherry\", \"orange\", \"kiwi\", \"mango\"]\nthislist[1:3] = [\"blackcurrant\", \"watermelon\"]\nprint(thislist)\nIf you insert\nmore\nitems than you replace, the new items will be inserted \nwhere you specified, and the remaining items will move accordingly:\nExample\nChange the second value by replacing it with\ntwo\nnew \nvalues:\nthislist =",
+    "source": "Python - Change List Items",
+    "url": "https://www.w3schools.com/python/python_lists_change.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "where you specified, and the remaining items will move accordingly:\nExample\nChange the second value by replacing it with\ntwo\nnew \nvalues:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthislist[1:2] = [\"blackcurrant\", \n  \"watermelon\"]\nprint(thislist)\nNote:\nThe length of the list will change when the number of items inserted does not match the number of items replaced.\nIf you insert\nless\nitems than you replace, the new items will be inserted \nwhere you specified, and the remaining items will move accordingly:\nExample\nChange the second and third value by replacing it with\none\nvalue:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthislist[1:3] = [\"watermelon\"]\nprint(thislist)\nInsert Items\nTo insert a new list item, without replacing any of the existing values, we can use the\ninsert()\nmethod.\nThe\ninsert()\nmethod inserts an item at the specified index:\nExample\nInsert \"watermelon\" as the third item:\nthi",
+    "source": "Python - Change List Items",
+    "url": "https://www.w3schools.com/python/python_lists_change.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "values, we can use the\ninsert()\nmethod.\nThe\ninsert()\nmethod inserts an item at the specified index:\nExample\nInsert \"watermelon\" as the third item:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthislist.insert(2, \"watermelon\")\nprint(thislist)\nNote:\nAs a result of the example above, the list will now contain 4 items.\n★\n+1",
+    "source": "Python - Change List Items",
+    "url": "https://www.w3schools.com/python/python_lists_change.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "Python - Add List Items\nShare\nLink Copied\nAppend Items\nTo add an item to the end of the list, use the\nappend()\nmethod:\nExample\nUsing the\nappend()\nmethod to append an item:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthislist.append(\"orange\")\nprint(thislist)\nInsert Items\nTo insert a list item at a specified index, use the\ninsert()\nmethod.\nThe\ninsert()\nmethod inserts an item at the specified index:\nExample\nInsert an item as the second position:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthislist.insert(1, \"orange\")\nprint(thislist)\nNote:\nAs a result of the examples above, the lists will now contain 4 items.\nExtend List\nTo append elements from\nanother list\nto the current list, use the\nextend()\nmethod.\nExample\nAdd the elements of\ntropical\nto\nthislist\n:\nthislist = [\"apple\", \"banana\", \"cherry\"]\ntropical = [\"mango\", \"pineapple\", \"papaya\"]\nthislist.extend(tropical)\nprint(thislist)\nThe elements will be",
+    "source": "Python - Add List Items",
+    "url": "https://www.w3schools.com/python/python_lists_add.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": ":\nthislist = [\"apple\", \"banana\", \"cherry\"]\ntropical = [\"mango\", \"pineapple\", \"papaya\"]\nthislist.extend(tropical)\nprint(thislist)\nThe elements will be added to the\nend\nof the list.\nAdd Any Iterable\nThe\nextend()\nmethod does not have to append\nlists\n, you can add any iterable object (tuples, sets, dictionaries \netc.).\nExample\nAdd elements of a tuple to a list:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthistuple = (\"kiwi\", \"orange\")\nthislist.extend(thistuple)\nprint(thislist)\n★\n+1",
+    "source": "Python - Add List Items",
+    "url": "https://www.w3schools.com/python/python_lists_add.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python - Remove List Items\nShare\nLink Copied\nRemove Specified Item\nThe\nremove()\nmethod removes the specified item.\nExample\nRemove \"banana\":\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthislist.remove(\"banana\")\nprint(thislist)\nIf there are more than one item with the specified value, the\nremove()\nmethod removes the first \noccurrence:\nExample\nRemove the first occurrence of \"banana\":\nthislist = [\"apple\", \"banana\", \"cherry\", \"banana\", \"kiwi\"]\nthislist.remove(\"banana\")\nprint(thislist)\nRemove Specified Index\nThe\npop()\nmethod removes the specified \nindex.\nExample\nRemove the second item:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthislist.pop(1)\nprint(thislist)\nIf you do not specify the index, the\npop()\nmethod removes the last item.\nExample\nRemove the last item:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthislist.pop()\nprint(thislist)\nThe\ndel\nkeyword also removes the specified \nindex:\nExample\nRemove th",
+    "source": "Python - Remove List Items",
+    "url": "https://www.w3schools.com/python/python_lists_remove.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "ast item:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthislist.pop()\nprint(thislist)\nThe\ndel\nkeyword also removes the specified \nindex:\nExample\nRemove the first item:\nthislist = [\"apple\", \"banana\", \"cherry\"]\ndel\nthislist[0]\nprint(thislist)\nThe\ndel\nkeyword can also delete the list completely.\nExample\nDelete the entire list:\nthislist = [\"apple\", \"banana\", \"cherry\"]\ndel\nthislist\nClear the List\nThe\nclear()\nmethod empties the list.\nThe list still remains, but it has no content.\nExample\nClear the list content:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthislist.clear()\nprint(thislist)\n★\n+1",
+    "source": "Python - Remove List Items",
+    "url": "https://www.w3schools.com/python/python_lists_remove.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python - Loop Lists\nShare\nLink Copied\nLoop Through a List\nYou can loop through the list items by using a\nfor\nloop:\nExample\nPrint all items in the list, one by one:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nfor x in thislist:\nprint(x)\nLearn more about\nfor\nloops in our\nPython For Loops\nChapter.\nLoop Through the Index Numbers\nYou can also loop through the list items by referring to their index number.\nUse the\nrange()\nand\nlen()\nfunctions to create a suitable iterable.\nExample\nPrint all items by referring to their index number:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nfor i \n  in range(len(thislist)):\nprint(thislist[i])\nThe iterable created in the example above is\n[0, 1, 2]\n.\nUsing a While Loop\nYou can loop through the list items by using a\nwhile\nloop.\nUse the\nlen()\nfunction to determine the length of the list,\nthen start at 0 and loop your way through the list items by referring to their inde",
+    "source": "Python - Loop Lists",
+    "url": "https://www.w3schools.com/python/python_lists_loop.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "loop.\nUse the\nlen()\nfunction to determine the length of the list,\nthen start at 0 and loop your way through the list items by referring to their indexes.\nRemember to increase the index by 1 after each iteration.\nExample\nPrint all items, using a\nwhile\nloop to go \n  through all the index numbers\nthislist = [\"apple\", \"banana\", \"cherry\"]\ni = 0\nwhile i < len(thislist):\nprint(thislist[i])\ni = i + 1\nLearn more about\nwhile\nloops in our\nPython While Loops\nChapter.\nLooping Using List Comprehension\nList Comprehension offers the shortest syntax for looping through lists:\nExample\nA short hand\nfor\nloop that will print all items in a list:\nthislist = [\"apple\", \"banana\", \"cherry\"]\n[print(x) for x in thislist]\nLearn more about list comprehension in the next chapter:\nList Comprehension\n.\n★\n+1",
+    "source": "Python - Loop Lists",
+    "url": "https://www.w3schools.com/python/python_lists_loop.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python - List Comprehension\nShare\nLink Copied\nList Comprehension\nList comprehension offers a shorter syntax when you want to create a new list based on the values of an \nexisting list.\nExample:\nBased on a list of fruits, you want a new list, containing only the fruits \nwith the letter \"a\" in the name.\nWithout list comprehension you will have to write a\nfor\nstatement \nwith a conditional test inside:\nExample\nfruits = [\"apple\", \"banana\", \"cherry\", \"kiwi\", \"mango\"]\nnewlist = []\nfor x in fruits:\nif \"a\" in x:\nnewlist.append(x)\nprint(newlist)\nWith list comprehension you can do all that with only one line of code:\nExample\nfruits = [\"apple\", \"banana\", \"cherry\", \"kiwi\", \"mango\"]\nnewlist = [x \n  for x in fruits if \"a\" in x]\nprint(newlist)\nThe Syntax\nnewlist = [\nexpression\nfor\nitem\nin\niterable\nif\ncondition\n== True]\nThe return value is a new list, leaving the old list unchanged.\nCondition\nThe\nconditi",
+    "source": "Python - List Comprehension",
+    "url": "https://www.w3schools.com/python/python_lists_comprehension.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "ewlist = [\nexpression\nfor\nitem\nin\niterable\nif\ncondition\n== True]\nThe return value is a new list, leaving the old list unchanged.\nCondition\nThe\ncondition\nis like a filter that only accepts the items that evaluate to\nTrue\n.\nExample\nOnly accept items that are not \"apple\":\nnewlist = [x for x in fruits if x != \"apple\"]\nThe condition\nif x != \"apple\"\nwill return\nTrue\nfor all elements other \nthan \"apple\", making the new list contain all fruits except \"apple\".\nThe\ncondition\nis optional and can be omitted:\nExample\nWith no\nif\nstatement:\nnewlist = [x for x in fruits]\nIterable\nThe\niterable\ncan be any iterable object, like a list, tuple, set etc.\nExample\nYou can use the\nrange()\nfunction to create an iterable:\nnewlist = [x for x in range(10)]\nSame example, but with a condition:\nExample\nAccept only numbers lower than 5:\nnewlist = [x for x in range(10) if x < 5]\nExpression\nThe\nexpression\nis the current i",
+    "source": "Python - List Comprehension",
+    "url": "https://www.w3schools.com/python/python_lists_comprehension.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": ", but with a condition:\nExample\nAccept only numbers lower than 5:\nnewlist = [x for x in range(10) if x < 5]\nExpression\nThe\nexpression\nis the current item in the iteration, but it is also the \noutcome, which you can manipulate before it ends up like a list item in the new \nlist:\nExample\nSet the values in the new list to upper case:\nnewlist = [x.upper() \n  for x in fruits]\nYou can set the outcome to whatever you like:\nExample\nSet all values in the new list to 'hello':\nnewlist = ['hello' for x in fruits]\nThe\nexpression\ncan also contain conditions, not like a filter, but as a \nway to manipulate the outcome:\nExample\nReturn \"orange\" instead of \"banana\":\nnewlist = [x if x != \"banana\" else \"orange\" \n  for x in fruits]\nThe\nexpression\nin the example above says:\n\"Return the item if it is not banana, if it is banana return orange\".\n★\n+1",
+    "source": "Python - List Comprehension",
+    "url": "https://www.w3schools.com/python/python_lists_comprehension.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "Python -\nSort Lists\nShare\nLink Copied\nSort List Alphanumerically\nList objects have a\nsort()\nmethod that will sort the list alphanumerically, ascending, by default:\nExample\nSort the list alphabetically:\nthislist = [\"orange\", \"mango\", \"kiwi\", \n  \"pineapple\", \"banana\"]\nthislist.sort()\nprint(thislist)\nExample\nSort the list numerically:\nthislist = [100, 50, 65, 82, 23]\nthislist.sort()\nprint(thislist)\nSort Descending\nTo sort descending, use the keyword argument\nreverse = True\n:\nExample\nSort the list descending:\nthislist = [\"orange\", \"mango\", \"kiwi\", \n  \"pineapple\", \"banana\"]\nthislist.sort(reverse = True)\nprint(thislist)\nExample\nSort the list descending:\nthislist = [100, 50, 65, 82, 23]\nthislist.sort(reverse = True)\nprint(thislist)\nCustomize Sort Function\nYou can also customize your own function by using the keyword argument\nkey =\nfunction\n.\nThe function will return a number that will be used t",
+    "source": "Python - Sort Lists",
+    "url": "https://www.w3schools.com/python/python_lists_sort.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "Function\nYou can also customize your own function by using the keyword argument\nkey =\nfunction\n.\nThe function will return a number that will be used to sort the list (the \nlowest number first):\nExample\nSort the list based on how close the number is to 50:\ndef myfunc(n):\nreturn abs(n - 50)\nthislist = [100, 50, 65, 82, 23]\nthislist.sort(key = \n  myfunc)\nprint(thislist)\nCase Insensitive Sort\nBy default the\nsort()\nmethod is case sensitive,\nresulting in all capital letters being sorted before lower case letters:\nExample\nCase sensitive sorting can give an unexpected result:\nthislist = [\"banana\", \"Orange\", \"Kiwi\", \"cherry\"]\nthislist.sort()\nprint(thislist)\nLuckily we can use built-in functions as key functions when sorting a list.\nSo if you want a case-insensitive sort function, use str.lower as a key function:\nExample\nPerform a case-insensitive sort of the list:\nthislist = [\"banana\", \"Orange\",",
+    "source": "Python - Sort Lists",
+    "url": "https://www.w3schools.com/python/python_lists_sort.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "case-insensitive sort function, use str.lower as a key function:\nExample\nPerform a case-insensitive sort of the list:\nthislist = [\"banana\", \"Orange\", \"Kiwi\", \"cherry\"]\nthislist.sort(key \n  = str.lower)\nprint(thislist)\nReverse Order\nWhat if you want to reverse the order of a list, regardless of the alphabet?\nThe\nreverse()\nmethod reverses the current sorting order of the elements.\nExample\nReverse the order of the list items:\nthislist = [\"banana\", \"Orange\", \"Kiwi\", \"cherry\"]\nthislist.reverse()\nprint(thislist)\n★\n+1",
+    "source": "Python - Sort Lists",
+    "url": "https://www.w3schools.com/python/python_lists_sort.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "Python - Copy Lists\nShare\nLink Copied\nCopy a List\nYou cannot copy a list simply by typing\nlist2 = \nlist1\n, because:\nlist2\nwill only be a\nreference\nto\nlist1\n, and changes made in\nlist1\nwill automatically also be made in\nlist2\n.\nUse the copy() method\nYou can use the built-in List method\ncopy()\nto copy a list.\nExample\nMake a copy of a list with the\ncopy()\nmethod:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nmylist \n  = thislist.copy()\nprint(mylist)\nUse the list() method\nAnother way to make a copy is to use the built-in method\nlist()\n.\nExample\nMake a copy of a list with the\nlist()\nmethod:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nmylist \n  = list(thislist)\nprint(mylist)\nUse the slice Operator\nYou can also make a copy of a list by using the\n:\n(slice) operator.\nExample\nMake a copy of a list with the\n:\noperator:\nthislist = [\"apple\", \"banana\", \"cherry\"]\nmylist = thislist[:]\nprint(mylist)\n★\n+1",
+    "source": "Python - Copy Lists",
+    "url": "https://www.w3schools.com/python/python_lists_copy.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "Python -\nJoin Lists\nShare\nLink Copied\nJoin Two Lists\nThere are several ways to join, or concatenate, two or more lists in Python.\nOne of the easiest ways are by using the\n+\noperator.\nExample\nJoin two list:\nlist1 = [\"a\", \"b\", \"c\"]\nlist2 = [1, 2, 3]\nlist3 = list1 + list2\nprint(list3)\nAnother way to join two lists is by appending all the items from list2 into \nlist1, one by one:\nExample\nAppend list2 into list1:\nlist1 = [\"a\", \"b\" , \"c\"]\nlist2 = [1, 2, 3]\nfor x in list2:\nlist1.append(x)\nprint(list1)\nOr you can use the\nextend()\nmethod, \nwhere the purpose is to add elements from one list to another \nlist:\nExample\nUse the\nextend()\nmethod to add list2 at the end of list1:\nlist1 = [\"a\", \"b\" , \"c\"]\nlist2 = [1, 2, 3]\nlist1.extend(list2)\nprint(list1)\n★\n+1",
+    "source": "Python - Join Lists",
+    "url": "https://www.w3schools.com/python/python_lists_join.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "Python\nTuples\nmytuple = (\"apple\", \"banana\", \"cherry\")\nShare\nLink Copied\nTuple\nTuples are used to store multiple items in a single variable.\nTuple is one of 4 built-in data types in Python used to store collections of \ndata, the other 3 are\nList\n,\nSet\n, and\nDictionary\n, all with different qualities and usage.\nA tuple is a collection which is ordered and\nunchangeable\n.\nTuples are written with round brackets*.\nExample\nCreate a Tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\nprint(thistuple)\n*Tuples can also be created without the parentheses:\nExample\nTuples can also be created without the parentheses:\nthistuple = \"apple\", \"banana\", \"cherry\"\nprint(thistuple)\nTuple Items\nTuple items are ordered, unchangeable, and allow duplicate values.\nTuple items are indexed, the first item has index\n[0]\n, the second item has index\n[1]\netc.\nOrdered\nWhen we say that tuples are ordered, it means that the ite",
+    "source": "Python Tuples",
+    "url": "https://www.w3schools.com/python/python_tuples.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "tems are indexed, the first item has index\n[0]\n, the second item has index\n[1]\netc.\nOrdered\nWhen we say that tuples are ordered, it means that the items have a defined order, and that order will not change.\nUnchangeable\nTuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.\nAllow Duplicates\nSince tuples are indexed, they can have items with the same value:\nExample\nTuples allow duplicate values:\nthistuple = (\"apple\", \"banana\", \"cherry\", \"apple\", \"cherry\")\nprint(thistuple)\nTuple Length\nTo determine how many items a tuple has, use the\nlen()\nfunction:\nExample\nPrint the number of items in the tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\nprint(len(thistuple))\nCreate Tuple With One Item\nTo create a tuple with only one item, you have to add a comma after the item, \notherwise Python will not recognize it as a tuple.\nExample\nOne item tuple",
+    "source": "Python Tuples",
+    "url": "https://www.w3schools.com/python/python_tuples.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "create a tuple with only one item, you have to add a comma after the item, \notherwise Python will not recognize it as a tuple.\nExample\nOne item tuple, remember the comma:\nthistuple = (\"apple\",)\nprint(type(thistuple))\n#NOT a tuple\nthistuple = (\"apple\")\nprint(type(thistuple))\nCreate an Empty Tuple\nTo create an empty tuple, use round brackets with no content.\nExample\nCreate an empty tuple:\nthistuple = ()\nprint(type(thistuple))\nTuple Items - Data Types\nTuple items can be of any data type:\nExample\nString, int and boolean data types:\ntuple1 = (\"apple\", \"banana\", \"cherry\")\ntuple2 = (1, 5, 7, 9, 3)\ntuple3 = (True, False, False)\nA tuple can contain different data types:\nExample\nA tuple with strings, integers and boolean values:\ntuple1 = (\"abc\", 34, True, 40, \"male\")\ntype()\nFrom Python's perspective, tuples are defined as objects with the data type 'tuple':\n<class 'tuple'>\nExample\nWhat is the dat",
+    "source": "Python Tuples",
+    "url": "https://www.w3schools.com/python/python_tuples.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "True, 40, \"male\")\ntype()\nFrom Python's perspective, tuples are defined as objects with the data type 'tuple':\n<class 'tuple'>\nExample\nWhat is the data type of a tuple?\nmytuple = (\"apple\", \"banana\", \"cherry\")\nprint(type(mytuple))\nThe tuple() Constructor\nIt is also possible to use the\ntuple()\nconstructor to make a tuple.\nExample\nUsing the tuple() method to make a tuple:\nthistuple = tuple((\"apple\", \"banana\", \"cherry\")) # note the double round-brackets\nprint(thistuple)\nPython Collections (Arrays)\nThere are four collection data types in the Python programming language:\nList\nis a collection which is ordered and changeable. Allows duplicate members.\nTuple\nis a collection which is ordered and unchangeable. Allows duplicate members.\nSet\nis a collection which is unordered, \nunchangeable*, and unindexed. No duplicate members.\nDictionary\nis a collection which is ordered** \nand changeable. No duplic",
+    "source": "Python Tuples",
+    "url": "https://www.w3schools.com/python/python_tuples.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "tion which is unordered, \nunchangeable*, and unindexed. No duplicate members.\nDictionary\nis a collection which is ordered** \nand changeable. No duplicate members.\n*Set\nitems\nare unchangeable, but you can remove and/or add items \n  whenever you like.\n**As of Python version 3.7, dictionaries are\nordered\n. \n  In Python 3.6 and earlier, dictionaries are\nunordered\n.\nWhen choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.\n★\n+1",
+    "source": "Python Tuples",
+    "url": "https://www.w3schools.com/python/python_tuples.asp",
+    "chunk_id": 4
+  },
+  {
+    "text": "Python\nSets\nmyset = {\"apple\", \"banana\", \"cherry\"}\nShare\nLink Copied\nSet\nSets are used to store multiple items in a single variable.\nSet is one of 4 built-in data types in Python used to store collections of \ndata, the other 3 are\nList\n,\nTuple\n, and\nDictionary\n, all with different qualities and usage.\nA set is a collection which is\nunordered\n,\nunchangeable*\n, and\nunindexed\n.\n* Note:\nSet\nitems\nare unchangeable, but you can remove \n  items and add new items.\nSets are written with curly brackets.\nExample\nCreate a Set:\nthisset = {\"apple\", \"banana\", \"cherry\"}\nprint(thisset)\nNote:\nSets are unordered, so you cannot be sure in which \n  order the items will appear.\nSet Items\nSet items are unordered, unchangeable, and do not allow duplicate values.\nUnordered\nUnordered means that the items in a set do not have a defined order.\nSet items can appear in a different order every time you use them, \nand c",
+    "source": "Python Sets",
+    "url": "https://www.w3schools.com/python/python_sets.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "ordered\nUnordered means that the items in a set do not have a defined order.\nSet items can appear in a different order every time you use them, \nand cannot be referred to by index or key.\nUnchangeable\nSet items are unchangeable, meaning that we cannot change the items after the set has been created.\nOnce a set is created, you cannot change its items, but you can remove items \nand add new items.\nDuplicates Not Allowed\nSets cannot have two items with the same value.\nExample\nDuplicate values will be ignored:\nthisset = {\"apple\", \"banana\", \"cherry\", \"apple\"}\nprint(thisset)\nNote:\nThe values\nTrue\nand\n1\nare considered the same value in sets, \n  and are treated as duplicates:\nExample\nTrue\nand\n1\nis considered the same value:\nthisset = {\"apple\", \"banana\", \"cherry\", True, 1, 2}\nprint(thisset)\nNote:\nThe values\nFalse\nand\n0\nare considered the same value in sets, \n  and are treated as duplicates:\nExampl",
+    "source": "Python Sets",
+    "url": "https://www.w3schools.com/python/python_sets.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "na\", \"cherry\", True, 1, 2}\nprint(thisset)\nNote:\nThe values\nFalse\nand\n0\nare considered the same value in sets, \n  and are treated as duplicates:\nExample\nFalse\nand\n0\nis considered the same value:\nthisset = {\"apple\", \"banana\", \"cherry\", False, True, 0}\nprint(thisset)\nGet the Length of a Set\nTo determine how many items a set has, use the\nlen()\nfunction.\nExample\nGet the number of items in a set:\nthisset = {\"apple\", \"banana\", \"cherry\"}\nprint(len(thisset))\nSet Items - Data Types\nSet items can be of any data type:\nExample\nString, int and boolean data types:\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {1, 5, 7, 9, 3}\nset3 = {True, False, False}\nA set can contain different data types:\nExample\nA set with strings, integers and boolean values:\nset1 = {\"abc\", 34, True, 40, \"male\"}\ntype()\nFrom Python's perspective, sets are defined as objects with the data type 'set':\n<class 'set'>\nExample\nWhat is the",
+    "source": "Python Sets",
+    "url": "https://www.w3schools.com/python/python_sets.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "abc\", 34, True, 40, \"male\"}\ntype()\nFrom Python's perspective, sets are defined as objects with the data type 'set':\n<class 'set'>\nExample\nWhat is the data type of a set?\nmyset = {\"apple\", \"banana\", \"cherry\"}\nprint(type(myset))\nThe set() Constructor\nIt is also possible to use the\nset()\nconstructor to make a set.\nExample\nUsing the set() constructor to make a set:\nthisset = set((\"apple\", \"banana\", \"cherry\")) # note the double round-brackets\nprint(thisset)\nPython Collections (Arrays)\nThere are four collection data types in the Python programming language:\nList\nis a collection which is ordered and changeable. Allows duplicate members.\nTuple\nis a collection which is ordered and unchangeable. Allows duplicate members.\nSet\nis a collection which is unordered, unchangeable*, and unindexed. No duplicate members.\nDictionary\nis a collection which is ordered** \nand changeable. No duplicate members.\n*S",
+    "source": "Python Sets",
+    "url": "https://www.w3schools.com/python/python_sets.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "unordered, unchangeable*, and unindexed. No duplicate members.\nDictionary\nis a collection which is ordered** \nand changeable. No duplicate members.\n*Set\nitems\nare unchangeable, but you can remove items and add new \n  items.\n**As of Python version 3.7, dictionaries are\nordered\n. \n  In Python 3.6 and earlier, dictionaries are\nunordered\n.\nWhen choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.\n★\n+1",
+    "source": "Python Sets",
+    "url": "https://www.w3schools.com/python/python_sets.asp",
+    "chunk_id": 4
+  },
+  {
+    "text": "Python\nDictionaries\nthisdict =  {\n\"brand\": \"Ford\",\n\"model\": \"Mustang\",\n\"year\": 1964\n}\nShare\nLink Copied\nDictionary\nDictionaries are used to store data values in key:value pairs.\nA dictionary is a collection which is ordered*, changeable and do not \nallow duplicates.\nAs of Python version 3.7, dictionaries are\nordered\n. \n  In Python 3.6 and earlier, dictionaries are\nunordered\n.\nDictionaries are written with curly brackets, and have keys and values:\nExample\nCreate and print a dictionary:\nthisdict =\t{\n\"brand\": \"Ford\",\n\"model\": \"Mustang\",\n\"year\": 1964\n}\nprint(thisdict)\nDictionary Items\nDictionary items are ordered, changeable, and do not allow duplicates.\nDictionary items are presented in key:value pairs, and can be referred to by \nusing the key name.\nExample\nPrint the \"brand\" value of the dictionary:\nthisdict =\t{\n\"brand\": \"Ford\",\n\"model\": \"Mustang\",\n\"year\": 1964\n}\nprint(thisdict[\"brand\"])\nOr",
+    "source": "Python Dictionaries",
+    "url": "https://www.w3schools.com/python/python_dictionaries.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "name.\nExample\nPrint the \"brand\" value of the dictionary:\nthisdict =\t{\n\"brand\": \"Ford\",\n\"model\": \"Mustang\",\n\"year\": 1964\n}\nprint(thisdict[\"brand\"])\nOrdered or Unordered?\nAs of Python version 3.7, dictionaries are\nordered\n. \n  In Python 3.6 and earlier, dictionaries are\nunordered\n.\nWhen we say that dictionaries are ordered, it means that the items have a defined order, and that order will not change.\nUnordered means that the items do not \nhave a defined order, you cannot refer to an item by using an index.\nChangeable\nDictionaries are changeable, meaning that we can change, add or remove items after the \ndictionary has been created.\nDuplicates Not Allowed\nDictionaries cannot have two items with the same key:\nExample\nDuplicate values will overwrite existing values:\nthisdict =\t{\n\"brand\": \"Ford\",\n\"model\": \"Mustang\",\n\"year\": 1964,\n\"year\": 2020\n}\nprint(thisdict)\nDictionary Length\nTo determine h",
+    "source": "Python Dictionaries",
+    "url": "https://www.w3schools.com/python/python_dictionaries.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "write existing values:\nthisdict =\t{\n\"brand\": \"Ford\",\n\"model\": \"Mustang\",\n\"year\": 1964,\n\"year\": 2020\n}\nprint(thisdict)\nDictionary Length\nTo determine how many items a dictionary has, use the\nlen()\nfunction:\nExample\nPrint the number of items in the dictionary:\nprint(len(thisdict))\nDictionary Items - Data Types\nThe values in dictionary items can be of any data type:\nExample\nString, int, boolean, and list data types:\nthisdict =\t{\n\"brand\": \"Ford\",\n\"electric\": False,\n\"year\": 1964,\n\"colors\": [\"red\", \"white\", \"blue\"]\n}\ntype()\nFrom Python's perspective, dictionaries are defined as objects with the data type 'dict':\n<class 'dict'>\nExample\nPrint the data type of a dictionary:\nthisdict =\t{\n\"brand\": \"Ford\",\n\"model\": \"Mustang\",\n\"year\": 1964\n}\nprint(type(thisdict))\nThe dict() Constructor\nIt is also possible to use the\ndict()\nconstructor to make a dictionary.\nExample\nUsing the dict() method to make a di",
+    "source": "Python Dictionaries",
+    "url": "https://www.w3schools.com/python/python_dictionaries.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "thisdict))\nThe dict() Constructor\nIt is also possible to use the\ndict()\nconstructor to make a dictionary.\nExample\nUsing the dict() method to make a dictionary:\nthisdict = \n  dict(name = \"John\", age = 36, country = \"Norway\")\nprint(thisdict)\nPython Collections (Arrays)\nThere are four collection data types in the Python programming language:\nList\nis a collection which is ordered and changeable. Allows duplicate members.\nTuple\nis a collection which is ordered and unchangeable. Allows duplicate members.\nSet\nis a collection which is unordered, \nunchangeable*, and unindexed. No duplicate members.\nDictionary\nis a collection which is ordered** and changeable. No duplicate members.\n*Set\nitems\nare unchangeable, but you can remove and/or add items \n  whenever you like.\n**As of Python version 3.7, dictionaries are\nordered\n. \n  In Python 3.6 and earlier, dictionaries are\nunordered\n.\nWhen choosing a co",
+    "source": "Python Dictionaries",
+    "url": "https://www.w3schools.com/python/python_dictionaries.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "henever you like.\n**As of Python version 3.7, dictionaries are\nordered\n. \n  In Python 3.6 and earlier, dictionaries are\nunordered\n.\nWhen choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.\n★\n+1",
+    "source": "Python Dictionaries",
+    "url": "https://www.w3schools.com/python/python_dictionaries.asp",
+    "chunk_id": 4
+  },
+  {
+    "text": "Python\nIf Statement\nShare\nLink Copied\nPython Conditions and If statements\nPython supports the usual logical conditions from mathematics:\nEquals:\na == b\nNot Equals:\na != b\nLess than:\na < b\nLess than or equal to:\na <= b\nGreater than:\na > b\nGreater than or equal to:\na >= b\nThese conditions can be used in several ways, most commonly in \"if statements\" and loops.\nAn \"if statement\" is written by using the\nif\nkeyword.\nExample\nIf statement:\na = 33\nb = 200\nif b > a:\nprint(\"b is greater than a\")\nIn this example we use two variables,\na\nand\nb\n,\nwhich are used as part of the if statement to test whether\nb\nis greater than\na\n.\nAs\na\nis\n33\n, and\nb\nis\n200\n,\nwe know that 200 is greater than 33, and so we print to screen that \"b is greater than a\".\nHow If Statements Work\nThe if statement evaluates a condition (an expression that results in\nTrue\nor\nFalse\n). If the condition is true, the code block inside the",
+    "source": "Python If Statement",
+    "url": "https://www.w3schools.com/python/python_conditions.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "ements Work\nThe if statement evaluates a condition (an expression that results in\nTrue\nor\nFalse\n). If the condition is true, the code block inside the if statement is executed. If the condition is false, the code block is skipped.\nExample\nChecking if a number is positive:\nnumber = 15\nif number > 0:\nprint(\"The number is positive\")\nIndentation\nPython relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose.\nExample\nIf statement, without indentation (will raise an error):\na = 33\nb = 200\nif b > a:\nprint(\"b is greater than a\")\n# you will get an error\nNote:\nYou can use spaces or tabs for indentation, but you must use the same amount of indentation for all statements within the same code block.\nMultiple Statements in If Block\nYou can have multiple statements inside an if block. All statements",
+    "source": "Python If Statement",
+    "url": "https://www.w3schools.com/python/python_conditions.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "ion for all statements within the same code block.\nMultiple Statements in If Block\nYou can have multiple statements inside an if block. All statements must be indented at the same level.\nExample\nMultiple statements in an if block:\nage = 20\nif age >= 18:\nprint(\"You are an adult\")\nprint(\"You can vote\")\nprint(\"You have full legal rights\")\nUsing Variables in Conditions\nBoolean variables can be used directly in if statements without comparison operators.\nExample\nUsing a boolean variable:\nis_logged_in = True\nif is_logged_in:\nprint(\"Welcome back!\")\nPython can evaluate many types of values as\nTrue\nor\nFalse\nin an if statement.\nZero (\n0\n), empty strings (\n\"\"\n),\nNone\n, and empty collections are treated as\nFalse\n. Everything else is treated as\nTrue\n.\nThis includes positive numbers (\n5\n), negative numbers (\n-3\n), and any non-empty string (even\n\"False\"\nis treated as\nTrue\nbecause it's a non-empty strin",
+    "source": "Python If Statement",
+    "url": "https://www.w3schools.com/python/python_conditions.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "his includes positive numbers (\n5\n), negative numbers (\n-3\n), and any non-empty string (even\n\"False\"\nis treated as\nTrue\nbecause it's a non-empty string).\n★\n+1",
+    "source": "Python If Statement",
+    "url": "https://www.w3schools.com/python/python_conditions.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nWhile Loops\nShare\nLink Copied\nPython Loops\nPython has two primitive loop commands:\nwhile\nloops\nfor\nloops\nThe while Loop\nWith the\nwhile\nloop we can execute a set of statements as long as a condition is true.\nExample\nPrint i as long as i is less than 6:\ni = 1\nwhile i < 6:\nprint(i)\ni += 1\nNote:\nremember to increment i, or else the loop will continue forever.\nThe\nwhile\nloop requires relevant variables to be ready, in this example we need to define an indexing variable,\ni\n, \nwhich we set to 1.\nThe break Statement\nWith the\nbreak\nstatement we can stop the loop even if the \nwhile condition is true:\nExample\nExit the loop when i is 3:\ni = 1\nwhile i < 6:\nprint(i)\nif i == 3:\nbreak\ni += 1\nThe continue Statement\nWith the\ncontinue\nstatement we can stop the \ncurrent iteration, and continue with the next:\nExample\nContinue to the next iteration if i is 3:\ni = 0\nwhile i < 6:\ni += 1\nif i == 3:\ncontin",
+    "source": "Python While Loops",
+    "url": "https://www.w3schools.com/python/python_while_loops.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "stop the \ncurrent iteration, and continue with the next:\nExample\nContinue to the next iteration if i is 3:\ni = 0\nwhile i < 6:\ni += 1\nif i == 3:\ncontinue\nprint(i)\nThe else Statement\nWith the\nelse\nstatement we can run a block of code once when the \ncondition no longer is true:\nExample\nPrint a message once the condition is false:\ni = 1\nwhile i < 6:\nprint(i)\ni += 1\nelse:\nprint(\"i is no longer less than 6\")\nNote:\nThe\nelse\nblock will NOT be executed if the loop is stopped by a\nbreak\nstatement.\n★\n+1",
+    "source": "Python While Loops",
+    "url": "https://www.w3schools.com/python/python_while_loops.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python\nFor Loops\nShare\nLink Copied\nPython For Loops\nA\nfor\nloop is used for iterating over a sequence (that is either a list, a tuple, \na dictionary, a set, or a string).\nThis is less like the\nfor\nkeyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.\nWith the\nfor\nloop we can execute a set of statements, once for each item in a list, tuple, set etc.\nExample\nPrint each fruit in a fruit list:\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfor \n  x in fruits:\nprint(x)\nThe\nfor\nloop does not require an indexing variable to set beforehand.\nLooping Through a String\nEven strings are iterable objects, they contain a sequence of characters:\nExample\nLoop through the letters in the word \"banana\":\nfor x in \"banana\":\nprint(x)\nThe break Statement\nWith the\nbreak\nstatement we can stop the \nloop before it has looped through all the",
+    "source": "Python For Loops",
+    "url": "https://www.w3schools.com/python/python_for_loops.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "he word \"banana\":\nfor x in \"banana\":\nprint(x)\nThe break Statement\nWith the\nbreak\nstatement we can stop the \nloop before it has looped through all the items:\nExample\nExit the loop when\nx\nis \"banana\":\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfor x in fruits:\nprint(x)\nif x == \n  \"banana\":\nbreak\nExample\nExit the loop when\nx\nis \"banana\", \nbut this time the break comes before the print:\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfor x in fruits:\nif x == \n  \"banana\":\nbreak\nprint(x)\nThe continue Statement\nWith the\ncontinue\nstatement we can stop the \ncurrent iteration of the loop, and continue with the next:\nExample\nDo not print banana:\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfor x in fruits:\nif x == \n  \"banana\":\ncontinue\nprint(x)\nThe range() Function\nTo loop through a set of code a specified number of times, we can use the\nrange()\nfunction,\nThe\nrange()\nfunction returns a sequence of numbers, starting f",
+    "source": "Python For Loops",
+    "url": "https://www.w3schools.com/python/python_for_loops.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "oop through a set of code a specified number of times, we can use the\nrange()\nfunction,\nThe\nrange()\nfunction returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.\nExample\nUsing the range() function:\nfor x in range(6):\nprint(x)\nNote that\nrange(6)\nis not the values of 0 to 6, but the values 0 to 5.\nThe\nrange()\nfunction defaults to 0 as a starting value, however it is possible to specify the starting value by adding a parameter:\nrange(2, 6)\n, which \nmeans values from 2 to 6 (but not including 6):\nExample\nUsing the start parameter:\nfor x in range(2, 6):\nprint(x)\nThe\nrange()\nfunction defaults to increment the sequence by 1,\nhowever it is possible to specify the increment value by adding a third parameter:\nrange(2, 30,\n3\n)\n:\nExample\nIncrement the sequence with 3 (default is 1):\nfor x in range(2, 30, 3):\nprint(x)\nElse in For",
+    "source": "Python For Loops",
+    "url": "https://www.w3schools.com/python/python_for_loops.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "e by adding a third parameter:\nrange(2, 30,\n3\n)\n:\nExample\nIncrement the sequence with 3 (default is 1):\nfor x in range(2, 30, 3):\nprint(x)\nElse in For Loop\nThe\nelse\nkeyword in a\nfor\nloop specifies a block of code to be \nexecuted when the loop is finished:\nExample\nPrint all numbers from 0 to 5, and print a message when the loop has ended:\nfor x in range(6):\nprint(x)\nelse:\nprint(\"Finally finished!\")\nNote:\nThe\nelse\nblock will NOT be executed if the loop is stopped by a\nbreak\nstatement.\nExample\nBreak the loop when\nx\nis 3, and see what happens with the\nelse\nblock:\nfor x in range(6):\nif x == 3: break\nprint(x)\nelse:\nprint(\"Finally finished!\")\nNested Loops\nA nested loop is a loop inside a loop.\nThe \"inner loop\" will be executed one time for each iteration of the \"outer \nloop\":\nExample\nPrint each adjective for every fruit:\nadj = [\"red\", \"big\", \"tasty\"]\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfor x",
+    "source": "Python For Loops",
+    "url": "https://www.w3schools.com/python/python_for_loops.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "eration of the \"outer \nloop\":\nExample\nPrint each adjective for every fruit:\nadj = [\"red\", \"big\", \"tasty\"]\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfor x in adj:\nfor y in fruits:\nprint(x, y)\nThe pass Statement\nfor\nloops cannot be empty, but if you for \nsome reason have a\nfor\nloop with no content, put in the\npass\nstatement to avoid getting an error.\nExample\nfor x in [0, 1, 2]:\npass\n★\n+1",
+    "source": "Python For Loops",
+    "url": "https://www.w3schools.com/python/python_for_loops.asp",
+    "chunk_id": 4
+  },
+  {
+    "text": "Python\nFunctions\nShare\nLink Copied\nPython Functions\nA function is a block of code which only runs when it is called.\nA function can return data as a result.\nA function helps avoiding code repetition.\nCreating a Function\nIn Python, a function is defined using the\ndef\nkeyword, followed by a function name and parentheses:\nExample\ndef my_function():\nprint(\"Hello from a function\")\nThis creates a function named\nmy_function\nthat prints \"Hello from a function\" when called.\nThe code inside the function must be indented. Python uses indentation to define code blocks.\nCalling a Function\nTo call a function, write its name followed by parentheses:\nExample\ndef my_function():\nprint(\"Hello from a function\")\nmy_function()\nYou can call the same function multiple times:\nExample\ndef my_function():\nprint(\"Hello from a function\")\nmy_function()\nmy_function()\nmy_function()\nFunction Names\nFunction names follow t",
+    "source": "Python Functions",
+    "url": "https://www.w3schools.com/python/python_functions.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "iple times:\nExample\ndef my_function():\nprint(\"Hello from a function\")\nmy_function()\nmy_function()\nmy_function()\nFunction Names\nFunction names follow the same rules as variable names in Python:\nA function name must start with a letter or underscore\nA function name can only contain letters, numbers, and underscores\nFunction names are case-sensitive (\nmyFunction\nand\nmyfunction\nare different)\nExample\nValid function names:\ncalculate_sum()\n_private_function()\nmyFunction2()\nIt's good practice to use descriptive names that explain what the function does.\nWhy Use Functions?\nImagine you need to convert temperatures from Fahrenheit to Celsius several times in your program. Without functions, you would have to write the same calculation code repeatedly:\nExample\nWithout functions - repetitive code:\ntemp1 = 77\ncelsius1 = (temp1 - 32) * 5 / 9\nprint(celsius1)\ntemp2 = 95\ncelsius2 = (temp2 - 32) * 5 / 9\np",
+    "source": "Python Functions",
+    "url": "https://www.w3schools.com/python/python_functions.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": ":\nExample\nWithout functions - repetitive code:\ntemp1 = 77\ncelsius1 = (temp1 - 32) * 5 / 9\nprint(celsius1)\ntemp2 = 95\ncelsius2 = (temp2 - 32) * 5 / 9\nprint(celsius2)\ntemp3 = 50\ncelsius3 = (temp3 - 32) * 5 / 9\nprint(celsius3)\nWith functions, you write the code once and reuse it:\nExample\nWith functions - reusable code:\ndef fahrenheit_to_celsius(fahrenheit):\nreturn (fahrenheit - 32) * 5 / 9\nprint(fahrenheit_to_celsius(77))\nprint(fahrenheit_to_celsius(95))\nprint(fahrenheit_to_celsius(50))\nReturn Values\nFunctions can send data back to the code that called them using the\nreturn\nstatement.\nWhen a function reaches a\nreturn\nstatement, it stops executing and sends the result back:\nExample\nA function that returns a value:\ndef get_greeting():\nreturn \"Hello from a function\"\nmessage = get_greeting()\nprint(message)\nYou can use the returned value directly:\nExample\nUsing the return value directly:\ndef get",
+    "source": "Python Functions",
+    "url": "https://www.w3schools.com/python/python_functions.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "llo from a function\"\nmessage = get_greeting()\nprint(message)\nYou can use the returned value directly:\nExample\nUsing the return value directly:\ndef get_greeting():\nreturn \"Hello from a function\"\nprint(get_greeting())\nIf a function doesn't have a\nreturn\nstatement, it returns\nNone\nby default.\nThe pass Statement\nFunction definitions cannot be empty. If you need to create a function placeholder without any code, use the\npass\nstatement:\nExample\ndef my_function():\npass\nThe\npass\nstatement is often used when developing, allowing you to define the structure first and implement details later.\n★\n+1",
+    "source": "Python Functions",
+    "url": "https://www.w3schools.com/python/python_functions.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nLambda\nShare\nLink Copied\nLambda Functions\nA lambda function is a small anonymous function.\nA lambda function can take any number of arguments, but can only have one expression.\nSyntax\nlambda\narguments\n:\nexpression\nThe expression is executed and the result is returned:\nExample\nAdd 10 to argument\na\n, and \n  return the result:\nx = lambda a : a + 10\nprint(x(5))\nLambda functions can take any number of arguments:\nExample\nMultiply argument\na\nwith argument\nb\nand return the \n  result:\nx = lambda a, b : a * b\nprint(x(5, 6))\nExample\nSummarize argument\na\n,\nb\n, and\nc\nand \n  return the \n  result:\nx = lambda a, b, c : a + b + c\nprint(x(5, 6, \n  2))\nWhy Use Lambda Functions?\nThe power of lambda is better shown when you use them as an anonymous \nfunction inside another function.\nSay you have a function definition that takes one argument, and that argument \nwill be multiplied with an unknown number",
+    "source": "Python Lambda",
+    "url": "https://www.w3schools.com/python/python_lambda.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "tion inside another function.\nSay you have a function definition that takes one argument, and that argument \nwill be multiplied with an unknown number:\ndef myfunc(n):\nreturn lambda a : a * n\nUse that function definition to make a function that always doubles the \nnumber you send in:\nExample\ndef myfunc(n):\nreturn lambda a : a * n\nmydoubler = myfunc(2)\nprint(mydoubler(11))\nOr, use the same function definition to make a function that always\ntriples\nthe \nnumber you send in:\nExample\ndef myfunc(n):\nreturn lambda a : a * n\nmytripler = myfunc(3)\nprint(mytripler(11))\nOr, use the same function definition to make both functions, in the same \nprogram:\nExample\ndef myfunc(n):\nreturn lambda a : a * n\nmydoubler = myfunc(2)\nmytripler = myfunc(3)\nprint(mydoubler(11))\nprint(mytripler(11))\nUse lambda functions when an anonymous function is required for a short period of time.\nLambda with Built-in Functions",
+    "source": "Python Lambda",
+    "url": "https://www.w3schools.com/python/python_lambda.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "bler(11))\nprint(mytripler(11))\nUse lambda functions when an anonymous function is required for a short period of time.\nLambda with Built-in Functions\nLambda functions are commonly used with built-in functions like\nmap()\n,\nfilter()\n, and\nsorted()\n.\nUsing Lambda with map()\nThe\nmap()\nfunction applies a function to every item in an iterable:\nExample\nDouble all numbers in a list:\nnumbers = [1, 2, 3, 4, 5]\ndoubled = list(map(lambda x: x * 2, numbers))\nprint(doubled)\nUsing Lambda with filter()\nThe\nfilter()\nfunction creates a list of items for which a function returns\nTrue\n:\nExample\nFilter out odd numbers from a list:\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8]\nodd_numbers = list(filter(lambda x: x % 2 != 0, numbers))\nprint(odd_numbers)\nUsing Lambda with sorted()\nThe\nsorted()\nfunction can use a lambda as a key for custom sorting:\nExample\nSort a list of tuples by the second element:\nstudents = [(\"Emil\", 2",
+    "source": "Python Lambda",
+    "url": "https://www.w3schools.com/python/python_lambda.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "rted()\nThe\nsorted()\nfunction can use a lambda as a key for custom sorting:\nExample\nSort a list of tuples by the second element:\nstudents = [(\"Emil\", 25), (\"Tobias\", 22), (\"Linus\", 28)]\nsorted_students = sorted(students, key=lambda x: x[1])\nprint(sorted_students)\nExample\nSort strings by length:\nwords = [\"apple\", \"pie\", \"banana\", \"cherry\"]\nsorted_words = sorted(words, key=lambda x: len(x))\nprint(sorted_words)\n★\n+1",
+    "source": "Python Lambda",
+    "url": "https://www.w3schools.com/python/python_lambda.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nArrays\nNote:\nPython does not have built-in support for Arrays, \n  but\nPython Lists\ncan be used instead.\nShare\nLink Copied\nArrays\nNote:\nThis page shows you how to use LISTS as ARRAYS, however, to work with arrays in Python you will have to import\n  a library, like the\nNumPy library\n.\nArrays are used to store multiple values in one single variable:\nExample\nCreate an array containing car names:\ncars = [\"Ford\", \"Volvo\", \"BMW\"]\nWhat is an Array?\nAn array is a special variable, which can hold more than one value at a time.\nIf you have a list of items (a list of car names, for example), storing the \ncars in single variables could look like this:\ncar1 = \"Ford\"\ncar2 = \"Volvo\"\ncar3 = \"BMW\"\nHowever, what if you want to loop through the cars and find a specific one? \nAnd what if you had not 3 cars, but 300?\nThe solution is an array!\nAn array can hold many values under a single name, and you c",
+    "source": "Python Arrays",
+    "url": "https://www.w3schools.com/python/python_arrays.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "find a specific one? \nAnd what if you had not 3 cars, but 300?\nThe solution is an array!\nAn array can hold many values under a single name, and you can \naccess the values by referring to an index number.\nAccess the Elements of an Array\nYou refer to an array element by referring to the\nindex number\n.\nExample\nGet the value of the first array item:\nx = cars[0]\nExample\nModify the value of the first array item:\ncars[0] = \"Toyota\"\nThe Length of an Array\nUse the\nlen()\nmethod to return the length of \nan array (the number of elements in an array).\nExample\nReturn the number of elements in the\ncars\narray:\nx = len(cars)\nNote:\nThe length of an array is always one more than the highest array index.\nLooping Array Elements\nYou can use the\nfor in\nloop to loop through all the elements of an array.\nExample\nPrint each item in the\ncars\narray:\nfor x in cars:\nprint(x)\nAdding Array Elements\nYou can use the\napp",
+    "source": "Python Arrays",
+    "url": "https://www.w3schools.com/python/python_arrays.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "oop through all the elements of an array.\nExample\nPrint each item in the\ncars\narray:\nfor x in cars:\nprint(x)\nAdding Array Elements\nYou can use the\nappend()\nmethod to add an element to an array.\nExample\nAdd one more element to the\ncars\narray:\ncars.append(\"Honda\")\nRemoving Array Elements\nYou can use the\npop()\nmethod to remove an element from the array.\nExample\nDelete the second element of the\ncars\narray:\ncars.pop(1)\nYou can also use the\nremove()\nmethod to remove an element from the array.\nExample\nDelete the element that has the value \"Volvo\":\ncars.remove(\"Volvo\")\nNote:\nThe list's\nremove()\nmethod \n  only removes the first occurrence of the specified value.\nArray Methods\nPython has a set of built-in methods that you can use on lists/arrays.\nMethod\nDescription\nappend()\nAdds an element at \n  the end of the list\nclear()\nRemoves all the \n  elements from the list\ncopy()\nReturns a copy of the \n  l",
+    "source": "Python Arrays",
+    "url": "https://www.w3schools.com/python/python_arrays.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "hod\nDescription\nappend()\nAdds an element at \n  the end of the list\nclear()\nRemoves all the \n  elements from the list\ncopy()\nReturns a copy of the \n  list\ncount()\nReturns the number of \n  elements with the specified value\nextend()\nAdd the elements of a \n  list (or any iterable), to the end of the current list\nindex()\nReturns the index of \n  the first element with the specified value\ninsert()\nAdds an element at \n  the specified position\npop()\nRemoves the element at the \n  specified position\nremove()\nRemoves the first \n  item with the specified value\nreverse()\nReverses the order \n  of the list\nsort()\nSorts the list\nNote:\nPython does not have built-in support for Arrays, \n  but Python Lists can be used instead.\n★\n+1",
+    "source": "Python Arrays",
+    "url": "https://www.w3schools.com/python/python_arrays.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nClasses and Objects\nShare\nLink Copied\nPython Classes/Objects\nPython is an object oriented programming language.\nAlmost everything in Python is an object, with its properties and methods.\nA Class is like an object constructor, or a \"blueprint\" for creating objects.\nCreate a Class\nTo create a class, use the keyword\nclass\n:\nExample\nCreate a class named MyClass, with a property named x:\nclass MyClass:\nx = 5\nCreate Object\nNow we can use the class named MyClass to create objects:\nExample\nCreate an object named p1, and print the value of x:\np1 = MyClass()\nprint(p1.x)\nDelete Objects\nYou can delete objects by using the\ndel\nkeyword:\nExample\nDelete the p1 object:\ndel p1\nMultiple Objects\nYou can create multiple objects from the same class:\nExample\nCreate three objects from the MyClass class:\np1 = MyClass()\np2 = MyClass()\np3 = MyClass()\nprint(p1.x)\nprint(p2.x)\nprint(p3.x)\nNote:\nEach object is",
+    "source": "Python Classes and Objects",
+    "url": "https://www.w3schools.com/python/python_classes.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "le\nCreate three objects from the MyClass class:\np1 = MyClass()\np2 = MyClass()\np3 = MyClass()\nprint(p1.x)\nprint(p2.x)\nprint(p3.x)\nNote:\nEach object is independent and has its own copy of the class properties.\nThe pass Statement\nclass\ndefinitions cannot be empty, but if \nyou for some reason have a\nclass\ndefinition with no content, put in the\npass\nstatement to avoid getting an error.\nExample\nclass Person:\npass\n★\n+1",
+    "source": "Python Classes and Objects",
+    "url": "https://www.w3schools.com/python/python_classes.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python\nInheritance\nShare\nLink Copied\nPython Inheritance\nInheritance allows us to define a class that inherits all the methods and properties from another class.\nParent class\nis the class being inherited from, also called \nbase class.\nChild class\nis the class that inherits from another class, \nalso called derived class.\nCreate a Parent Class\nAny class can be a parent class, so the syntax is the same as creating any \nother class:\nExample\nCreate a class named\nPerson\n, with\nfirstname\nand\nlastname\nproperties, \nand a\nprintname\nmethod:\nclass Person:\ndef __init__(self, fname, lname):\nself.firstname = fname\nself.lastname = lname\ndef printname(self):\nprint(self.firstname, \n  self.lastname)\n#Use the Person class to create an object, and then \n  execute the printname method:\nx = Person(\"John\", \"Doe\")\nx.printname()\nCreate a Child Class\nTo create a class that inherits the functionality from another cl",
+    "source": "Python Inheritance",
+    "url": "https://www.w3schools.com/python/python_inheritance.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "e the printname method:\nx = Person(\"John\", \"Doe\")\nx.printname()\nCreate a Child Class\nTo create a class that inherits the functionality from another class, send the parent class as a parameter when creating the child \nclass:\nExample\nCreate a class named\nStudent\n, which will inherit the properties \nand methods from \nthe\nPerson\nclass:\nclass Student(Person):\npass\nNote:\nUse the\npass\nkeyword when you do not want to add any other properties or methods to the \n  class.\nNow the Student class has the same properties and methods as the Person \nclass.\nExample\nUse the\nStudent\nclass to create an object, \nand then execute the\nprintname\nmethod:\nx = Student(\"Mike\", \"Olsen\")\nx.printname()\nAdd the __init__() Function\nSo far we have created a child class that inherits the properties and methods \nfrom its parent.\nWe want to add the\n__init__()\nfunction to the child class (instead of the\npass\nkeyword).\nNote:\nT",
+    "source": "Python Inheritance",
+    "url": "https://www.w3schools.com/python/python_inheritance.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "inherits the properties and methods \nfrom its parent.\nWe want to add the\n__init__()\nfunction to the child class (instead of the\npass\nkeyword).\nNote:\nThe\n__init__()\nfunction is called automatically every time the class is being used to create a new object.\nExample\nAdd the\n__init__()\nfunction to the\nStudent\nclass:\nclass Student(Person):\ndef __init__(self, fname, lname):\n#add properties etc.\nWhen you add the\n__init__()\nfunction, the child class will no longer inherit \nthe parent's\n__init__()\nfunction.\nNote:\nThe child's\n__init__()\nfunction\noverrides\nthe inheritance of the parent's\n__init__()\nfunction.\nTo keep the inheritance of the parent's\n__init__()\nfunction, add a call to the \nparent's\n__init__()\nfunction:\nExample\nclass Student(Person):\ndef __init__(self, fname, lname):\nPerson.__init__(self, fname, lname)\nNow we have successfully added the\n__init__()\nfunction, and kept the \ninheritance of",
+    "source": "Python Inheritance",
+    "url": "https://www.w3schools.com/python/python_inheritance.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "__init__(self, fname, lname):\nPerson.__init__(self, fname, lname)\nNow we have successfully added the\n__init__()\nfunction, and kept the \ninheritance of the parent class, and we are ready to add functionality in the\n__init__()\nfunction.\nUse the super() Function\nPython also has a\nsuper()\nfunction that \nwill make the child class inherit all the methods and properties from its \nparent:\nExample\nclass Student(Person):\ndef __init__(self, fname, lname):\nsuper().__init__(fname, lname)\nBy using the\nsuper()\nfunction, you do not \nhave to use the name of the parent element, it will automatically inherit the \nmethods and properties from its parent.\nAdd Properties\nExample\nAdd a property called\ngraduationyear\nto the\nStudent\nclass:\nclass Student(Person):\ndef __init__(self, fname, lname):\nsuper().__init__(fname, lname)\nself.graduationyear \n  = 2019\nIn the example below, the year\n2019\nshould be a variable,",
+    "source": "Python Inheritance",
+    "url": "https://www.w3schools.com/python/python_inheritance.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "__init__(self, fname, lname):\nsuper().__init__(fname, lname)\nself.graduationyear \n  = 2019\nIn the example below, the year\n2019\nshould be a variable, and passed into the\nStudent\nclass when creating student objects.\nTo do so, add another parameter in the\n__init__()\nfunction:\nExample\nAdd a\nyear\nparameter, and pass the correct \nyear when creating objects:\nclass Student(Person):\ndef __init__(self, fname, lname, year):\nsuper().__init__(fname, lname)\nself.graduationyear \n  = year\nx = Student(\"Mike\", \"Olsen\", 2019)\nAdd Methods\nExample\nAdd a method called\nwelcome\nto the\nStudent\nclass:\nclass Student(Person):\ndef __init__(self, fname, lname, year):\nsuper().__init__(fname, lname)\nself.graduationyear \n  = year\ndef welcome(self):\nprint(\"Welcome\", \n  self.firstname, self.lastname, \"to the class of\", self.graduationyear)\nIf you add a method in the child class with the same name as a function in \nthe pa",
+    "source": "Python Inheritance",
+    "url": "https://www.w3schools.com/python/python_inheritance.asp",
+    "chunk_id": 4
+  },
+  {
+    "text": "f.firstname, self.lastname, \"to the class of\", self.graduationyear)\nIf you add a method in the child class with the same name as a function in \nthe parent class, the inheritance of the parent method will be overridden.\n★\n+1",
+    "source": "Python Inheritance",
+    "url": "https://www.w3schools.com/python/python_inheritance.asp",
+    "chunk_id": 5
+  },
+  {
+    "text": "Python\nIterators\nShare\nLink Copied\nPython Iterators\nAn iterator is an object that contains a countable number of values.\nAn iterator is an object that can be iterated upon, meaning that you can \ntraverse through all the values.\nTechnically, in Python, an iterator is an object which implements the \niterator protocol, which consist of the methods\n__iter__()\nand\n__next__()\n.\nIterator vs Iterable\nLists, tuples, dictionaries, and sets are all iterable objects. They are iterable\ncontainers\nwhich you can get an iterator from.\nAll these objects have a\niter()\nmethod which is used to get an iterator:\nExample\nReturn an iterator from a tuple, and print each value:\nmytuple = (\"apple\", \"banana\", \"cherry\")\nmyit = iter(mytuple)\nprint(next(myit))\nprint(next(myit))\nprint(next(myit))\nEven strings are iterable objects, and can return an iterator:\nExample\nStrings are also iterable objects, containing a seque",
+    "source": "Python Iterators",
+    "url": "https://www.w3schools.com/python/python_iterators.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "(myit))\nprint(next(myit))\nEven strings are iterable objects, and can return an iterator:\nExample\nStrings are also iterable objects, containing a sequence of characters:\nmystr = \"banana\"\nmyit = iter(mystr)\nprint(next(myit))\nprint(next(myit))\nprint(next(myit))\nprint(next(myit))\nprint(next(myit))\nprint(next(myit))\nLooping Through an Iterator\nWe can also use a\nfor\nloop to iterate through an iterable object:\nExample\nIterate the values of a tuple:\nmytuple = (\"apple\", \"banana\", \"cherry\")\nfor x in mytuple:\nprint(x)\nExample\nIterate the characters of a string:\nmystr = \"banana\"\nfor x in mystr:\nprint(x)\nThe\nfor\nloop actually creates an iterator object and executes the\nnext()\nmethod for each loop.\nCreate an Iterator\nTo create an object/class as an iterator you have to implement the methods\n__iter__()\nand\n__next__()\nto your object.\nAs you will learn in the\nPython \nClasses/Objects\nchapter, all classes",
+    "source": "Python Iterators",
+    "url": "https://www.w3schools.com/python/python_iterators.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "tor you have to implement the methods\n__iter__()\nand\n__next__()\nto your object.\nAs you will learn in the\nPython \nClasses/Objects\nchapter, all classes have a function called\n__init__()\n, which allows you to do some \ninitializing when the object is being created.\nThe\n__iter__()\nmethod acts similar, you can \ndo operations (initializing etc.), but must always return the iterator object \nitself.\nThe\n__next__()\nmethod also allows you to do \noperations, and must return the next item in the sequence.\nExample\nCreate an iterator that returns numbers, starting with 1, and each sequence \nwill increase by one (returning 1,2,3,4,5 etc.):\nclass MyNumbers:\ndef __iter__(self):\nself.a = \n  1\nreturn self\ndef __next__(self):\nx = self.a\nself.a += 1\nreturn x\nmyclass = MyNumbers()\nmyiter =\n   iter(myclass)\nprint(next(myiter))\nprint(next(myiter))\nprint(next(myiter))\nprint(next(myiter))\nprint(next(myiter))\nStopI",
+    "source": "Python Iterators",
+    "url": "https://www.w3schools.com/python/python_iterators.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "lass = MyNumbers()\nmyiter =\n   iter(myclass)\nprint(next(myiter))\nprint(next(myiter))\nprint(next(myiter))\nprint(next(myiter))\nprint(next(myiter))\nStopIteration\nThe example above would continue forever if you had enough next() statements, or if it was used in a\nfor\nloop.\nTo prevent the iteration from going on forever, we can use the\nStopIteration\nstatement.\nIn the\n__next__()\nmethod, we can add a terminating condition to raise an error if the iteration is done a specified number of times:\nExample\nStop after 20 iterations:\nclass MyNumbers:\ndef __iter__(self):\nself.a = \n  1\nreturn self\ndef __next__(self):\nif self.a <= 20:\nx = self.a\nself.a += 1\nreturn x\nelse:\nraise StopIteration\nmyclass = \n  MyNumbers()\nmyiter =\n   iter(myclass)\nfor x in myiter:\nprint(x)\n★\n+1",
+    "source": "Python Iterators",
+    "url": "https://www.w3schools.com/python/python_iterators.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nPolymorphism\nThe word \"polymorphism\" means \"many forms\", and in programming it refers to\nmethods/functions/operators with the same name that can be executed on many \nobjects or classes.\nShare\nLink Copied\nFunction Polymorphism\nAn example of a Python function that can be used on different objects is the\nlen()\nfunction.\nString\nFor strings\nlen()\nreturns the number of characters:\nExample\nx = \"Hello World!\"\nprint(len(x))\nTuple\nFor tuples\nlen()\nreturns the number of items \nin the tuple:\nExample\nmytuple = (\"apple\", \"banana\", \"cherry\")\nprint(len(mytuple))\nDictionary\nFor dictionaries\nlen()\nreturns the number of key/value pairs \nin the dictionary:\nExample\nthisdict =\t{\n\"brand\": \"Ford\",\n\"model\": \"Mustang\",\n\"year\": 1964\n}\nprint(len(thisdict))\nClass Polymorphism\nPolymorphism is often used in Class methods, where we can have multiple \nclasses with the same method name.\nFor example, say we have th",
+    "source": "Python Polymorphism",
+    "url": "https://www.w3schools.com/python/python_polymorphism.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "s Polymorphism\nPolymorphism is often used in Class methods, where we can have multiple \nclasses with the same method name.\nFor example, say we have three classes:\nCar\n,\nBoat\n, and\nPlane\n, and they all have \na method called\nmove()\n:\nExample\nDifferent classes with the same method:\nclass Car:\ndef __init__(self, brand, model):\nself.brand = brand\nself.model = model\ndef move(self):\nprint(\"Drive!\")\nclass Boat:\ndef __init__(self, brand, model):\nself.brand = brand\nself.model = model\ndef move(self):\nprint(\"Sail!\")\nclass Plane:\ndef __init__(self, brand, model):\nself.brand = brand\nself.model = model\ndef move(self):\nprint(\"Fly!\")\ncar1 = Car(\"Ford\", \"Mustang\")        #Create a Car object\nboat1 = Boat(\"Ibiza\", \"Touring 20\") #Create a Boat object\nplane1 = Plane(\"Boeing\", \"747\")     #Create a Plane object\nfor x in (car1, boat1, plane1):\nx.move()\nLook at the for loop at the end.\nBecause of polymorphism we",
+    "source": "Python Polymorphism",
+    "url": "https://www.w3schools.com/python/python_polymorphism.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Plane(\"Boeing\", \"747\")     #Create a Plane object\nfor x in (car1, boat1, plane1):\nx.move()\nLook at the for loop at the end.\nBecause of polymorphism we can execute the same method for all three classes.\nInheritance Class Polymorphism\nWhat about classes with child classes with the same name? Can we use polymorphism there?\nYes. If we use the example above and make a parent class called\nVehicle\n, and make\nCar\n,\nBoat\n,\nPlane\nchild classes of\nVehicle\n, the child classes \ninherits the\nVehicle\nmethods, but can override \nthem:\nExample\nCreate a class called\nVehicle\nand make\nCar\n,\nBoat\n,\nPlane\nchild classes of\nVehicle\n:\nclass Vehicle:\ndef __init__(self, brand, model):\nself.brand = brand\nself.model = model\ndef move(self):\nprint(\"Move!\")\nclass \n    Car(Vehicle):\npass\nclass Boat(Vehicle):\ndef \n    move(self):\nprint(\"Sail!\")\nclass \n    Plane(Vehicle):\ndef move(self):\nprint(\"Fly!\")\ncar1 = Car(\"Ford\", \"M",
+    "source": "Python Polymorphism",
+    "url": "https://www.w3schools.com/python/python_polymorphism.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "Vehicle):\npass\nclass Boat(Vehicle):\ndef \n    move(self):\nprint(\"Sail!\")\nclass \n    Plane(Vehicle):\ndef move(self):\nprint(\"Fly!\")\ncar1 = Car(\"Ford\", \"Mustang\")       #Create a Car object\nboat1 = Boat(\"Ibiza\", \"Touring 20\") #Create a Boat object\nplane1 = \n    Plane(\"Boeing\", \"747\")     #Create a Plane object\nfor x in (car1, boat1, \n    plane1):\nprint(x.brand)\nprint(x.model)\nx.move()\nChild classes inherits the properties and methods from the parent class.\nIn the example above you can see that the\nCar\nclass is empty, but \nit inherits\nbrand\n,\nmodel\n, and\nmove()\nfrom\nVehicle\n.\nThe\nBoat\nand\nPlane\nclasses also \ninherit\nbrand\n,\nmodel\n, \nand\nmove()\nfrom\nVehicle\n, but they both override the\nmove()\nmethod.\nBecause of polymorphism we can execute the same method for all classes.\n★\n+1",
+    "source": "Python Polymorphism",
+    "url": "https://www.w3schools.com/python/python_polymorphism.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nScope\nShare\nLink Copied\nScope\nA variable is only available from inside the region it is \ncreated. This is called\nscope\n.\nLocal Scope\nA variable created inside a function belongs to the\nlocal scope\nof \nthat function, and can only be used inside that function.\nExample\nA variable created inside a function is available inside that function:\ndef myfunc():\nx = 300\nprint(x)\nmyfunc()\nFunction Inside Function\nAs explained in the example above, the variable\nx\nis not available outside the function, \nbut it is available for any function inside the function:\nExample\nThe local variable can be accessed from a function within the function:\ndef myfunc():\nx = 300\ndef myinnerfunc():\nprint(x)\nmyinnerfunc()\nmyfunc()\nGlobal Scope\nA variable created in the main body of the Python code is a global variable \nand belongs to the global scope.\nGlobal variables are available from within any scope, global and",
+    "source": "Python Scope",
+    "url": "https://www.w3schools.com/python/python_scope.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "main body of the Python code is a global variable \nand belongs to the global scope.\nGlobal variables are available from within any scope, global and local.\nExample\nA variable created outside of a function is global and can be used by \n  anyone:\nx = 300\ndef myfunc():\nprint(x)\nmyfunc()\nprint(x)\nNaming Variables\nIf you operate with the same variable name inside and outside of a function, Python will treat them as two \nseparate variables,\none available in the global scope (outside the function) and one available in the local scope (inside the function):\nExample\nThe function will print the local\nx\n, and \n  then the code will print the global\nx\n:\nx = 300\ndef myfunc():\nx = 200\nprint(x)\nmyfunc()\nprint(x)\nGlobal Keyword\nIf you need to create a global variable, but are stuck in the local scope, you can use the\nglobal\nkeyword.\nThe\nglobal\nkeyword makes the variable global.\nExample\nIf you use the\ngl",
+    "source": "Python Scope",
+    "url": "https://www.w3schools.com/python/python_scope.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "al variable, but are stuck in the local scope, you can use the\nglobal\nkeyword.\nThe\nglobal\nkeyword makes the variable global.\nExample\nIf you use the\nglobal\nkeyword, the variable belongs to the global scope:\ndef myfunc():\nglobal x\nx = 300\nmyfunc()\nprint(x)\nAlso, use the\nglobal\nkeyword if you want to \nmake a change to a global variable inside a function.\nExample\nTo change the value of a global variable inside a function, refer to the \n  variable by using the\nglobal\nkeyword:\nx = 300\ndef myfunc():\nglobal x\nx = 200\nmyfunc()\nprint(x)\nNonlocal Keyword\nThe\nnonlocal\nkeyword is used to work with variables inside nested functions.\nThe\nnonlocal\nkeyword makes the variable belong to the outer function.\nExample\nIf you use the\nnonlocal\nkeyword, the variable will belong to the outer function:\ndef myfunc1():\nx = \"Jane\"\ndef myfunc2():\nnonlocal x\nx = \"hello\"\nmyfunc2()\nreturn x\nprint(myfunc1())\nThe LEGB Rule",
+    "source": "Python Scope",
+    "url": "https://www.w3schools.com/python/python_scope.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "will belong to the outer function:\ndef myfunc1():\nx = \"Jane\"\ndef myfunc2():\nnonlocal x\nx = \"hello\"\nmyfunc2()\nreturn x\nprint(myfunc1())\nThe LEGB Rule\nPython follows the LEGB rule when looking up variable names, and searches for them in this order:\nL\nocal - Inside the current function\nE\nnclosing - Inside enclosing functions (from inner to outer)\nG\nlobal - At the top level of the module\nB\nuilt-in - In Python's built-in namespace\nExample\nUnderstanding the LEGB rule:\nx = \"global\"\ndef outer():\nx = \"enclosing\"\ndef inner():\nx = \"local\"\nprint(\"Inner:\", x)\ninner()\nprint(\"Outer:\", x)\nouter()\nprint(\"Global:\", x)\n★\n+1",
+    "source": "Python Scope",
+    "url": "https://www.w3schools.com/python/python_scope.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nModules\nShare\nLink Copied\nWhat is a Module?\nConsider a module to be the same as a code library.\nA file containing a set of functions you want to include in your application.\nCreate a Module\nTo create a module just save the code you want in a file with the file extension\n.py\n:\nExample\nSave this code in a file named\nmymodule.py\ndef greeting(name):\nprint(\"Hello, \" + name)\nUse a Module\nNow we can use the module we just created, by using the\nimport\nstatement:\nExample\nImport the module named mymodule, and call the greeting function:\nimport mymodule\nmymodule.greeting(\"Jonathan\")\nNote:\nWhen using a function from a module, use the syntax:\nmodule_name.function_name\n.\nVariables in Module\nThe module can contain functions, as already described, but also variables of \nall types (arrays, dictionaries, objects etc):\nExample\nSave this code in the file\nmymodule.py\nperson1 = {\n\"name\": \"John\",\n\"age\":",
+    "source": "Python Modules",
+    "url": "https://www.w3schools.com/python/python_modules.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "ut also variables of \nall types (arrays, dictionaries, objects etc):\nExample\nSave this code in the file\nmymodule.py\nperson1 = {\n\"name\": \"John\",\n\"age\": 36,\n\"country\": \"Norway\"\n}\nExample\nImport the module named mymodule, and access the person1 dictionary:\nimport mymodule\na = mymodule.person1[\"age\"]\nprint(a)\nNaming a Module\nYou can name the module file whatever you like, but it must have the file extension\n.py\nRe-naming a Module\nYou can create an alias when you import a module, by using the\nas\nkeyword:\nExample\nCreate an alias for\nmymodule\ncalled\nmx\n:\nimport mymodule as mx\na = mx.person1[\"age\"]\nprint(a)\nBuilt-in Modules\nThere are several built-in modules in Python, which you can import whenever you like.\nExample\nImport and use the\nplatform\nmodule:\nimport platform\nx = platform.system()\nprint(x)\nUsing the dir() Function\nThere is a built-in function to list all the function names (or variable",
+    "source": "Python Modules",
+    "url": "https://www.w3schools.com/python/python_modules.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "le:\nimport platform\nx = platform.system()\nprint(x)\nUsing the dir() Function\nThere is a built-in function to list all the function names (or variable \nnames) in a module. The\ndir()\nfunction:\nExample\nList all the defined names belonging to the platform module:\nimport platform\nx = dir(platform)\nprint(x)\nNote:\nThe\ndir()\nfunction can be used on\nall\nmodules, also the ones you create yourself.\nImport From Module\nYou can choose to import only parts from a module, by using the\nfrom\nkeyword.\nExample\nThe module named\nmymodule\nhas one function \nand one dictionary:\ndef greeting(name):\nprint(\"Hello, \" + name)\nperson1 \n  = {\n\"name\": \"John\",\n\"age\": 36,\n\"country\": \n  \"Norway\"\n}\nExample\nImport only the person1 dictionary from the module:\nfrom mymodule import person1\nprint (person1[\"age\"])\nNote:\nWhen importing using the\nfrom\nkeyword, do not use the module name when referring to elements in the module. \n  E",
+    "source": "Python Modules",
+    "url": "https://www.w3schools.com/python/python_modules.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "person1\nprint (person1[\"age\"])\nNote:\nWhen importing using the\nfrom\nkeyword, do not use the module name when referring to elements in the module. \n  Example:\nperson1[\"age\"]\n,\nnot\nmymodule.person1[\"age\"]\n★\n+1",
+    "source": "Python Modules",
+    "url": "https://www.w3schools.com/python/python_modules.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nDatetime\nShare\nLink Copied\nPython Dates\nA date in Python is not a data type of its own, but we can import a module \nnamed\ndatetime\nto work with dates as date \nobjects.\nExample\nImport the datetime module and display the current date:\nimport datetime\nx = datetime.datetime.now()\nprint(x)\nDate Output\nWhen we execute the code from the example above the result will be:\nThe date contains year, month, day, hour, minute, second, and microsecond.\nThe\ndatetime\nmodule has many methods to return information about the date \nobject.\nHere are a few examples, you will learn more about them later in this \nchapter:\nExample\nReturn the year and name of weekday:\nimport datetime\nx = datetime.datetime.now()\nprint(x.year)\nprint(x.strftime(\"%A\"))\nCreating Date Objects\nTo create a date, we can use the\ndatetime()\nclass (constructor) of the\ndatetime\nmodule.\nThe\ndatetime()\nclass requires three parameters to cr",
+    "source": "Python Datetime",
+    "url": "https://www.w3schools.com/python/python_datetime.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "e Objects\nTo create a date, we can use the\ndatetime()\nclass (constructor) of the\ndatetime\nmodule.\nThe\ndatetime()\nclass requires three parameters to create a date: year, \nmonth, day.\nExample\nCreate a date object:\nimport datetime\nx = datetime.datetime(2020, 5, 17)\nprint(x)\nThe\ndatetime()\nclass also takes parameters for time and timezone (hour, \nminute, second, microsecond, tzone), but they are optional, and has a default \nvalue of\n0\n, (\nNone\nfor timezone).\nThe strftime() Method\nThe\ndatetime\nobject has a method for formatting date objects into readable strings.\nThe method is called\nstrftime()\n, and takes one parameter,\nformat\n, to specify the format of the returned string:\nExample\nDisplay the name of the month:\nimport datetime\nx = datetime.datetime(2018, 6, 1)\nprint(x.strftime(\"%B\"))\nA reference of all the legal format codes:\nDirective\nDescription\nExample\nTry it\n%a\nWeekday, short version\nWe",
+    "source": "Python Datetime",
+    "url": "https://www.w3schools.com/python/python_datetime.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "etime(2018, 6, 1)\nprint(x.strftime(\"%B\"))\nA reference of all the legal format codes:\nDirective\nDescription\nExample\nTry it\n%a\nWeekday, short version\nWed\n%A\nWeekday, full version\nWednesday\n%w\nWeekday as a number 0-6, 0 is Sunday\n3\n%d\nDay of month 01-31\n31\n%b\nMonth name, short version\nDec\n%B\nMonth name, full version\nDecember\n%m\nMonth as a number 01-12\n12\n%y\nYear, short version, without century\n18\n%Y\nYear, full version\n2018\n%H\nHour 00-23\n17\n%I\nHour 00-12\n05\n%p\nAM/PM\nPM\n%M\nMinute 00-59\n41\n%S\nSecond 00-59\n08\n%f\nMicrosecond 000000-999999\n548513\n%z\nUTC offset\n+0100\n%Z\nTimezone\nCST\n%j\nDay number of year 001-366\n365\n%U\nWeek number of year, Sunday as the first day of week, 00-53\n52\n%W\nWeek number of year, Monday as the first day of week, 00-53\n52\n%c\nLocal version of date and time\nMon Dec 31 17:41:00 2018\n%C\nCentury\n20\n%x\nLocal version of date\n12/31/18\n%X\nLocal version of time\n17:41:00\n%%\nA % charac",
+    "source": "Python Datetime",
+    "url": "https://www.w3schools.com/python/python_datetime.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "ocal version of date and time\nMon Dec 31 17:41:00 2018\n%C\nCentury\n20\n%x\nLocal version of date\n12/31/18\n%X\nLocal version of time\n17:41:00\n%%\nA % character\n%\n%G\nISO 8601 year\n2018\n%u\nISO 8601 weekday (1-7)\n1\n%V\nISO 8601 weeknumber (01-53)\n01\n★\n+1",
+    "source": "Python Datetime",
+    "url": "https://www.w3schools.com/python/python_datetime.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nMath\nPython has a set of built-in math functions, including an extensive math module, that allows you to perform mathematical tasks on numbers.\nShare\nLink Copied\nBuilt-in Math Functions\nThe\nmin()\nand\nmax()\nfunctions can be used to find the lowest or highest value in an iterable:\nExample\nx = min(5, 10, 25)\ny = max(5, 10, 25)\nprint(x)\nprint(y)\nThe\nabs()\nfunction returns the absolute (positive) value of the specified number:\nExample\nx = abs(-7.25)\nprint(x)\nThe\npow(\nx\n,\ny\n)\nfunction returns the value of x to the power of y (x\ny\n).\nExample\nReturn the value of 4 to the power of 3 (same as 4 * 4 * 4):\nx = pow(4, 3)\nprint(x)\nThe Math Module\nPython has also a built-in module called\nmath\n, which extends the list of mathematical functions.\nTo use it, you must import the\nmath\nmodule:\nimport math\nWhen you have imported the\nmath\nmodule, you \ncan start using methods and constants of the module.",
+    "source": "Python Math",
+    "url": "https://www.w3schools.com/python/python_math.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "se it, you must import the\nmath\nmodule:\nimport math\nWhen you have imported the\nmath\nmodule, you \ncan start using methods and constants of the module.\nThe\nmath.sqrt()\nmethod for example, returns the square root of a number:\nExample\nimport \n    math\nx = math.sqrt(64)\nprint(x)\nThe\nmath.ceil()\nmethod rounds a number upwards to \nits nearest integer, and the\nmath.floor()\nmethod rounds a number downwards to its nearest integer, and returns the result:\nExample\nimport \n    math\nx = math.ceil(1.4)\ny = math.floor(1.4)\nprint(x) # \n    returns 2\nprint(y) # returns 1\nThe\nmath.pi\nconstant, returns the value of \nPI (3.14...):\nExample\nimport \n    math\nx = math.pi\nprint(x)\nComplete Math Module Reference\nIn our\nMath Module Reference\nyou will \nfind a complete reference of all methods and constants that belongs to the Math module.\n★\n+1",
+    "source": "Python Math",
+    "url": "https://www.w3schools.com/python/python_math.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python\nJSON\nJSON is a syntax for storing and exchanging data.\nJSON is text, written with JavaScript object notation.\nShare\nLink Copied\nJSON in Python\nPython has a built-in package called\njson\n, which can be used to work with JSON data.\nExample\nImport the json module:\nimport json\nParse JSON - Convert from JSON to Python\nIf you have a JSON string, you can parse it by using the\njson.loads()\nmethod.\nThe result will be a\nPython dictionary\n.\nExample\nConvert from JSON to Python:\nimport json\n# some JSON:\nx =  '{ \"name\":\"John\", \"age\":30, \"city\":\"New \n  York\"}'\n# parse x:\ny = json.loads(x)\n# the result is a \n  Python dictionary:\nprint(y[\"age\"])\nConvert from Python to JSON\nIf you have a Python object, you can convert it into a JSON string by \nusing the\njson.dumps()\nmethod.\nExample\nConvert from Python to JSON:\nimport json\n# a Python object (dict):\nx = {\n\"name\": \n  \"John\",\n\"age\": 30,\n\"city\": \"New Yor",
+    "source": "Python JSON",
+    "url": "https://www.w3schools.com/python/python_json.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "e\njson.dumps()\nmethod.\nExample\nConvert from Python to JSON:\nimport json\n# a Python object (dict):\nx = {\n\"name\": \n  \"John\",\n\"age\": 30,\n\"city\": \"New York\"\n}\n# \n  convert into JSON:\ny = json.dumps(x)\n# the result is a JSON string:\nprint(y)\nYou can convert Python objects of the following types, into JSON strings:\ndict\nlist\ntuple\nstring\nint\nfloat\nTrue\nFalse\nNone\nExample\nConvert Python objects into JSON strings, and print the values:\nimport json\nprint(json.dumps({\"name\": \"John\", \"age\": 30}))\nprint(json.dumps([\"apple\", \n  \"bananas\"]))\nprint(json.dumps((\"apple\", \"bananas\")))\nprint(json.dumps(\"hello\"))\nprint(json.dumps(42))\nprint(json.dumps(31.76))\nprint(json.dumps(True))\nprint(json.dumps(False))\nprint(json.dumps(None))\nWhen you convert from Python to JSON, Python objects are converted into the JSON (JavaScript) equivalent:\nPython\nJSON\ndict\nObject\nlist\nArray\ntuple\nArray\nstr\nString\nint\nNumber\nfloa",
+    "source": "Python JSON",
+    "url": "https://www.w3schools.com/python/python_json.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "to JSON, Python objects are converted into the JSON (JavaScript) equivalent:\nPython\nJSON\ndict\nObject\nlist\nArray\ntuple\nArray\nstr\nString\nint\nNumber\nfloat\nNumber\nTrue\ntrue\nFalse\nfalse\nNone\nnull\nExample\nConvert a Python object containing all the legal data types:\nimport json\nx = {\n\"name\": \n  \"John\",\n\"age\": 30,\n\"married\": True,\n\"divorced\": False,\n\"children\": (\"Ann\",\"Billy\"),\n\"pets\": \n  None,\n\"cars\": [\n{\"model\": \"BMW 230\", \"mpg\": \n  27.5},\n{\"model\": \"Ford Edge\", \"mpg\": 24.1}\n]\n}\nprint(json.dumps(x))\nFormat the Result\nThe example above prints a JSON string, but it is not very easy to read, with no indentations and line breaks.\nThe\njson.dumps()\nmethod has parameters to \nmake it easier to read the result:\nExample\nUse the\nindent\nparameter to define the numbers \nof indents:\njson.dumps(x, indent=4)\nYou can also define the separators, default value is (\", \", \": \"), which \nmeans using a comma and a sp",
+    "source": "Python JSON",
+    "url": "https://www.w3schools.com/python/python_json.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "he numbers \nof indents:\njson.dumps(x, indent=4)\nYou can also define the separators, default value is (\", \", \": \"), which \nmeans using a comma and a space to separate each object, and a colon and a space \nto separate keys from values:\nExample\nUse the\nseparators\nparameter to change the \ndefault separator:\njson.dumps(x, indent=4, separators=(\". \", \" = \"))\nOrder the Result\nThe\njson.dumps()\nmethod has parameters to \norder the keys in the result:\nExample\nUse the\nsort_keys\nparameter to specify if \nthe result should be sorted or not:\njson.dumps(x, indent=4, sort_keys=True)\n★\n+1",
+    "source": "Python JSON",
+    "url": "https://www.w3schools.com/python/python_json.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nRegEx\nA RegEx, or Regular Expression, is a sequence of characters that forms a search pattern.\nRegEx can be used to check if a string contains the specified search pattern.\nShare\nLink Copied\nRegEx Module\nPython has a built-in package called\nre\n, which can be used to work with \nRegular Expressions.\nImport the\nre\nmodule:\nimport re\nRegEx in Python\nWhen you have imported the\nre\nmodule, you \ncan start using regular expressions:\nExample\nSearch the string to see if it starts with \"The\" and ends with \"Spain\":\nimport \n    re\ntxt = \"The rain in Spain\"\nx = re.search(\"^The.*Spain$\", txt)\nRegEx Functions\nThe\nre\nmodule offers a set of functions that allows \nus to search a string for a match:\nFunction\nDescription\nfindall\nReturns a list containing all matches\nsearch\nReturns a\nMatch object\nif there is a match anywhere in the string\nsplit\nReturns a list where the string has been split at each match",
+    "source": "Python RegEx",
+    "url": "https://www.w3schools.com/python/python_regex.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "ll matches\nsearch\nReturns a\nMatch object\nif there is a match anywhere in the string\nsplit\nReturns a list where the string has been split at each match\nsub\nReplaces one or many matches with a string\nMetacharacters\nMetacharacters are characters with a special meaning:\nCharacter\nDescription\nExample\nTry it\n[]\nA set of characters\n\"[a-m]\"\n\\\nSignals a special sequence (can also be used to escape special characters)\n\"\\d\"\n.\nAny character (except newline character)\n\"he..o\"\n^\nStarts with\n\"^hello\"\n$\nEnds with\n\"planet$\"\n*\nZero or more occurrences\n\"he.*o\"\n+\nOne or more occurrences\n\"he.+o\"\n?\nZero or one occurrences\n\"he.?o\"\n{}\nExactly the specified number of occurrences\n\"he.{2}o\"\n|\nEither or\n\"falls|stays\"\n()\nCapture and group\nFlags\nYou can add flags to the pattern when using regular expressions.\nFlag\nShorthand\nDescription\nTry it\nre.ASCII\nre.A\nReturns only ASCII matches\nre.DEBUG\nReturns debug information",
+    "source": "Python RegEx",
+    "url": "https://www.w3schools.com/python/python_regex.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "pattern when using regular expressions.\nFlag\nShorthand\nDescription\nTry it\nre.ASCII\nre.A\nReturns only ASCII matches\nre.DEBUG\nReturns debug information\nre.DOTALL\nre.S\nMakes the . character match all characters (including newline character)\nre.IGNORECASE\nre.I\nCase-insensitive matching\nre.MULTILINE\nre.M\nReturns matches at the start/end of each line\nre.NOFLAG\nSpecifies that no flag is set for this pattern\nre.UNICODE\nre.U\nReturns Unicode matches. This is default from Python 3. For Python 2: use this flag to return only Unicode matches\nre.VERBOSE\nre.X\nAllows whitespaces and comments inside patterns. Makes the pattern more readable\nSpecial Sequences\nA special sequence is a\n\\\nfollowed by one of the characters in the list below, and has a special meaning:\nCharacter\nDescription\nExample\nTry it\n\\A\nReturns a match if the specified characters are at the beginning of the \nstring\n\"\\AThe\"\n\\b\nReturns a ma",
+    "source": "Python RegEx",
+    "url": "https://www.w3schools.com/python/python_regex.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "aning:\nCharacter\nDescription\nExample\nTry it\n\\A\nReturns a match if the specified characters are at the beginning of the \nstring\n\"\\AThe\"\n\\b\nReturns a match where the specified characters are at the beginning or at the \nend of a word\n(the \"r\" in the beginning is making sure that the string is \nbeing treated as a \"raw string\")\nr\"\\bain\"\nr\"ain\\b\"\n\\B\nReturns a match where the specified characters are present, but NOT at the beginning \n(or at \nthe end) of a word\n(the \"r\" in the beginning is making sure that the string \nis being treated as a \"raw string\")\nr\"\\Bain\"\nr\"ain\\B\"\n\\d\nReturns a match where the string contains digits (numbers from 0-9)\n\"\\d\"\n\\D\nReturns a match where the string DOES NOT contain digits\n\"\\D\"\n\\s\nReturns a match where the string contains a white space character\n\"\\s\"\n\\S\nReturns a match where the string DOES NOT contain a white space character\n\"\\S\"\n\\w\nReturns a match where the str",
+    "source": "Python RegEx",
+    "url": "https://www.w3schools.com/python/python_regex.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "ntains a white space character\n\"\\s\"\n\\S\nReturns a match where the string DOES NOT contain a white space character\n\"\\S\"\n\\w\nReturns a match where the string contains any word characters (characters from \na to Z, digits from 0-9, and the underscore _ character)\n\"\\w\"\n\\W\nReturns a match where the string DOES NOT contain any word characters\n\"\\W\"\n\\Z\nReturns a match if the specified characters are at the end of the string\n\"Spain\\Z\"\nSets\nA set is a set of characters inside a pair of square brackets\n[]\nwith a special meaning:\nSet\nDescription\nTry it\n[arn]\nReturns a match where one of the specified characters (\na\n,\nr\n, or\nn\n) is \npresent\n[a-n]\nReturns a match for any lower case character, alphabetically between\na\nand\nn\n[^arn]\nReturns a match for any character EXCEPT\na\n,\nr\n, and\nn\n[0123]\nReturns a match where any of the specified digits (\n0\n,\n1\n,\n2\n, or\n3\n) are \npresent\n[0-9]\nReturns a match for any d",
+    "source": "Python RegEx",
+    "url": "https://www.w3schools.com/python/python_regex.asp",
+    "chunk_id": 4
+  },
+  {
+    "text": "racter EXCEPT\na\n,\nr\n, and\nn\n[0123]\nReturns a match where any of the specified digits (\n0\n,\n1\n,\n2\n, or\n3\n) are \npresent\n[0-9]\nReturns a match for any digit between\n0\nand\n9\n[0-5][0-9]\nReturns a match for any two-digit numbers from\n00\nand\n59\n[a-zA-Z]\nReturns a match for any character alphabetically between\na\nand\nz\n, lower case OR upper case\n[+]\nIn sets,\n+\n,\n*\n,\n.\n,\n|\n,\n()\n,\n$\n,\n{}\nhas no special meaning, so\n[+]\nmeans: return a match for any\n+\ncharacter in the string\nThe findall() Function\nThe\nfindall()\nfunction returns a list containing all matches.\nExample\nPrint a list of all matches:\nimport re\ntxt = \"The rain in Spain\"\nx = re.findall(\"ai\", \n  txt)\nprint(x)\nThe list contains the matches in the order they are found.\nIf no matches are found, an empty list is returned:\nExample\nReturn an empty list if no match was found:\nimport re\ntxt = \"The rain in Spain\"\nx = re.findall(\"Portugal\", \n  txt)\npr",
+    "source": "Python RegEx",
+    "url": "https://www.w3schools.com/python/python_regex.asp",
+    "chunk_id": 5
+  },
+  {
+    "text": "empty list is returned:\nExample\nReturn an empty list if no match was found:\nimport re\ntxt = \"The rain in Spain\"\nx = re.findall(\"Portugal\", \n  txt)\nprint(x)\nThe search() Function\nThe\nsearch()\nfunction searches the string \nfor a match, and returns a\nMatch object\nif there is a \nmatch.\nIf there is more than one match, \nonly the first occurrence of the match will be returned:\nExample\nSearch for the first white-space character in the string:\nimport re\ntxt = \"The rain in Spain\"\nx = re.search(\"\\s\", \n  txt)\nprint(\"The first white-space character is located in \n  position:\", x.start())\nIf no matches are found, the value\nNone\nis returned:\nExample\nMake a search that returns no match:\nimport re\ntxt = \"The rain in Spain\"\nx = re.search(\"Portugal\", \n  txt)\nprint(x)\nThe split() Function\nThe\nsplit()\nfunction returns a list where \nthe string has been split at each match:\nExample\nSplit at each white-space",
+    "source": "Python RegEx",
+    "url": "https://www.w3schools.com/python/python_regex.asp",
+    "chunk_id": 6
+  },
+  {
+    "text": ")\nprint(x)\nThe split() Function\nThe\nsplit()\nfunction returns a list where \nthe string has been split at each match:\nExample\nSplit at each white-space character:\nimport re\ntxt = \"The rain in Spain\"\nx = re.split(\"\\s\", \n  txt)\nprint(x)\nYou can control the number of occurrences by specifying the\nmaxsplit\nparameter:\nExample\nSplit the string only at the first occurrence:\nimport re\ntxt = \"The rain in Spain\"\nx = re.split(\"\\s\", \n  txt, \n  1)\nprint(x)\nThe sub() Function\nThe\nsub()\nfunction replaces the matches with \nthe text of your choice:\nExample\nReplace every white-space character with the number 9:\nimport re\ntxt = \"The rain in Spain\"\nx = re.sub(\"\\s\", \n  \"9\", txt)\nprint(x)\nYou can control the number of replacements by specifying the\ncount\nparameter:\nExample\nReplace the first 2 occurrences:\nimport re\ntxt = \"The rain in Spain\"\nx = re.sub(\"\\s\", \n  \"9\", txt, 2)\nprint(x)\nMatch Object\nA Match Object i",
+    "source": "Python RegEx",
+    "url": "https://www.w3schools.com/python/python_regex.asp",
+    "chunk_id": 7
+  },
+  {
+    "text": ":\nExample\nReplace the first 2 occurrences:\nimport re\ntxt = \"The rain in Spain\"\nx = re.sub(\"\\s\", \n  \"9\", txt, 2)\nprint(x)\nMatch Object\nA Match Object is an object containing information \nabout the search and the result.\nNote:\nIf there is no match, the value\nNone\nwill be \nreturned, instead of the Match Object.\nExample\nDo a search that will return a Match Object:\nimport re\ntxt = \"The rain in Spain\"\nx = re.search(\"ai\", \n  txt)\nprint(x) #this will print an object\nThe Match object has properties and methods used to retrieve information \nabout the search, and the result:\n.span()\nreturns a tuple containing the start-, and end positions of the match.\n.string\nreturns the string passed into the function\n.group()\nreturns the part of the string where there was a match\nExample\nPrint the position (start- and end-position) of the first match occurrence.\nThe regular expression looks for any words that st",
+    "source": "Python RegEx",
+    "url": "https://www.w3schools.com/python/python_regex.asp",
+    "chunk_id": 8
+  },
+  {
+    "text": "ere was a match\nExample\nPrint the position (start- and end-position) of the first match occurrence.\nThe regular expression looks for any words that starts with an upper case \n  \"S\":\nimport re\ntxt = \"The rain in Spain\"\nx = re.search(r\"\\bS\\w+\", txt)\nprint(\nx.span()\n)\nExample\nPrint the string passed into the function:\nimport re\ntxt = \"The rain in Spain\"\nx = re.search(r\"\\bS\\w+\", txt)\nprint(\nx.string\n)\nExample\nPrint the part of the string where there was a match.\nThe regular expression looks for any words that starts with an upper case \n  \"S\":\nimport re\ntxt = \"The rain in Spain\"\nx = re.search(r\"\\bS\\w+\", txt)\nprint(\nx.group()\n)\nNote:\nIf there is no match, the value\nNone\nwill be \nreturned, instead of the Match Object.\n★\n+1",
+    "source": "Python RegEx",
+    "url": "https://www.w3schools.com/python/python_regex.asp",
+    "chunk_id": 9
+  },
+  {
+    "text": "Python\nPIP\nShare\nLink Copied\nWhat is PIP?\nPIP is a package manager for Python packages, or modules if you like.\nNote:\nIf you have Python version 3.4 or later, PIP is included by default.\nWhat is a Package?\nA package contains all the files you need for a module.\nModules are Python code libraries you can include in your project.\nCheck if PIP is Installed\nNavigate your command line to the location of Python's script directory, and type the following:\nExample\nCheck PIP version:\nC:\\Users\\\nYour Name\n\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts>pip --version\nInstall PIP\nIf you do not have PIP installed, you can download and install it from this page:\nhttps://pypi.org/project/pip/\nDownload a Package\nDownloading a package is very easy.\nOpen the command line interface and tell PIP to download the package you \nwant.\nNavigate your command line to the location of Python's script directory, and",
+    "source": "Python PIP",
+    "url": "https://www.w3schools.com/python/python_pip.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "e command line interface and tell PIP to download the package you \nwant.\nNavigate your command line to the location of Python's script directory, and type the following:\nExample\nDownload a package named \"camelcase\":\nC:\\Users\\\nYour Name\n\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts>pip \n  install camelcase\nNow you have downloaded and installed your first package!\nUsing a Package\nOnce the package is installed, it is ready to use.\nImport the \"camelcase\" package into your project.\nExample\nImport and use \"camelcase\":\nimport camelcase\nc = camelcase.CamelCase()\ntxt = \"hello world\"\nprint(c.hump(txt))\nFind Packages\nFind more packages at\nhttps://pypi.org/\n.\nRemove a Package\nUse the\nuninstall\ncommand to remove a package:\nExample\nUninstall the package named \"camelcase\":\nC:\\Users\\\nYour Name\n\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts>pip \n  uninstall camelcase\nThe PIP Package Manager will",
+    "source": "Python PIP",
+    "url": "https://www.w3schools.com/python/python_pip.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "kage named \"camelcase\":\nC:\\Users\\\nYour Name\n\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts>pip \n  uninstall camelcase\nThe PIP Package Manager will ask you to confirm that you want to remove the \ncamelcase package:\nUninstalling camelcase-02.1:\nWould remove:\nc:\\users\\\nYour Name\n\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\camelcase-0.2-py3.6.egg-info\nc:\\users\\\nYour Name\n\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\camelcase\\*\nProceed (y/n)?\nPress\ny\nand the package will be removed.\nList Packages\nUse the\nlist\ncommand to list all the packages installed on your system:\nExample\nList installed packages:\nC:\\Users\\\nYour Name\n\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts>pip list\nResult:\nPackage         Version\n-----------------------\ncamelcase       0.2\nmysql-connector 2.1.6\npip             \n  18.1\npymongo         3.6.1\nsetuptools      39.0.1\n★\n+1",
+    "source": "Python PIP",
+    "url": "https://www.w3schools.com/python/python_pip.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "Python\nTry Except\nThe\ntry\nblock lets you test a \nblock of code for errors.\nThe\nexcept\nblock lets you \nhandle the error.\nThe\nelse\nblock lets you \nexecute code when there is no error.\nThe\nfinally\nblock lets you \nexecute code, regardless of the result of the try- and except blocks.\nShare\nLink Copied\nException Handling\nWhen an error occurs, or exception as we call it, Python will normally stop and \ngenerate an error message.\nThese exceptions can be handled using the\ntry\nstatement:\nExample\nThe\ntry\nblock will generate an exception, \n  because\nx\nis not defined:\ntry:\nprint(x)\nexcept:\nprint(\"An exception occurred\")\nSince the try block raises an error, the except block will be executed.\nWithout the try block, the program will crash and raise an error:\nExample\nThis statement will raise an error, \n  because\nx\nis not defined:\nprint(x)\nMany Exceptions\nYou can define as many exception blocks as you wan",
+    "source": "Python Try Except",
+    "url": "https://www.w3schools.com/python/python_try_except.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": ":\nExample\nThis statement will raise an error, \n  because\nx\nis not defined:\nprint(x)\nMany Exceptions\nYou can define as many exception blocks as you want, e.g. if you want to execute a \nspecial block of code for a special kind of error:\nExample\nPrint one message if the try block raises a\nNameError\nand another \n  for other errors:\ntry:\nprint(x)\nexcept NameError:\nprint(\"Variable x \n  is not defined\")\nexcept:\nprint(\"Something else went \n  wrong\")\nSee more Error types in our\nPython Built-in Exceptions Reference\n.\nElse\nYou can use the\nelse\nkeyword to define a \nblock of code to be executed if no errors were raised:\nExample\nIn this example, the\ntry\nblock does not \n  generate any error:\ntry:\nprint(\"Hello\")\nexcept:\nprint(\"Something went \n  wrong\")\nelse:\nprint(\"Nothing went wrong\")\nFinally\nThe\nfinally\nblock, if specified, will be executed \nregardless if the try block \nraises an error or not.\nExample",
+    "source": "Python Try Except",
+    "url": "https://www.w3schools.com/python/python_try_except.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "e:\nprint(\"Nothing went wrong\")\nFinally\nThe\nfinally\nblock, if specified, will be executed \nregardless if the try block \nraises an error or not.\nExample\ntry:\nprint(x)\nexcept:\nprint(\"Something went \n  wrong\")\nfinally:\nprint(\"The 'try except' is finished\")\nThis can be useful to close objects and clean up resources:\nExample\nTry to open and write to a file that is not writable:\ntry:\nf = open(\"demofile.txt\")\ntry:\nf.write(\"Lorum Ipsum\")\nexcept:\nprint(\"Something went wrong when writing to the file\")\nfinally:\nf.close()\nexcept:\nprint(\"Something went wrong when opening the \n  file\")\nThe program can continue, without leaving the file object open.\nRaise an exception\nAs a Python developer you can choose to throw an exception if a condition occurs.\nTo throw (or raise) an exception, use the\nraise\nkeyword.\nExample\nRaise an error and stop the program if x is lower than 0:\nx = -1\nif x < 0:\nraise Exception(\"",
+    "source": "Python Try Except",
+    "url": "https://www.w3schools.com/python/python_try_except.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "w (or raise) an exception, use the\nraise\nkeyword.\nExample\nRaise an error and stop the program if x is lower than 0:\nx = -1\nif x < 0:\nraise Exception(\"Sorry, no numbers below \n    zero\")\nThe\nraise\nkeyword is used to raise an \nexception.\nYou can define what kind of error to raise, and the text to print to the user.\nExample\nRaise a TypeError if x is not an integer:\nx = \"hello\"\nif not type(x) is int:\nraise TypeError(\"Only \n    integers are allowed\")\n★\n+1",
+    "source": "Python Try Except",
+    "url": "https://www.w3schools.com/python/python_try_except.asp",
+    "chunk_id": 3
+  },
+  {
+    "text": "Python\nUser Input\nShare\nLink Copied\nUser Input\nPython allows for user input.\nThat means we are able to ask the user for input.\nThe following example asks for your name, and when you enter a name, it gets printed on the screen:\nExample\nAsk for user input:\nprint(\"Enter your name:\")\nname = input()\nprint(f\"Hello {name}\")\nPython stops executing when it comes to the\ninput()\nfunction, and continues \nwhen the user has given some input.\nUsing prompt\nIn the example above, the user had to input their name on a new line. The Python\ninput()\nfunction has a\nprompt\nparameter,\nwhich acts as a message you can put in front of the user input, on the same line:\nExample\nAdd a message in front of the user input:\nname = input(\"Enter your name:\")\nprint(f\"Hello {name}\")\nMultiple Inputs\nYou can add as many inputs as you want, Python will stop executing at each of them,\nwaiting for user input:\nExample\nMultiple inpu",
+    "source": "Python User Input",
+    "url": "https://www.w3schools.com/python/python_user_input.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "e}\")\nMultiple Inputs\nYou can add as many inputs as you want, Python will stop executing at each of them,\nwaiting for user input:\nExample\nMultiple inputs:\nname = input(\"Enter your name:\")\nprint(f\"Hello {name}\")\nfav1 = input(\"What is your favorite animal:\")\nfav2 = input(\"What is your favorite color:\")\nfav3 = input(\"What is your favorite number:\")\nprint(f\"Do you want a {fav2} {fav1} with {fav3} legs?\")\nInput Number\nThe input from the user is treated as a string. Even if, in the example above, you can input a number,\nthe Python interpreter will still treat it as a string.\nYou can convert the input into a number with the\nfloat()\nfunction:\nExample\nTo find the square root, the input has to be converted into a number:\nx = input(\"Enter a number:\")\n#find the square root of the number:\ny = math.sqrt(float(x))\nprint(f\"The square root of {x} is {y}\")\nValidate Input\nIt is a good practice to validate a",
+    "source": "Python User Input",
+    "url": "https://www.w3schools.com/python/python_user_input.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "find the square root of the number:\ny = math.sqrt(float(x))\nprint(f\"The square root of {x} is {y}\")\nValidate Input\nIt is a good practice to validate any input from the user. In the example above, \nan error will occur if the user inputs something other than a number.\nTo avoid getting an error, we can test the input, and if it is not a number, the user could get a message like \"Wrong input, please try again\",\nand allowed to make a new input:\nExample\nKeep asking until you get a number:\ny = True\nwhile y == True:\nx = input(\"Enter a number:\")\ntry:\nx = float(x);\ny = False\nexcept:\nprint(\"Wrong input, please try again.\")\nprint(\"Thank you!\")\n★\n+1",
+    "source": "Python User Input",
+    "url": "https://www.w3schools.com/python/python_user_input.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "Python\nFile Open\nFile handling is an important part of any web application.\nPython has several functions for creating, reading, updating, and \ndeleting files.\nShare\nLink Copied\nFile Handling\nThe key function for working with files in Python is the\nopen()\nfunction.\nThe\nopen()\nfunction takes two parameters;\nfilename\n, and\nmode\n.\nThere are four different methods (modes) for opening a file:\n\"r\"\n- Read - Default value. Opens a \nfile for reading, error if the file does not exist\n\"a\"\n- Append - Opens a file for \nappending, creates the file if it does not exist\n\"w\"\n- Write - Opens a file for writing, \ncreates the file if it does not exist\n\"x\"\n- Create - Creates the specified file, returns \nan error if the file exists\nIn addition you can specify if the file should be handled as binary or text mode\n\"t\"\n- Text - Default value. Text mode\n\"b\"\n- Binary - Binary mode (e.g. \n  images)\nSyntax\nTo open a f",
+    "source": "Python File Open",
+    "url": "https://www.w3schools.com/python/python_file_handling.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "the file should be handled as binary or text mode\n\"t\"\n- Text - Default value. Text mode\n\"b\"\n- Binary - Binary mode (e.g. \n  images)\nSyntax\nTo open a file for reading it is enough to specify the name of the file:\nf = open(\"demofile.txt\")\nThe code above is the same as:\nf = open(\"demofile.txt\", \"rt\")\nBecause\n\"r\"\nfor read, and\n\"t\"\nfor text are the default values, you do not need to specify them.\nNote:\nMake sure the file exists, or else you will get an error.\n★\n+1",
+    "source": "Python File Open",
+    "url": "https://www.w3schools.com/python/python_file_handling.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python\nFile Open\nShare\nLink Copied\nOpen a File on the Server\nAssume we have the following file, located in the same folder as Python:\ndemofile.txt\nHello! Welcome to demofile.txt\nThis file is for testing purposes.\nGood \n  Luck!\nTo open the file, use the built-in\nopen()\nfunction.\nThe\nopen()\nfunction returns a file object, which has a\nread()\nmethod for reading the content of the file:\nExample\nf = open(\"demofile.txt\")\nprint(f.read())\nIf the file is located in a different location, you will have to specify the file path, \nlike this:\nExample\nOpen a file on a different location:\nf = open(\"D:\\\\myfiles\\welcome.txt\")\nprint(f.read())\nUsing the\nwith\nstatement\nYou can also use the\nwith\nstatement when opening a file:\nExample\nUsing the\nwith\nkeyword:\nwith open(\"demofile.txt\") as f:\nprint(f.read())\nThen you do not have to worry about closing your files, the\nwith\nstatement takes care of that.\nClose Files",
+    "source": "Python File Open",
+    "url": "https://www.w3schools.com/python/python_file_open.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "open(\"demofile.txt\") as f:\nprint(f.read())\nThen you do not have to worry about closing your files, the\nwith\nstatement takes care of that.\nClose Files\nIt is a good practice to always close the file when you are done with it.\nIf you are not using the\nwith\nstatement, you must write a close statement in order to close the file:\nExample\nClose the file when you are finished with it:\nf = open(\"demofile.txt\")\nprint(f.readline())\nf.close()\nNote:\nYou should always close your files. In some cases, due to buffering, changes made to a file may not show until you close the file.\nRead Only Parts of the File\nBy default the\nread()\nmethod returns the whole text, but you can also specify how many characters you want to return:\nExample\nReturn the 5 first characters of the file:\nwith open(\"demofile.txt\") as f:\nprint(f.read(\n5\n))\nRead Lines\nYou can return one line by using the\nreadline()\nmethod:\nExample\nRead",
+    "source": "Python File Open",
+    "url": "https://www.w3schools.com/python/python_file_open.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "cters of the file:\nwith open(\"demofile.txt\") as f:\nprint(f.read(\n5\n))\nRead Lines\nYou can return one line by using the\nreadline()\nmethod:\nExample\nRead one line of the file:\nwith open(\"demofile.txt\") as f:\nprint(f.readline())\nBy calling\nreadline()\ntwo times, you can read the \ntwo first lines:\nExample\nRead two lines of the file:\nwith open(\"demofile.txt\") as f:\nprint(f.readline())\nprint(f.readline())\nBy looping through the lines of the file, you can read the whole file, line by line:\nExample\nLoop through the file line by line:\nwith open(\"demofile.txt\") as f:\nfor x in f:\nprint(x)\n★\n+1",
+    "source": "Python File Open",
+    "url": "https://www.w3schools.com/python/python_file_open.asp",
+    "chunk_id": 2
+  },
+  {
+    "text": "Python\nFile Write\nShare\nLink Copied\nWrite to an Existing File\nTo write to an existing file, you must add a parameter to the\nopen()\nfunction:\n\"a\"\n- Append - will append to the end of the file\n\"w\"\n- Write - will overwrite any existing content\nExample\nOpen the file \"demofile.txt\" and append content to the file:\nwith open(\"demofile.txt\", \"a\") as f:\nf.write(\"Now the file has more content!\")\n#open and read the file after the appending:\nwith open(\"demofile.txt\") \n  as f:\nprint(f.read())\nOverwrite Existing Content\nTo overwrite the existing content to the file, use the\nw\nparameter:\nExample\nOpen the file \"demofile.txt\" and overwrite the content:\nwith open(\"demofile.txt\", \"w\") as f:\nf.write(\"Woops! I have deleted the content!\")\n#open and read the file after the overwriting:\nwith open(\"demofile.txt\") \n  as f:\nprint(f.read())\nNote:\nthe \"w\" method will overwrite the entire file.\nCreate a New File\nTo c",
+    "source": "Python File Write",
+    "url": "https://www.w3schools.com/python/python_file_write.asp",
+    "chunk_id": 0
+  },
+  {
+    "text": "after the overwriting:\nwith open(\"demofile.txt\") \n  as f:\nprint(f.read())\nNote:\nthe \"w\" method will overwrite the entire file.\nCreate a New File\nTo create a new file in Python, use the\nopen()\nmethod, \nwith one of the following parameters:\n\"x\"\n- Create - will create a file, returns \nan error if the file exists\n\"a\"\n- Append - will create a file if the \nspecified file does not exists\n\"w\"\n- Write - will create a file if the \nspecified file does not exists\nExample\nCreate a new file called \"myfile.txt\":\nf = open(\"myfile.txt\", \"x\")\nResult: a new empty file is created.\nNote:\nIf the file already exists, an error will be raised.\n★\n+1",
+    "source": "Python File Write",
+    "url": "https://www.w3schools.com/python/python_file_write.asp",
+    "chunk_id": 1
+  },
+  {
+    "text": "Python\nDelete File\nShare\nLink Copied\nDelete a File\nTo delete a file, you must import the OS module, and run its\nos.remove()\nfunction:\nExample\nRemove the file \"demofile.txt\":\nimport os\nos.remove(\"demofile.txt\")\nCheck if File exist:\nTo avoid getting an error, you might want to check if the file exists before you try to delete it:\nExample\nCheck if file exists,\nthen\ndelete it:\nimport os\nif os.path.exists(\"demofile.txt\"):\nos.remove(\"demofile.txt\")\nelse:\nprint(\"The file does not exist\")\nDelete Folder\nTo delete an entire folder, use the\nos.rmdir()\nmethod:\nExample\nRemove the folder \"myfolder\":\nimport os\nos.rmdir(\"myfolder\")\nNote:\nYou can only remove\nempty\nfolders.\n★\n+1",
+    "source": "Python Delete File",
+    "url": "https://www.w3schools.com/python/python_file_remove.asp",
+    "chunk_id": 0
+  }
+]

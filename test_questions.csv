@@ -1,0 +1,12 @@
+﻿question,expected_type
+for loop ใน Python ใช้ยังไง,web_rag
+list กับ tuple ต่างกันอย่างไร,web_rag
+dictionary ใน Python ใช้ทำอะไร,web_rag
+try except ใช้งานยังไง,web_rag
+class ใน Python คืออะไร,web_rag
+import module ใน Python ทำอย่างไร,web_rag
+อ่านไฟล์ด้วย Python ทำอย่างไร,web_rag
+built-in function len() ใช้ยังไง,web_rag
+ช่วยคิดโปรเจกต์ Python สำหรับมือใหม่,ai_fallback
+Java interface ใช้ยังไง,reject_non_python
+วันนี้อากาศเป็นยังไง,reject_non_python

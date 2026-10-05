@@ -1,0 +1,6026 @@
+﻿text,source,url,chunk_id
+"Python
+Introduction
+Share
+Link Copied
+What is Python?
+Python is a popular programming language. It was created by Guido van Rossum, 
+and released in 1991.
+It is used for:
+web development (server-side),
+software development,
+mathematics,
+system scripting.
+What can Python do?
+Python can be used on a server to create web applications.
+Python can be used alongside software to create workflows.
+Python can connect to database systems. It can also read and modify files.
+Python can be used to handle big data and perform complex mathematics.
+Python can be used for rapid prototyping, or for production-ready software development.
+Why Python?
+Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+Python has a simple syntax similar to the English language.
+Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+Python r",Python Introduction,https://www.w3schools.com/python/python_intro.asp,0
+"r to the English language.
+Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+Python can be treated in a procedural way, an object-oriented way or a functional way.
+Good to know
+The most recent major version of Python is Python 3, which we shall be using in this tutorial.
+In this tutorial Python will be written in a text editor. It is possible to write Python in an Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse which are particularly useful when managing larger collections of Python files.
+Python Syntax compared to other programming languages
+Python was designed for readability, and has some similarities to the English language with influence from m",Python Introduction,https://www.w3schools.com/python/python_intro.asp,1
+"x compared to other programming languages
+Python was designed for readability, and has some similarities to the English language with influence from mathematics.
+Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
+Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
+Example
+print(""Hello, World!"")
+Video: Python Introduction
+★
++1",Python Introduction,https://www.w3schools.com/python/python_intro.asp,2
+"Python
+Getting Started
+Share
+Link Copied
+Get Started With Python
+At W3Schools, you can try Python without installing anything.
+Our Online Python Editor runs directly in your browser, and shows both the code and the result:
+Example
+print(""Hello, World!"")
+This editor will be used in the entire tutorial to demonstrate the different aspects of Python.
+Python Install
+However, if you want to run Python on your own computer, follow the instructions below.
+Many Windows PCs and Mac computers already have Python pre-installed.
+To check if Python is installed on Windows, search in the start bar for Python or run the following on the Command Line (cmd.exe):
+C:\Users\
+Your Name
+>python --version
+To check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac open the Terminal and type:
+python --version
+If Python is not installed on your computer, you can downloa",Python Getting Started,https://www.w3schools.com/python/python_getstarted.asp,0
+"hen on linux open the command line or on Mac open the Terminal and type:
+python --version
+If Python is not installed on your computer, you can download it for free from the official website:
+https://www.python.org/
+Python Quickstart
+Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.
+Let's write our first Python file, called
+hello.py
+, which can be done in any text editor:
+hello.py
+:
+print(""Hello, World!"")
+Simple as that. Save your file. Open your command line, navigate to the directory where you saved your file, and run:
+C:\Users\
+Your Name
+>python hello.py
+The output should be:
+Hello, World!
+Congratulations, you have written and executed your first Python program.
+Python Version
+To check the Python version of the editor, you can find it by importi",Python Getting Started,https://www.w3schools.com/python/python_getstarted.asp,1
+"lations, you have written and executed your first Python program.
+Python Version
+To check the Python version of the editor, you can find it by importing the
+sys
+module:
+Example
+Check the Python version of the editor:
+import sys
+print(sys.version)
+You will learn more about importing modules in our
+Python Modules
+chapter.
+The Python Command Line
+To test a short amount of code in python sometimes it is quickest and easiest not to write the code in a file. This is made possible because Python can be run as a command line itself.
+Type the following on the Windows, Mac or Linux command line:
+C:\Users\
+Your Name
+>python
+Or, if the ""python"" command did not work, you can try ""py"":
+C:\Users\
+Your Name
+>py
+From there you can write any python code, including our hello world example from earlier in the tutorial:
+C:\Users\
+Your Name
+>python
+Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1",Python Getting Started,https://www.w3schools.com/python/python_getstarted.asp,2
+"luding our hello world example from earlier in the tutorial:
+C:\Users\
+Your Name
+>python
+Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
+Type ""help"", ""copyright"", ""credits"" or ""license"" for more information.
+>>> print(""Hello, World!"")
+Which will write ""Hello, World!"" in the command line:
+C:\Users\
+Your Name
+>python
+Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
+Type ""help"", ""copyright"", ""credits"" or ""license"" for more information.
+>>> print(""Hello, World!"")
+Hello, World!
+Whenever you are done in the python command line, you can simply type the following to quit the python command line interface:
+exit()
+Video: Python Get Started
+★
++1",Python Getting Started,https://www.w3schools.com/python/python_getstarted.asp,3
+"Python
+Syntax
+Share
+Link Copied
+Execute Python Syntax
+As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:
+>>> print(""Hello, World!"")
+Hello, World!
+Or by creating a python file on the server, using the .py file extension, and running it in the Command Line:
+C:\Users\
+Your Name
+>python myfile.py
+Python Indentation
+Indentation refers to the spaces at the beginning of a code line.
+Where in other programming languages the indentation in code is for readability 
+only, the indentation in Python is very important.
+Python uses indentation to indicate a block of code.
+Example
+if 5 > 2:
+print(""Five is greater than two!"")
+Python will give you an error if you skip the indentation:
+Example
+Syntax Error:
+if 5 > 2:
+print(""Five is greater than two!"")
+The number of spaces is up to you as a programmer, the most common use is four, but it has 
+to be at",Python Syntax,https://www.w3schools.com/python/python_syntax.asp,0
+"or:
+if 5 > 2:
+print(""Five is greater than two!"")
+The number of spaces is up to you as a programmer, the most common use is four, but it has 
+to be at least one.
+Example
+if 5 > 2:
+print(""Five is greater than two!"")
+if 5 > 2:
+print(""Five is greater than two!"")
+You have to use the same number of spaces in the same block of code, 
+otherwise Python will give you an error:
+Example
+Syntax Error:
+if 5 > 2:
+print(""Five is greater than two!"")
+print(""Five is greater than 
+  two!"")
+Python Variables
+In Python, a variable is created when you assign a value to it:
+Example
+Variables in Python:
+x = 5
+y = ""Hello, World!""
+Python has no command for declaring a variable.
+You will learn more about variables in the
+Python Variables
+chapter.
+Comments
+Python has commenting capability for the purpose of in-code documentation.
+Comments start with a
+#
+, and Python will render the rest of the line as a comment:
+Exam",Python Syntax,https://www.w3schools.com/python/python_syntax.asp,1
+"mmenting capability for the purpose of in-code documentation.
+Comments start with a
+#
+, and Python will render the rest of the line as a comment:
+Example
+Comments in Python:
+#This is a comment.
+print(""Hello, World!"")
+Video: Python Syntax
+★
++1",Python Syntax,https://www.w3schools.com/python/python_syntax.asp,2
+"Python
+Comments
+Comments can be used to explain Python code.
+Comments can be used to make the code more readable.
+Comments can be used to prevent execution when testing code.
+Share
+Link Copied
+Creating a Comment
+Comments starts with a
+#
+, and Python will 
+ignore them:
+Example
+#This is a comment
+print(""Hello, World!"")
+Comments can be placed at the end of a line, and Python will ignore the rest 
+of the line:
+Example
+print(""Hello, World!"") #This is a comment
+A comment does not have to be text that explains the code, it can also be used to 
+prevent Python from executing code:
+Example
+#print(""Hello, World!"")
+print(""Cheers, Mate!"")
+Multiline Comments
+Python does not really have a syntax for multiline comments.
+To add a multiline comment you could insert a
+#
+for each line:
+Example
+#This is a comment
+#written in
+#more than just one line
+print(""Hello, 
+  World!"")
+Or, not quite as intended, you ca",Python Comments,https://www.w3schools.com/python/python_comments.asp,0
+"insert a
+#
+for each line:
+Example
+#This is a comment
+#written in
+#more than just one line
+print(""Hello, 
+  World!"")
+Or, not quite as intended, you can use a multiline string.
+Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it:
+Example
+""""""
+This is a comment
+written in
+more than just 
+  one line
+""""""
+print(""Hello, World!"")
+As long as the string is not assigned to a variable, Python will read the code, but then ignore it, and you have made a multiline comment.
+Video: Python Comments
+★
++1",Python Comments,https://www.w3schools.com/python/python_comments.asp,1
+"Python
+Variables
+Share
+Link Copied
+Variables
+Variables are containers for storing data values.
+Creating Variables
+Python has no command for declaring a variable.
+A variable is created the moment you first assign a value to it.
+Example
+x = 5
+y = ""John""
+print(x)
+print(y)
+Variables do not need to be declared with any particular
+type
+, and can even change type after they have been set.
+Example
+x = 4       # x is of type int
+x = ""Sally"" # x is now of type str
+print(x)
+Casting
+If you want to specify the data type of a variable, this can be done with casting.
+Example
+x = 
+  str(3)    # x will be '3'
+y = int(3)    # y 
+  will be 3
+z = float(3)  # z will be 3.0
+Get the Type
+You can get the data type of a variable with the
+type()
+function.
+Example
+x = 5
+y = ""John""
+print(type(x))
+print(type(y))
+You will learn more about
+data types
+and
+casting
+later in this tutorial.
+Single or Double Quotes?
+String",Python Variables,https://www.w3schools.com/python/python_variables.asp,0
+"= 5
+y = ""John""
+print(type(x))
+print(type(y))
+You will learn more about
+data types
+and
+casting
+later in this tutorial.
+Single or Double Quotes?
+String variables can be declared either by using single or double quotes:
+Example
+x = ""John""
+# is the same as
+x = 
+  'John'
+Case-Sensitive
+Variable names are case-sensitive.
+Example
+This will create two variables:
+a = 4
+A = 
+  ""Sally""
+#A will not overwrite a
+Video: Python Variables
+★
++1",Python Variables,https://www.w3schools.com/python/python_variables.asp,1
+"Python -
+Variable Names
+Share
+Link Copied
+Variable Names
+A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).
+Rules for Python variables:
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+A variable name cannot be any of the
+Python keywords
+.
+Example
+Legal variable names:
+myvar = ""John""
+my_var = ""John""
+_my_var = ""John""
+myVar = ""John""
+MYVAR = ""John""
+myvar2 = ""John""
+Example
+Illegal variable names:
+2myvar = ""John""
+my-var = ""John""
+my var = ""John""
+Remember that variable names are case-sensitive
+Multi Words Variable Names
+Variable names with more than one word can be difficult to read.
+There are several techn",Python - Variable Names,https://www.w3schools.com/python/python_variables_names.asp,0
+"variable names are case-sensitive
+Multi Words Variable Names
+Variable names with more than one word can be difficult to read.
+There are several techniques you can use to make them more readable:
+Camel Case
+Each word, except the first, starts with a capital letter:
+myVariableName = ""John""
+Pascal Case
+Each word starts with a capital letter:
+MyVariableName = ""John""
+Snake Case
+Each word is separated by an underscore character:
+my_variable_name = ""John""
+Video: Python Variable Names
+★
++1",Python - Variable Names,https://www.w3schools.com/python/python_variables_names.asp,1
+"Python Variables -
+Assign Multiple Values
+Share
+Link Copied
+Many Values to Multiple Variables
+Python allows you to assign values to multiple variables in one line:
+Example
+x, y, z = ""Orange"", ""Banana"", ""Cherry""
+print(x)
+print(y)
+print(z)
+Note:
+Make sure the number of variables matches the number of values, or else you will get an error.
+One Value to Multiple Variables
+And you can assign the
+same
+value to multiple variables in one line:
+Example
+x = y = z = ""Orange""
+print(x)
+print(y)
+print(z)
+Unpack a Collection
+If you have a collection of values in a
+list
+,
+tuple
+etc.
+Python allows you to extract the values into variables. This is called
+unpacking
+.
+Example
+Unpack a list:
+fruits = [""apple"", ""banana"", ""cherry""]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+Learn more about unpacking in our
+Unpack Tuples
+Chapter.
+Video: Python Multiple Values
+★
++1",Python Variables - Assign Multiple Values,https://www.w3schools.com/python/python_variables_multiple.asp,0
+"Python -
+Output Variables
+Share
+Link Copied
+Output Variables
+The
+print()
+function is often used to output variables.
+Example
+x = ""Python is awesome""
+print(x)
+In the
+print()
+function, you output multiple 
+variables, separated by a comma:
+Example
+x = ""Python""
+y = ""is""
+z = ""awesome""
+print(x, y, z)
+You can also use the
++
+operator to output 
+multiple variables:
+Example
+x = ""Python ""
+y = ""is ""
+z = ""awesome""
+print(x 
+  + y + z)
+Notice the space character after
+""Python ""
+and
+""is ""
+,
+  without them the result would be ""Pythonisawesome"".
+For numbers, the
++
+character works as a mathematical operator:
+Example
+x = 5
+y = 10
+print(x + y)
+In the
+print()
+function, when you try to 
+combine a string and a number with the
++
+operator, Python will give you an error:
+Example
+x = 5
+y = ""John""
+print(x + y)
+The best way to output multiple variables in the
+print()
+function is to separate them with commas,
+which ev",Python - Output Variables,https://www.w3schools.com/python/python_variables_output.asp,0
+"ror:
+Example
+x = 5
+y = ""John""
+print(x + y)
+The best way to output multiple variables in the
+print()
+function is to separate them with commas,
+which even support different data types:
+Example
+x = 5
+y = ""John""
+print(x, y)
+Video: Python Output Variables
+★
++1",Python - Output Variables,https://www.w3schools.com/python/python_variables_output.asp,1
+"Python -
+Global Variables
+Share
+Link Copied
+Global Variables
+Variables that are created outside of a function (as in all of the examples 
+in the previous pages) are known as global variables.
+Global variables can be used by everyone, both inside of 
+functions and outside.
+Example
+Create a variable outside of a function, and use it inside the function
+x = ""awesome""
+def myfunc():
+print(""Python is "" + x)
+myfunc()
+If you create a variable with the same name inside a function, this variable 
+will be local, and can only be used inside the function. The global variable 
+with the same name will remain as it was, global and with the original value.
+Example
+Create a variable inside a function, with the same name as the global 
+  variable
+x = ""awesome""
+def myfunc():
+x = ""fantastic""
+print(""Python is "" + x)
+myfunc()
+print(""Python is "" + x)
+The global Keyword
+Normally, when you create a variable insid",Python - Global Variables,https://www.w3schools.com/python/python_variables_global.asp,0
+"""
+def myfunc():
+x = ""fantastic""
+print(""Python is "" + x)
+myfunc()
+print(""Python is "" + x)
+The global Keyword
+Normally, when you create a variable inside a function, that variable is 
+local, and can only be used inside that function.
+To create a global variable inside a function, you can use the
+global
+keyword.
+Example
+If you use the
+global
+keyword, the variable belongs to the global scope:
+def myfunc():
+global x
+x = ""fantastic""
+myfunc()
+print(""Python is "" + x)
+Also, use the
+global
+keyword if you want to change a global variable inside a function.
+Example
+To change the value of a global variable inside a function, refer to the 
+  variable by using the
+global
+keyword:
+x = ""awesome""
+def myfunc():
+global x
+x = ""fantastic""
+myfunc()
+print(""Python is "" + x)
+Video: Python Global Variables
+★
++1",Python - Global Variables,https://www.w3schools.com/python/python_variables_global.asp,1
+"Python
+Data Types
+Share
+Link Copied
+Built-in Data Types
+In programming, data type is an important concept.
+Variables can store data of different types, and different types can do 
+different things.
+Python has the following data types built-in by default, in these categories:
+Text Type:
+str
+Numeric Types:
+int
+,
+float
+,
+complex
+Sequence Types:
+list
+,
+tuple
+,
+range
+Mapping Type:
+dict
+Set Types:
+set
+,
+frozenset
+Boolean Type:
+bool
+Binary Types:
+bytes
+,
+bytearray
+,
+memoryview
+None Type:
+NoneType
+Getting the Data Type
+You can get the data type of any object by using the
+type()
+function:
+Example
+Print the data type of the variable x:
+x = 5
+print(type(x))
+Setting the Data Type
+In Python, the data type is set when you assign a value to a variable:
+Example
+Data Type
+Try it
+x = ""Hello World""
+str
+x = 20
+int
+x = 20.5
+float
+x = 1j
+complex
+x = [""apple"", ""banana"", ""cherry""]
+list
+x = (""apple"", ""banana"", """,Python Data Types,https://www.w3schools.com/python/python_datatypes.asp,0
+"ample
+Data Type
+Try it
+x = ""Hello World""
+str
+x = 20
+int
+x = 20.5
+float
+x = 1j
+complex
+x = [""apple"", ""banana"", ""cherry""]
+list
+x = (""apple"", ""banana"", ""cherry"")
+tuple
+x = range(6)
+range
+x = {""name"" : ""John"", ""age"" : 36}
+dict
+x = {""apple"", ""banana"", ""cherry""}
+set
+x = frozenset({""apple"", ""banana"", ""cherry""})
+frozenset
+x = True
+bool
+x = b""Hello""
+bytes
+x = bytearray(5)
+bytearray
+x = memoryview(bytes(5))
+memoryview
+x = None
+NoneType
+Setting the Specific Data Type
+If you want to specify the data type, you can use the following 
+constructor functions:
+Example
+Data Type
+Try it
+x = str(""Hello World"")
+str
+x = int(20)
+int
+x = float(20.5)
+float
+x = complex(1j)
+complex
+x = list((""apple"", ""banana"", ""cherry""))
+list
+x = tuple((""apple"", ""banana"", ""cherry""))
+tuple
+x = range(6)
+range
+x = dict(name=""John"", age=36)
+dict
+x = set((""apple"", ""banana"", ""cherry""))
+set
+x = frozenset((""apple"", ""banana"", ""cherry""))
+fro",Python Data Types,https://www.w3schools.com/python/python_datatypes.asp,1
+"uple
+x = range(6)
+range
+x = dict(name=""John"", age=36)
+dict
+x = set((""apple"", ""banana"", ""cherry""))
+set
+x = frozenset((""apple"", ""banana"", ""cherry""))
+frozenset
+x = bool(5)
+bool
+x = bytes(5)
+bytes
+x = bytearray(5)
+bytearray
+x = memoryview(bytes(5))
+memoryview
+★
++1",Python Data Types,https://www.w3schools.com/python/python_datatypes.asp,2
+"Python
+Numbers
+Share
+Link Copied
+Python Numbers
+There are three numeric types in Python:
+int
+float
+complex
+Variables of numeric types are created when you assign a value to them:
+Example
+x = 1    
+  # int
+y = 2.8  # float
+z = 1j   # complex
+To verify the type of any object in Python, use the
+type()
+function:
+Example
+print(type(x))
+print(type(y))
+print(type(z))
+Int
+Int, or integer, is a whole number, 
+positive or negative, without decimals, of unlimited length.
+Example
+Integers:
+x = 1
+y = 35656222554887711
+z = 
+  -3255522
+print(type(x))
+print(type(y))
+print(type(z))
+Float
+Float, or ""floating point number"" is a number, positive or negative, containing one or more decimals.
+Example
+Floats:
+x = 1.10
+y = 1.0
+z = -35.59
+print(type(x))
+print(type(y))
+print(type(z))
+Float can also be scientific numbers with an ""e"" to indicate the power of 10.
+Example
+Floats:
+x = 35e3
+y = 12E4
+z = -87.7e100
+print",Python Numbers,https://www.w3schools.com/python/python_numbers.asp,0
+"y))
+print(type(z))
+Float can also be scientific numbers with an ""e"" to indicate the power of 10.
+Example
+Floats:
+x = 35e3
+y = 12E4
+z = -87.7e100
+print(type(x))
+print(type(y))
+print(type(z))
+Complex
+Complex numbers are written with a ""j"" as the imaginary part:
+Example
+Complex:
+x = 3+5j
+y = 5j
+z = -5j
+print(type(x))
+print(type(y))
+print(type(z))
+Type Conversion
+You can convert from one type to another with the
+int()
+,
+float()
+, and
+complex()
+methods:
+Example
+Convert from one type to another:
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+#convert from int to float:
+a = float(x)
+#convert from float to int:
+b = int(y)
+#convert from int to complex:
+c = complex(x)
+print(a)
+print(b)
+print(c)
+print(type(a))
+print(type(b))
+print(type(c))
+Note:
+You cannot convert complex numbers into another number type.
+Random Number
+Python does not have a
+random()
+function to 
+make a random number, but Pytho",Python Numbers,https://www.w3schools.com/python/python_numbers.asp,1
+"ou cannot convert complex numbers into another number type.
+Random Number
+Python does not have a
+random()
+function to 
+make a random number, but Python has a built-in module called
+random
+that can be used to make random numbers:
+Example
+Import the random module, and display a random number from 1 to 9:
+import random
+print(random.randrange(1, 10))
+In our
+Random Module Reference
+you will learn more about the Random module.
+★
++1",Python Numbers,https://www.w3schools.com/python/python_numbers.asp,2
+"Python
+Casting
+Share
+Link Copied
+Specify a Variable Type
+There may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.
+Casting in python is therefore done using constructor functions:
+int()
+- constructs an integer number from an integer literal, a float literal (by removing 
+    all decimals), or a string literal (providing the string represents a whole number)
+float()
+- constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
+str()
+- constructs a string from a wide variety of data types, including strings, integer literals and float literals
+Example
+Integers:
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int(""3"") # z will be 3
+Exampl",Python Casting,https://www.w3schools.com/python/python_casting.asp,0
+"strings, integer literals and float literals
+Example
+Integers:
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int(""3"") # z will be 3
+Example
+Floats:
+x = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float(""3"")   # z will be 3.0
+w = float(""4.2"") # w will be 4.2
+Example
+Strings:
+x = str(""s1"") # x will be 's1'
+y = str(2)    # y will be '2'
+z = str(3.0)  # z will be '3.0'
+★
++1",Python Casting,https://www.w3schools.com/python/python_casting.asp,1
+"Python
+Strings
+Share
+Link Copied
+Strings
+Strings in python are surrounded by either single quotation marks, or double quotation marks.
+'hello'
+is the same as
+""hello""
+.
+You can display a string literal with the
+print()
+function:
+Example
+print(""Hello"")
+print('Hello')
+Quotes Inside Quotes
+You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
+Example
+print(""It's alright"")
+print(""He is called 'Johnny'"")
+print('He is called ""Johnny""')
+Assign String to a Variable
+Assigning a string to a variable is done with the variable name followed by 
+an equal sign and the string:
+Example
+a = ""Hello""
+print(a)
+Multiline Strings
+You can assign a multiline string to a variable by using three quotes:
+Example
+You can use three double quotes:
+a = """"""Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do 
+  eiusmod tempor incididunt
+ut labore et dolore magna al",Python Strings,https://www.w3schools.com/python/python_strings.asp,0
+"three double quotes:
+a = """"""Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do 
+  eiusmod tempor incididunt
+ut labore et dolore magna aliqua.""""""
+print(a)
+Or three single quotes:
+Example
+a = '''Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do 
+  eiusmod tempor incididunt
+ut labore et dolore magna aliqua.'''
+print(a)
+Note:
+in the result, the line breaks are inserted at the same position as in the code.
+Strings are Arrays
+Like many other popular programming languages, strings in Python are arrays of unicode characters.
+However, Python does not have a character data type, a single character is simply a string with a length of 1.
+Square brackets can be used to access elements of the string.
+Example
+Get the character at position 1 (remember that the first character has the 
+position 0):
+a = ""Hello, World!""
+print(a[1])
+Looping Through a String
+Since strings are arra",Python Strings,https://www.w3schools.com/python/python_strings.asp,1
+"at position 1 (remember that the first character has the 
+position 0):
+a = ""Hello, World!""
+print(a[1])
+Looping Through a String
+Since strings are arrays, we can loop through the characters in a string, with a
+for
+loop.
+Example
+Loop through the letters in the word ""banana"":
+for x in ""banana"":
+print(x)
+Learn more about For Loops in our
+Python For Loops
+chapter.
+String Length
+To get the length of a string, use the
+len()
+function.
+Example
+The
+len()
+function returns the length of a string:
+a = ""Hello, World!""
+print(len(a))
+Check String
+To check if a certain phrase or character is present in a string, we can use 
+the keyword
+in
+.
+Example
+Check if ""free"" is present in the following text:
+txt = ""The best things in life are free!""
+print(""free"" in txt)
+Use it in an
+if
+statement:
+Example
+Print only if ""free"" is present:
+txt = ""The best things in life are free!""
+if ""free"" in txt:
+print(""Yes, 'free'",Python Strings,https://www.w3schools.com/python/python_strings.asp,2
+"t)
+Use it in an
+if
+statement:
+Example
+Print only if ""free"" is present:
+txt = ""The best things in life are free!""
+if ""free"" in txt:
+print(""Yes, 'free' is present."")
+Learn more about If statements in our
+Python 
+If...Else
+chapter.
+Check if NOT
+To check if a certain phrase or character is NOT present in a string, we can use 
+the keyword
+not in
+.
+Example
+Check if ""expensive"" is NOT present in the following text:
+txt = ""The best things in life are free!""
+print(""expensive"" not in txt)
+Use it in an
+if
+statement:
+Example
+print only if ""expensive"" is NOT present:
+txt = ""The best things in life are free!""
+if ""expensive"" not in txt:
+print(""No, 'expensive' is NOT present."")
+★
++1",Python Strings,https://www.w3schools.com/python/python_strings.asp,3
+"Python -
+Slicing Strings
+Share
+Link Copied
+Slicing
+You can return a range of characters by using the slice syntax.
+Specify the start index and the end index, separated by a colon, to return a 
+part of the string.
+Example
+Get the characters from position 2 to position 5 (not included):
+b = ""Hello, World!""
+print(b[2:5])
+Note:
+The first character has index 0.
+Slice From the Start
+By leaving out the start index, the range will start at the first character:
+Example
+Get the characters from the start to position 5 (not included):
+b = ""Hello, World!""
+print(b[:5])
+Slice To the End
+By leaving out the
+end
+index, the range will go to the end:
+Example
+Get the characters from position 2, and all the way to the end:
+b = ""Hello, World!""
+print(b[2:])
+Negative Indexing
+Use negative indexes to start the slice from the end of the string:
+Example
+Get the characters:
+From: ""o"" in ""World!"" (position -5)
+To, bu",Python - Slicing Strings,https://www.w3schools.com/python/python_strings_slicing.asp,0
+"ve Indexing
+Use negative indexes to start the slice from the end of the string:
+Example
+Get the characters:
+From: ""o"" in ""World!"" (position -5)
+To, but not included: ""d"" in ""World!"" (position -2):
+b = ""Hello, World!""
+print(b[-5:-2])
+★
++1",Python - Slicing Strings,https://www.w3schools.com/python/python_strings_slicing.asp,1
+"Python -
+Modify Strings
+Python has a set of built-in methods that you can use on strings.
+Share
+Link Copied
+Upper Case
+Example
+The
+upper()
+method returns the string in upper case:
+a = ""Hello, World!""
+print(a.upper())
+Lower Case
+Example
+The
+lower()
+method returns the string in lower case:
+a = ""Hello, World!""
+print(a.lower())
+Remove Whitespace
+Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
+Example
+The
+strip()
+method removes any whitespace from the beginning or the end:
+a = "" Hello, World! ""
+print(a.strip()) # returns ""Hello, World!""
+Replace String
+Example
+The
+replace()
+method replaces a string with another string:
+a = ""Hello, World!""
+print(a.replace(""H"", ""J""))
+Split String
+The
+split()
+method returns a list where the text between the specified separator becomes the list items.
+Example
+The
+split()
+method splits the string into subst",Python - Modify Strings,https://www.w3schools.com/python/python_strings_modify.asp,0
+")
+method returns a list where the text between the specified separator becomes the list items.
+Example
+The
+split()
+method splits the string into substrings if it finds instances of the separator:
+a = ""Hello, World!""
+print(a.split("","")) # 
+  returns ['Hello', ' World!']
+Learn more about Lists in our
+Python Lists
+chapter.
+String Methods
+Learn more about String Methods with our
+String Methods Reference
+★
++1",Python - Modify Strings,https://www.w3schools.com/python/python_strings_modify.asp,1
+"Python -
+String Concatenation
+Share
+Link Copied
+String Concatenation
+To concatenate, or combine, two strings you can use the + operator.
+Example
+Merge variable
+a
+with variable
+b
+into variable
+c
+:
+a = ""Hello""
+b = ""World""
+c = a + b
+print(c)
+Example
+To add a space between them, add a
+"" ""
+:
+a = ""Hello""
+b = ""World""
+c = a + "" "" + b
+print(c)
+★
++1",Python - String Concatenation,https://www.w3schools.com/python/python_strings_concatenate.asp,0
+"Python -
+Format - Strings
+Share
+Link Copied
+String Format
+As we learned in the Python Variables chapter, we cannot combine strings and numbers like this:
+Example
+age = 36
+#This will produce an error:
+txt = ""My name is John, I am "" + age
+print(txt)
+But we can combine strings and numbers by using
+f-strings
+or the
+format()
+method!
+F-Strings
+F-String was introduced in Python 3.6,
+and is now the preferred way of formatting strings.
+To specify a string as an f-string, simply put an
+f
+in front of the string 
+literal, and add curly brackets
+{}
+as 
+placeholders for variables and other operations.
+Example
+Create an f-string:
+age = 36
+txt = f""My name is John, I am {age}""
+print(txt)
+Placeholders and Modifiers
+A placeholder can contain variables,
+operations, functions, and modifiers to format the value.
+Example
+Add a placeholder for the
+price
+variable:
+price = 59
+txt = f""The price is {price} dollars""",Python - Format - Strings,https://www.w3schools.com/python/python_strings_format.asp,0
+"ions, functions, and modifiers to format the value.
+Example
+Add a placeholder for the
+price
+variable:
+price = 59
+txt = f""The price is {price} dollars""
+print(txt)
+A placeholder can include a
+modifier
+to format the value.
+A modifier is included by adding a colon
+:
+followed by a legal formatting type, like
+.2f
+which means fixed point number with 2 decimals:
+Example
+Display the price with 2 decimals:
+price = 59
+txt = f""The price is {price:.2f} dollars""
+print(txt)
+A placeholder can contain Python code, like math operations:
+Example
+Perform a math operation in the placeholder, and return the result:
+txt = f""The price is {20 * 59} dollars""
+print(txt)
+Learn more about String Formatting in our
+String Formatting
+chapter.
+★
++1",Python - Format - Strings,https://www.w3schools.com/python/python_strings_format.asp,1
+"Python -
+Escape Characters
+Share
+Link Copied
+Escape Character
+To insert characters that are illegal in a string, use an escape character.
+An escape character is a backslash
+\
+followed by the character you want to insert.
+An example of an illegal character is a double quote inside a string that is surrounded by double quotes:
+Example
+You will get an error if you use double quotes inside a string that is 
+surrounded by double quotes:
+txt = ""We are the so-called ""Vikings"" from the north.""
+To fix this problem, use the escape character
+\""
+:
+Example
+The escape character allows you to use double quotes when you normally would not be allowed:
+txt = ""We are the so-called \""Vikings\"" from the north.""
+Escape Characters
+Other escape characters used in Python:
+Code
+Result
+Try it
+\'
+Single Quote
+\\
+Backslash
+\n
+New Line
+\r
+Carriage Return
+\t
+Tab
+\b
+Backspace
+\f
+Form Feed
+\ooo
+Octal value
+\xhh
+Hex valu",Python - Escape Characters,https://www.w3schools.com/python/python_strings_escape.asp,0
+"Python:
+Code
+Result
+Try it
+\'
+Single Quote
+\\
+Backslash
+\n
+New Line
+\r
+Carriage Return
+\t
+Tab
+\b
+Backspace
+\f
+Form Feed
+\ooo
+Octal value
+\xhh
+Hex value
+★
++1",Python - Escape Characters,https://www.w3schools.com/python/python_strings_escape.asp,1
+"Python
+Booleans
+Booleans represent one of two values:
+True
+or
+False
+.
+Share
+Link Copied
+Boolean Values
+In programming you often need to know if an expression is
+True
+or
+False
+.
+You can evaluate any expression in Python, and get one of two 
+answers,
+True
+or
+False
+.
+When you compare two values, the expression is evaluated and Python returns 
+the Boolean answer:
+Example
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+When you run a condition in an if statement, Python returns
+True
+or
+False
+:
+Example
+Print a message based on whether the condition is
+True
+or
+False
+:
+a = 200
+b = 33
+if b > a:
+print(""b is greater than a"")
+else:
+print(""b is not greater than a"")
+Evaluate Values and Variables
+The
+bool()
+function allows you to evaluate 
+any value, and give you
+True
+or
+False
+in return,
+Example
+Evaluate a string and a number:
+print(bool(""Hello""))
+print(bool(15))
+Example
+Evaluate two variables:
+x = ""Hello""",Python Booleans,https://www.w3schools.com/python/python_booleans.asp,0
+"you
+True
+or
+False
+in return,
+Example
+Evaluate a string and a number:
+print(bool(""Hello""))
+print(bool(15))
+Example
+Evaluate two variables:
+x = ""Hello""
+y = 15
+print(bool(x))
+print(bool(y))
+Most Values are True
+Almost any value is evaluated to
+True
+if it 
+has some sort of content.
+Any string is
+True
+, except empty strings.
+Any number is
+True
+, except
+0
+.
+Any list, tuple, set, and dictionary are
+True
+, except 
+empty ones.
+Example
+The following will return True:
+bool(""abc"")
+bool(123)
+bool([""apple"", ""cherry"", ""banana""])
+Some Values are False
+In fact, there are not many values that evaluate to
+False
+, except empty values, such as
+()
+,
+[]
+,
+{}
+,
+""""
+, the number
+0
+, and the value
+None
+. 
+And of course the value
+False
+evaluates to
+False
+.
+Example
+The following will return False:
+bool(False)
+bool(None)
+bool(0)
+bool("""")
+bool(())
+bool([])
+bool({})
+One more value, or object in this case, evaluates to",Python Booleans,https://www.w3schools.com/python/python_booleans.asp,1
+"following will return False:
+bool(False)
+bool(None)
+bool(0)
+bool("""")
+bool(())
+bool([])
+bool({})
+One more value, or object in this case, evaluates to
+False
+, and that is if you have an object that 
+is made from a class with a
+__len__
+function that returns
+0
+or
+False
+:
+Example
+class myclass():
+def __len__(self):
+return 0
+myobj = myclass()
+print(bool(myobj))
+Functions can Return a Boolean
+You can create functions that returns a Boolean Value:
+Example
+Print the answer of a function:
+def myFunction() :
+return True
+print(myFunction())
+You can execute code based on the Boolean answer of a function:
+Example
+Print ""YES!"" if the function returns True, otherwise print ""NO!"":
+def myFunction() :
+return True
+if myFunction():
+print(""YES!"")
+else:
+print(""NO!"")
+Python also has many built-in functions that return a boolean value, like the
+isinstance()
+function, which can be used to determine if an object",Python Booleans,https://www.w3schools.com/python/python_booleans.asp,2
+"O!"")
+Python also has many built-in functions that return a boolean value, like the
+isinstance()
+function, which can be used to determine if an object is of a certain data type:
+Example
+Check if an object is an integer or not:
+x = 200
+print(isinstance(x, int))
+★
++1",Python Booleans,https://www.w3schools.com/python/python_booleans.asp,3
+"Python
+Operators
+Share
+Link Copied
+Python Operators
+Operators are used to perform operations on variables and values.
+In the example below, we use the
++
+operator to add together two values:
+Example
+print(10 + 5)
+Although the
++
+operator is often used to add together two values, like in the example above, it can also be used to add together a variable and a value, or two variables:
+Example
+sum1 = 100 + 50      # 150 (100 + 50)
+sum2 = sum1 + 250    # 400 (150 + 250)
+sum3 = sum2 + sum2   # 800 (400 + 400)
+Python divides the operators in the following groups:
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Identity operators
+Membership operators
+Bitwise operators
+★
++1",Python Operators,https://www.w3schools.com/python/python_operators.asp,0
+"Python
+Lists
+mylist = [""apple"", ""banana"", ""cherry""]
+Share
+Link Copied
+List
+Lists are used to store multiple items in a single variable.
+Lists are one of 4 built-in data types in Python used to store collections of 
+data, the other 3 are
+Tuple
+,
+Set
+, and
+Dictionary
+, all with different qualities and usage.
+Lists are created using square brackets:
+Example
+Create a List:
+thislist = [""apple"", ""banana"", ""cherry""]
+print(thislist)
+List Items
+List items are ordered, changeable, and allow duplicate values.
+List items are indexed, the first item has index
+[0]
+,
+the second item has index
+[1]
+etc.
+Ordered
+When we say that lists are ordered, it means that the items have a defined order, and that order will not change.
+If you add new items to a list,
+the new items will be placed at the end of the list.
+Note:
+There are some
+list methods
+that will change the order, but in general: the order of the item",Python Lists,https://www.w3schools.com/python/python_lists.asp,0
+"e new items will be placed at the end of the list.
+Note:
+There are some
+list methods
+that will change the order, but in general: the order of the items will not change.
+Changeable
+The list is changeable, meaning that we can change, add, and remove items in a list after it has been created.
+Allow Duplicates
+Since lists are indexed, lists can have items with the same value:
+Example
+Lists allow duplicate values:
+thislist = [""apple"", ""banana"", ""cherry"", ""apple"", ""cherry""]
+print(thislist)
+List Length
+To determine how many items a list has, use the
+len()
+function:
+Example
+Print the number of items in the list:
+thislist = [""apple"", ""banana"", ""cherry""]
+print(len(thislist))
+List Items - Data Types
+List items can be of any data type:
+Example
+String, int and boolean data types:
+list1 = [""apple"", ""banana"", ""cherry""]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
+A list can contain different da",Python Lists,https://www.w3schools.com/python/python_lists.asp,1
+"int and boolean data types:
+list1 = [""apple"", ""banana"", ""cherry""]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
+A list can contain different data types:
+Example
+A list with strings, integers and boolean values:
+list1 = [""abc"", 34, True, 40, ""male""]
+type()
+From Python's perspective, lists are defined as objects with the data type 'list':
+<class 'list'>
+Example
+What is the data type of a list?
+mylist = [""apple"", ""banana"", ""cherry""]
+print(type(mylist))
+The list() Constructor
+It is also possible to use the
+list()
+constructor when creating a 
+new list.
+Example
+Using the
+list()
+constructor to make a List:
+thislist = list((""apple"", ""banana"", ""cherry"")) # note the double round-brackets
+print(thislist)
+Python Collections (Arrays)
+There are four collection data types in the Python programming language:
+List
+is a collection which is ordered and changeable. Allows duplicate members.
+Tuple
+is",Python Lists,https://www.w3schools.com/python/python_lists.asp,2
+"ur collection data types in the Python programming language:
+List
+is a collection which is ordered and changeable. Allows duplicate members.
+Tuple
+is a collection which is ordered and unchangeable. Allows duplicate members.
+Set
+is a collection which is unordered, 
+unchangeable*, and unindexed. No duplicate members.
+Dictionary
+is a collection which is ordered** 
+and changeable. No duplicate members.
+*Set
+items
+are unchangeable, but you can remove and/or add items 
+  whenever you like.
+**As of Python version 3.7, dictionaries are
+ordered
+. 
+  In Python 3.6 and earlier, dictionaries are
+unordered
+.
+When choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.
+★
++1",Python Lists,https://www.w3schools.com/python/python_lists.asp,3
+"Python - Access List Items
+Share
+Link Copied
+Access Items
+List items are indexed and you can access them by referring to the index number:
+Example
+Print the second item of the list:
+thislist = [""apple"", ""banana"", ""cherry""]
+print(thislist[1])
+Note:
+The first item has index 0.
+Negative Indexing
+Negative indexing means start from the end
+-1
+refers to the last item,
+-2
+refers to the second last item etc.
+Example
+Print the last item of the list:
+thislist = [""apple"", ""banana"", ""cherry""]
+print(thislist[-1])
+Range of Indexes
+You can specify a range of indexes by specifying where to start and where to 
+end the range.
+When specifying a range, the return value will be a new list with the 
+specified items.
+Example
+Return the third, fourth, and fifth item:
+thislist = [""apple"", ""banana"", ""cherry"", ""orange"", 
+  ""kiwi"", ""melon"", ""mango""]
+print(thislist[2:5])
+Note:
+The search will start at index 2 (inclu",Python - Access List Items,https://www.w3schools.com/python/python_lists_access.asp,0
+"em:
+thislist = [""apple"", ""banana"", ""cherry"", ""orange"", 
+  ""kiwi"", ""melon"", ""mango""]
+print(thislist[2:5])
+Note:
+The search will start at index 2 (included) and end at index 5 (not included).
+Remember that the first item has index 0.
+By leaving out the start value, the range will start at the first item:
+Example
+This example returns the items from the beginning to, but NOT including, ""kiwi"":
+thislist = [""apple"", ""banana"", ""cherry"", ""orange"", 
+  ""kiwi"", ""melon"", ""mango""]
+print(thislist[:4])
+By leaving out the end value, the range will go on to the end of the list:
+Example
+This example returns the items from ""cherry"" to the end:
+thislist = [""apple"", ""banana"", ""cherry"", ""orange"", 
+  ""kiwi"", ""melon"", ""mango""]
+print(thislist[2:])
+Range of Negative Indexes
+Specify negative indexes if you want to start the search from the end of the 
+list:
+Example
+This example returns the items from ""orange"" (-4)",Python - Access List Items,https://www.w3schools.com/python/python_lists_access.asp,1
+"Indexes
+Specify negative indexes if you want to start the search from the end of the 
+list:
+Example
+This example returns the items from ""orange"" (-4) to, but NOT including 
+""mango"" (-1):
+thislist = [""apple"", ""banana"", ""cherry"", ""orange"", 
+  ""kiwi"", ""melon"", ""mango""]
+print(thislist[-4:-1])
+Check if Item Exists
+To determine if a specified item is present in a list use the
+in
+keyword:
+Example
+Check if ""apple"" is present in the list:
+thislist = [""apple"", ""banana"", ""cherry""]
+if ""apple"" in thislist:
+print(""Yes, 'apple' is in the fruits list"")
+★
++1",Python - Access List Items,https://www.w3schools.com/python/python_lists_access.asp,2
+"Python -
+Change List Items
+Share
+Link Copied
+Change Item Value
+To change the value of a specific item, 
+refer to the index number:
+Example
+Change the second item:
+thislist = [""apple"", ""banana"", ""cherry""]
+thislist[1] = ""blackcurrant""
+print(thislist)
+Change a Range of Item Values
+To change the value of items within a specific range, define a list with the new values, and refer to the range of index numbers where you want to insert the new values:
+Example
+Change the values ""banana"" and ""cherry"" with the values ""blackcurrant"" and ""watermelon"":
+thislist = [""apple"", ""banana"", ""cherry"", ""orange"", ""kiwi"", ""mango""]
+thislist[1:3] = [""blackcurrant"", ""watermelon""]
+print(thislist)
+If you insert
+more
+items than you replace, the new items will be inserted 
+where you specified, and the remaining items will move accordingly:
+Example
+Change the second value by replacing it with
+two
+new 
+values:
+thislist =",Python - Change List Items,https://www.w3schools.com/python/python_lists_change.asp,0
+"where you specified, and the remaining items will move accordingly:
+Example
+Change the second value by replacing it with
+two
+new 
+values:
+thislist = [""apple"", ""banana"", ""cherry""]
+thislist[1:2] = [""blackcurrant"", 
+  ""watermelon""]
+print(thislist)
+Note:
+The length of the list will change when the number of items inserted does not match the number of items replaced.
+If you insert
+less
+items than you replace, the new items will be inserted 
+where you specified, and the remaining items will move accordingly:
+Example
+Change the second and third value by replacing it with
+one
+value:
+thislist = [""apple"", ""banana"", ""cherry""]
+thislist[1:3] = [""watermelon""]
+print(thislist)
+Insert Items
+To insert a new list item, without replacing any of the existing values, we can use the
+insert()
+method.
+The
+insert()
+method inserts an item at the specified index:
+Example
+Insert ""watermelon"" as the third item:
+thi",Python - Change List Items,https://www.w3schools.com/python/python_lists_change.asp,1
+"values, we can use the
+insert()
+method.
+The
+insert()
+method inserts an item at the specified index:
+Example
+Insert ""watermelon"" as the third item:
+thislist = [""apple"", ""banana"", ""cherry""]
+thislist.insert(2, ""watermelon"")
+print(thislist)
+Note:
+As a result of the example above, the list will now contain 4 items.
+★
++1",Python - Change List Items,https://www.w3schools.com/python/python_lists_change.asp,2
+"Python - Add List Items
+Share
+Link Copied
+Append Items
+To add an item to the end of the list, use the
+append()
+method:
+Example
+Using the
+append()
+method to append an item:
+thislist = [""apple"", ""banana"", ""cherry""]
+thislist.append(""orange"")
+print(thislist)
+Insert Items
+To insert a list item at a specified index, use the
+insert()
+method.
+The
+insert()
+method inserts an item at the specified index:
+Example
+Insert an item as the second position:
+thislist = [""apple"", ""banana"", ""cherry""]
+thislist.insert(1, ""orange"")
+print(thislist)
+Note:
+As a result of the examples above, the lists will now contain 4 items.
+Extend List
+To append elements from
+another list
+to the current list, use the
+extend()
+method.
+Example
+Add the elements of
+tropical
+to
+thislist
+:
+thislist = [""apple"", ""banana"", ""cherry""]
+tropical = [""mango"", ""pineapple"", ""papaya""]
+thislist.extend(tropical)
+print(thislist)
+The elements will be",Python - Add List Items,https://www.w3schools.com/python/python_lists_add.asp,0
+":
+thislist = [""apple"", ""banana"", ""cherry""]
+tropical = [""mango"", ""pineapple"", ""papaya""]
+thislist.extend(tropical)
+print(thislist)
+The elements will be added to the
+end
+of the list.
+Add Any Iterable
+The
+extend()
+method does not have to append
+lists
+, you can add any iterable object (tuples, sets, dictionaries 
+etc.).
+Example
+Add elements of a tuple to a list:
+thislist = [""apple"", ""banana"", ""cherry""]
+thistuple = (""kiwi"", ""orange"")
+thislist.extend(thistuple)
+print(thislist)
+★
++1",Python - Add List Items,https://www.w3schools.com/python/python_lists_add.asp,1
+"Python - Remove List Items
+Share
+Link Copied
+Remove Specified Item
+The
+remove()
+method removes the specified item.
+Example
+Remove ""banana"":
+thislist = [""apple"", ""banana"", ""cherry""]
+thislist.remove(""banana"")
+print(thislist)
+If there are more than one item with the specified value, the
+remove()
+method removes the first 
+occurrence:
+Example
+Remove the first occurrence of ""banana"":
+thislist = [""apple"", ""banana"", ""cherry"", ""banana"", ""kiwi""]
+thislist.remove(""banana"")
+print(thislist)
+Remove Specified Index
+The
+pop()
+method removes the specified 
+index.
+Example
+Remove the second item:
+thislist = [""apple"", ""banana"", ""cherry""]
+thislist.pop(1)
+print(thislist)
+If you do not specify the index, the
+pop()
+method removes the last item.
+Example
+Remove the last item:
+thislist = [""apple"", ""banana"", ""cherry""]
+thislist.pop()
+print(thislist)
+The
+del
+keyword also removes the specified 
+index:
+Example
+Remove th",Python - Remove List Items,https://www.w3schools.com/python/python_lists_remove.asp,0
+"ast item:
+thislist = [""apple"", ""banana"", ""cherry""]
+thislist.pop()
+print(thislist)
+The
+del
+keyword also removes the specified 
+index:
+Example
+Remove the first item:
+thislist = [""apple"", ""banana"", ""cherry""]
+del
+thislist[0]
+print(thislist)
+The
+del
+keyword can also delete the list completely.
+Example
+Delete the entire list:
+thislist = [""apple"", ""banana"", ""cherry""]
+del
+thislist
+Clear the List
+The
+clear()
+method empties the list.
+The list still remains, but it has no content.
+Example
+Clear the list content:
+thislist = [""apple"", ""banana"", ""cherry""]
+thislist.clear()
+print(thislist)
+★
++1",Python - Remove List Items,https://www.w3schools.com/python/python_lists_remove.asp,1
+"Python - Loop Lists
+Share
+Link Copied
+Loop Through a List
+You can loop through the list items by using a
+for
+loop:
+Example
+Print all items in the list, one by one:
+thislist = [""apple"", ""banana"", ""cherry""]
+for x in thislist:
+print(x)
+Learn more about
+for
+loops in our
+Python For Loops
+Chapter.
+Loop Through the Index Numbers
+You can also loop through the list items by referring to their index number.
+Use the
+range()
+and
+len()
+functions to create a suitable iterable.
+Example
+Print all items by referring to their index number:
+thislist = [""apple"", ""banana"", ""cherry""]
+for i 
+  in range(len(thislist)):
+print(thislist[i])
+The iterable created in the example above is
+[0, 1, 2]
+.
+Using a While Loop
+You can loop through the list items by using a
+while
+loop.
+Use the
+len()
+function to determine the length of the list,
+then start at 0 and loop your way through the list items by referring to their inde",Python - Loop Lists,https://www.w3schools.com/python/python_lists_loop.asp,0
+"loop.
+Use the
+len()
+function to determine the length of the list,
+then start at 0 and loop your way through the list items by referring to their indexes.
+Remember to increase the index by 1 after each iteration.
+Example
+Print all items, using a
+while
+loop to go 
+  through all the index numbers
+thislist = [""apple"", ""banana"", ""cherry""]
+i = 0
+while i < len(thislist):
+print(thislist[i])
+i = i + 1
+Learn more about
+while
+loops in our
+Python While Loops
+Chapter.
+Looping Using List Comprehension
+List Comprehension offers the shortest syntax for looping through lists:
+Example
+A short hand
+for
+loop that will print all items in a list:
+thislist = [""apple"", ""banana"", ""cherry""]
+[print(x) for x in thislist]
+Learn more about list comprehension in the next chapter:
+List Comprehension
+.
+★
++1",Python - Loop Lists,https://www.w3schools.com/python/python_lists_loop.asp,1
+"Python - List Comprehension
+Share
+Link Copied
+List Comprehension
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an 
+existing list.
+Example:
+Based on a list of fruits, you want a new list, containing only the fruits 
+with the letter ""a"" in the name.
+Without list comprehension you will have to write a
+for
+statement 
+with a conditional test inside:
+Example
+fruits = [""apple"", ""banana"", ""cherry"", ""kiwi"", ""mango""]
+newlist = []
+for x in fruits:
+if ""a"" in x:
+newlist.append(x)
+print(newlist)
+With list comprehension you can do all that with only one line of code:
+Example
+fruits = [""apple"", ""banana"", ""cherry"", ""kiwi"", ""mango""]
+newlist = [x 
+  for x in fruits if ""a"" in x]
+print(newlist)
+The Syntax
+newlist = [
+expression
+for
+item
+in
+iterable
+if
+condition
+== True]
+The return value is a new list, leaving the old list unchanged.
+Condition
+The
+conditi",Python - List Comprehension,https://www.w3schools.com/python/python_lists_comprehension.asp,0
+"ewlist = [
+expression
+for
+item
+in
+iterable
+if
+condition
+== True]
+The return value is a new list, leaving the old list unchanged.
+Condition
+The
+condition
+is like a filter that only accepts the items that evaluate to
+True
+.
+Example
+Only accept items that are not ""apple"":
+newlist = [x for x in fruits if x != ""apple""]
+The condition
+if x != ""apple""
+will return
+True
+for all elements other 
+than ""apple"", making the new list contain all fruits except ""apple"".
+The
+condition
+is optional and can be omitted:
+Example
+With no
+if
+statement:
+newlist = [x for x in fruits]
+Iterable
+The
+iterable
+can be any iterable object, like a list, tuple, set etc.
+Example
+You can use the
+range()
+function to create an iterable:
+newlist = [x for x in range(10)]
+Same example, but with a condition:
+Example
+Accept only numbers lower than 5:
+newlist = [x for x in range(10) if x < 5]
+Expression
+The
+expression
+is the current i",Python - List Comprehension,https://www.w3schools.com/python/python_lists_comprehension.asp,1
+", but with a condition:
+Example
+Accept only numbers lower than 5:
+newlist = [x for x in range(10) if x < 5]
+Expression
+The
+expression
+is the current item in the iteration, but it is also the 
+outcome, which you can manipulate before it ends up like a list item in the new 
+list:
+Example
+Set the values in the new list to upper case:
+newlist = [x.upper() 
+  for x in fruits]
+You can set the outcome to whatever you like:
+Example
+Set all values in the new list to 'hello':
+newlist = ['hello' for x in fruits]
+The
+expression
+can also contain conditions, not like a filter, but as a 
+way to manipulate the outcome:
+Example
+Return ""orange"" instead of ""banana"":
+newlist = [x if x != ""banana"" else ""orange"" 
+  for x in fruits]
+The
+expression
+in the example above says:
+""Return the item if it is not banana, if it is banana return orange"".
+★
++1",Python - List Comprehension,https://www.w3schools.com/python/python_lists_comprehension.asp,2
+"Python -
+Sort Lists
+Share
+Link Copied
+Sort List Alphanumerically
+List objects have a
+sort()
+method that will sort the list alphanumerically, ascending, by default:
+Example
+Sort the list alphabetically:
+thislist = [""orange"", ""mango"", ""kiwi"", 
+  ""pineapple"", ""banana""]
+thislist.sort()
+print(thislist)
+Example
+Sort the list numerically:
+thislist = [100, 50, 65, 82, 23]
+thislist.sort()
+print(thislist)
+Sort Descending
+To sort descending, use the keyword argument
+reverse = True
+:
+Example
+Sort the list descending:
+thislist = [""orange"", ""mango"", ""kiwi"", 
+  ""pineapple"", ""banana""]
+thislist.sort(reverse = True)
+print(thislist)
+Example
+Sort the list descending:
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(reverse = True)
+print(thislist)
+Customize Sort Function
+You can also customize your own function by using the keyword argument
+key =
+function
+.
+The function will return a number that will be used t",Python - Sort Lists,https://www.w3schools.com/python/python_lists_sort.asp,0
+"Function
+You can also customize your own function by using the keyword argument
+key =
+function
+.
+The function will return a number that will be used to sort the list (the 
+lowest number first):
+Example
+Sort the list based on how close the number is to 50:
+def myfunc(n):
+return abs(n - 50)
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = 
+  myfunc)
+print(thislist)
+Case Insensitive Sort
+By default the
+sort()
+method is case sensitive,
+resulting in all capital letters being sorted before lower case letters:
+Example
+Case sensitive sorting can give an unexpected result:
+thislist = [""banana"", ""Orange"", ""Kiwi"", ""cherry""]
+thislist.sort()
+print(thislist)
+Luckily we can use built-in functions as key functions when sorting a list.
+So if you want a case-insensitive sort function, use str.lower as a key function:
+Example
+Perform a case-insensitive sort of the list:
+thislist = [""banana"", ""Orange"",",Python - Sort Lists,https://www.w3schools.com/python/python_lists_sort.asp,1
+"case-insensitive sort function, use str.lower as a key function:
+Example
+Perform a case-insensitive sort of the list:
+thislist = [""banana"", ""Orange"", ""Kiwi"", ""cherry""]
+thislist.sort(key 
+  = str.lower)
+print(thislist)
+Reverse Order
+What if you want to reverse the order of a list, regardless of the alphabet?
+The
+reverse()
+method reverses the current sorting order of the elements.
+Example
+Reverse the order of the list items:
+thislist = [""banana"", ""Orange"", ""Kiwi"", ""cherry""]
+thislist.reverse()
+print(thislist)
+★
++1",Python - Sort Lists,https://www.w3schools.com/python/python_lists_sort.asp,2
+"Python - Copy Lists
+Share
+Link Copied
+Copy a List
+You cannot copy a list simply by typing
+list2 = 
+list1
+, because:
+list2
+will only be a
+reference
+to
+list1
+, and changes made in
+list1
+will automatically also be made in
+list2
+.
+Use the copy() method
+You can use the built-in List method
+copy()
+to copy a list.
+Example
+Make a copy of a list with the
+copy()
+method:
+thislist = [""apple"", ""banana"", ""cherry""]
+mylist 
+  = thislist.copy()
+print(mylist)
+Use the list() method
+Another way to make a copy is to use the built-in method
+list()
+.
+Example
+Make a copy of a list with the
+list()
+method:
+thislist = [""apple"", ""banana"", ""cherry""]
+mylist 
+  = list(thislist)
+print(mylist)
+Use the slice Operator
+You can also make a copy of a list by using the
+:
+(slice) operator.
+Example
+Make a copy of a list with the
+:
+operator:
+thislist = [""apple"", ""banana"", ""cherry""]
+mylist = thislist[:]
+print(mylist)
+★
++1",Python - Copy Lists,https://www.w3schools.com/python/python_lists_copy.asp,0
+"Python -
+Join Lists
+Share
+Link Copied
+Join Two Lists
+There are several ways to join, or concatenate, two or more lists in Python.
+One of the easiest ways are by using the
++
+operator.
+Example
+Join two list:
+list1 = [""a"", ""b"", ""c""]
+list2 = [1, 2, 3]
+list3 = list1 + list2
+print(list3)
+Another way to join two lists is by appending all the items from list2 into 
+list1, one by one:
+Example
+Append list2 into list1:
+list1 = [""a"", ""b"" , ""c""]
+list2 = [1, 2, 3]
+for x in list2:
+list1.append(x)
+print(list1)
+Or you can use the
+extend()
+method, 
+where the purpose is to add elements from one list to another 
+list:
+Example
+Use the
+extend()
+method to add list2 at the end of list1:
+list1 = [""a"", ""b"" , ""c""]
+list2 = [1, 2, 3]
+list1.extend(list2)
+print(list1)
+★
++1",Python - Join Lists,https://www.w3schools.com/python/python_lists_join.asp,0
+"Python
+Tuples
+mytuple = (""apple"", ""banana"", ""cherry"")
+Share
+Link Copied
+Tuple
+Tuples are used to store multiple items in a single variable.
+Tuple is one of 4 built-in data types in Python used to store collections of 
+data, the other 3 are
+List
+,
+Set
+, and
+Dictionary
+, all with different qualities and usage.
+A tuple is a collection which is ordered and
+unchangeable
+.
+Tuples are written with round brackets*.
+Example
+Create a Tuple:
+thistuple = (""apple"", ""banana"", ""cherry"")
+print(thistuple)
+*Tuples can also be created without the parentheses:
+Example
+Tuples can also be created without the parentheses:
+thistuple = ""apple"", ""banana"", ""cherry""
+print(thistuple)
+Tuple Items
+Tuple items are ordered, unchangeable, and allow duplicate values.
+Tuple items are indexed, the first item has index
+[0]
+, the second item has index
+[1]
+etc.
+Ordered
+When we say that tuples are ordered, it means that the ite",Python Tuples,https://www.w3schools.com/python/python_tuples.asp,0
+"tems are indexed, the first item has index
+[0]
+, the second item has index
+[1]
+etc.
+Ordered
+When we say that tuples are ordered, it means that the items have a defined order, and that order will not change.
+Unchangeable
+Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.
+Allow Duplicates
+Since tuples are indexed, they can have items with the same value:
+Example
+Tuples allow duplicate values:
+thistuple = (""apple"", ""banana"", ""cherry"", ""apple"", ""cherry"")
+print(thistuple)
+Tuple Length
+To determine how many items a tuple has, use the
+len()
+function:
+Example
+Print the number of items in the tuple:
+thistuple = (""apple"", ""banana"", ""cherry"")
+print(len(thistuple))
+Create Tuple With One Item
+To create a tuple with only one item, you have to add a comma after the item, 
+otherwise Python will not recognize it as a tuple.
+Example
+One item tuple",Python Tuples,https://www.w3schools.com/python/python_tuples.asp,1
+"create a tuple with only one item, you have to add a comma after the item, 
+otherwise Python will not recognize it as a tuple.
+Example
+One item tuple, remember the comma:
+thistuple = (""apple"",)
+print(type(thistuple))
+#NOT a tuple
+thistuple = (""apple"")
+print(type(thistuple))
+Create an Empty Tuple
+To create an empty tuple, use round brackets with no content.
+Example
+Create an empty tuple:
+thistuple = ()
+print(type(thistuple))
+Tuple Items - Data Types
+Tuple items can be of any data type:
+Example
+String, int and boolean data types:
+tuple1 = (""apple"", ""banana"", ""cherry"")
+tuple2 = (1, 5, 7, 9, 3)
+tuple3 = (True, False, False)
+A tuple can contain different data types:
+Example
+A tuple with strings, integers and boolean values:
+tuple1 = (""abc"", 34, True, 40, ""male"")
+type()
+From Python's perspective, tuples are defined as objects with the data type 'tuple':
+<class 'tuple'>
+Example
+What is the dat",Python Tuples,https://www.w3schools.com/python/python_tuples.asp,2
+"True, 40, ""male"")
+type()
+From Python's perspective, tuples are defined as objects with the data type 'tuple':
+<class 'tuple'>
+Example
+What is the data type of a tuple?
+mytuple = (""apple"", ""banana"", ""cherry"")
+print(type(mytuple))
+The tuple() Constructor
+It is also possible to use the
+tuple()
+constructor to make a tuple.
+Example
+Using the tuple() method to make a tuple:
+thistuple = tuple((""apple"", ""banana"", ""cherry"")) # note the double round-brackets
+print(thistuple)
+Python Collections (Arrays)
+There are four collection data types in the Python programming language:
+List
+is a collection which is ordered and changeable. Allows duplicate members.
+Tuple
+is a collection which is ordered and unchangeable. Allows duplicate members.
+Set
+is a collection which is unordered, 
+unchangeable*, and unindexed. No duplicate members.
+Dictionary
+is a collection which is ordered** 
+and changeable. No duplic",Python Tuples,https://www.w3schools.com/python/python_tuples.asp,3
+"tion which is unordered, 
+unchangeable*, and unindexed. No duplicate members.
+Dictionary
+is a collection which is ordered** 
+and changeable. No duplicate members.
+*Set
+items
+are unchangeable, but you can remove and/or add items 
+  whenever you like.
+**As of Python version 3.7, dictionaries are
+ordered
+. 
+  In Python 3.6 and earlier, dictionaries are
+unordered
+.
+When choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.
+★
++1",Python Tuples,https://www.w3schools.com/python/python_tuples.asp,4
+"Python
+Sets
+myset = {""apple"", ""banana"", ""cherry""}
+Share
+Link Copied
+Set
+Sets are used to store multiple items in a single variable.
+Set is one of 4 built-in data types in Python used to store collections of 
+data, the other 3 are
+List
+,
+Tuple
+, and
+Dictionary
+, all with different qualities and usage.
+A set is a collection which is
+unordered
+,
+unchangeable*
+, and
+unindexed
+.
+* Note:
+Set
+items
+are unchangeable, but you can remove 
+  items and add new items.
+Sets are written with curly brackets.
+Example
+Create a Set:
+thisset = {""apple"", ""banana"", ""cherry""}
+print(thisset)
+Note:
+Sets are unordered, so you cannot be sure in which 
+  order the items will appear.
+Set Items
+Set items are unordered, unchangeable, and do not allow duplicate values.
+Unordered
+Unordered means that the items in a set do not have a defined order.
+Set items can appear in a different order every time you use them, 
+and c",Python Sets,https://www.w3schools.com/python/python_sets.asp,0
+"ordered
+Unordered means that the items in a set do not have a defined order.
+Set items can appear in a different order every time you use them, 
+and cannot be referred to by index or key.
+Unchangeable
+Set items are unchangeable, meaning that we cannot change the items after the set has been created.
+Once a set is created, you cannot change its items, but you can remove items 
+and add new items.
+Duplicates Not Allowed
+Sets cannot have two items with the same value.
+Example
+Duplicate values will be ignored:
+thisset = {""apple"", ""banana"", ""cherry"", ""apple""}
+print(thisset)
+Note:
+The values
+True
+and
+1
+are considered the same value in sets, 
+  and are treated as duplicates:
+Example
+True
+and
+1
+is considered the same value:
+thisset = {""apple"", ""banana"", ""cherry"", True, 1, 2}
+print(thisset)
+Note:
+The values
+False
+and
+0
+are considered the same value in sets, 
+  and are treated as duplicates:
+Exampl",Python Sets,https://www.w3schools.com/python/python_sets.asp,1
+"na"", ""cherry"", True, 1, 2}
+print(thisset)
+Note:
+The values
+False
+and
+0
+are considered the same value in sets, 
+  and are treated as duplicates:
+Example
+False
+and
+0
+is considered the same value:
+thisset = {""apple"", ""banana"", ""cherry"", False, True, 0}
+print(thisset)
+Get the Length of a Set
+To determine how many items a set has, use the
+len()
+function.
+Example
+Get the number of items in a set:
+thisset = {""apple"", ""banana"", ""cherry""}
+print(len(thisset))
+Set Items - Data Types
+Set items can be of any data type:
+Example
+String, int and boolean data types:
+set1 = {""apple"", ""banana"", ""cherry""}
+set2 = {1, 5, 7, 9, 3}
+set3 = {True, False, False}
+A set can contain different data types:
+Example
+A set with strings, integers and boolean values:
+set1 = {""abc"", 34, True, 40, ""male""}
+type()
+From Python's perspective, sets are defined as objects with the data type 'set':
+<class 'set'>
+Example
+What is the",Python Sets,https://www.w3schools.com/python/python_sets.asp,2
+"abc"", 34, True, 40, ""male""}
+type()
+From Python's perspective, sets are defined as objects with the data type 'set':
+<class 'set'>
+Example
+What is the data type of a set?
+myset = {""apple"", ""banana"", ""cherry""}
+print(type(myset))
+The set() Constructor
+It is also possible to use the
+set()
+constructor to make a set.
+Example
+Using the set() constructor to make a set:
+thisset = set((""apple"", ""banana"", ""cherry"")) # note the double round-brackets
+print(thisset)
+Python Collections (Arrays)
+There are four collection data types in the Python programming language:
+List
+is a collection which is ordered and changeable. Allows duplicate members.
+Tuple
+is a collection which is ordered and unchangeable. Allows duplicate members.
+Set
+is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary
+is a collection which is ordered** 
+and changeable. No duplicate members.
+*S",Python Sets,https://www.w3schools.com/python/python_sets.asp,3
+"unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary
+is a collection which is ordered** 
+and changeable. No duplicate members.
+*Set
+items
+are unchangeable, but you can remove items and add new 
+  items.
+**As of Python version 3.7, dictionaries are
+ordered
+. 
+  In Python 3.6 and earlier, dictionaries are
+unordered
+.
+When choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.
+★
++1",Python Sets,https://www.w3schools.com/python/python_sets.asp,4
+"Python
+Dictionaries
+thisdict =  {
+""brand"": ""Ford"",
+""model"": ""Mustang"",
+""year"": 1964
+}
+Share
+Link Copied
+Dictionary
+Dictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is ordered*, changeable and do not 
+allow duplicates.
+As of Python version 3.7, dictionaries are
+ordered
+. 
+  In Python 3.6 and earlier, dictionaries are
+unordered
+.
+Dictionaries are written with curly brackets, and have keys and values:
+Example
+Create and print a dictionary:
+thisdict =	{
+""brand"": ""Ford"",
+""model"": ""Mustang"",
+""year"": 1964
+}
+print(thisdict)
+Dictionary Items
+Dictionary items are ordered, changeable, and do not allow duplicates.
+Dictionary items are presented in key:value pairs, and can be referred to by 
+using the key name.
+Example
+Print the ""brand"" value of the dictionary:
+thisdict =	{
+""brand"": ""Ford"",
+""model"": ""Mustang"",
+""year"": 1964
+}
+print(thisdict[""brand""])
+Or",Python Dictionaries,https://www.w3schools.com/python/python_dictionaries.asp,0
+"name.
+Example
+Print the ""brand"" value of the dictionary:
+thisdict =	{
+""brand"": ""Ford"",
+""model"": ""Mustang"",
+""year"": 1964
+}
+print(thisdict[""brand""])
+Ordered or Unordered?
+As of Python version 3.7, dictionaries are
+ordered
+. 
+  In Python 3.6 and earlier, dictionaries are
+unordered
+.
+When we say that dictionaries are ordered, it means that the items have a defined order, and that order will not change.
+Unordered means that the items do not 
+have a defined order, you cannot refer to an item by using an index.
+Changeable
+Dictionaries are changeable, meaning that we can change, add or remove items after the 
+dictionary has been created.
+Duplicates Not Allowed
+Dictionaries cannot have two items with the same key:
+Example
+Duplicate values will overwrite existing values:
+thisdict =	{
+""brand"": ""Ford"",
+""model"": ""Mustang"",
+""year"": 1964,
+""year"": 2020
+}
+print(thisdict)
+Dictionary Length
+To determine h",Python Dictionaries,https://www.w3schools.com/python/python_dictionaries.asp,1
+"write existing values:
+thisdict =	{
+""brand"": ""Ford"",
+""model"": ""Mustang"",
+""year"": 1964,
+""year"": 2020
+}
+print(thisdict)
+Dictionary Length
+To determine how many items a dictionary has, use the
+len()
+function:
+Example
+Print the number of items in the dictionary:
+print(len(thisdict))
+Dictionary Items - Data Types
+The values in dictionary items can be of any data type:
+Example
+String, int, boolean, and list data types:
+thisdict =	{
+""brand"": ""Ford"",
+""electric"": False,
+""year"": 1964,
+""colors"": [""red"", ""white"", ""blue""]
+}
+type()
+From Python's perspective, dictionaries are defined as objects with the data type 'dict':
+<class 'dict'>
+Example
+Print the data type of a dictionary:
+thisdict =	{
+""brand"": ""Ford"",
+""model"": ""Mustang"",
+""year"": 1964
+}
+print(type(thisdict))
+The dict() Constructor
+It is also possible to use the
+dict()
+constructor to make a dictionary.
+Example
+Using the dict() method to make a di",Python Dictionaries,https://www.w3schools.com/python/python_dictionaries.asp,2
+"thisdict))
+The dict() Constructor
+It is also possible to use the
+dict()
+constructor to make a dictionary.
+Example
+Using the dict() method to make a dictionary:
+thisdict = 
+  dict(name = ""John"", age = 36, country = ""Norway"")
+print(thisdict)
+Python Collections (Arrays)
+There are four collection data types in the Python programming language:
+List
+is a collection which is ordered and changeable. Allows duplicate members.
+Tuple
+is a collection which is ordered and unchangeable. Allows duplicate members.
+Set
+is a collection which is unordered, 
+unchangeable*, and unindexed. No duplicate members.
+Dictionary
+is a collection which is ordered** and changeable. No duplicate members.
+*Set
+items
+are unchangeable, but you can remove and/or add items 
+  whenever you like.
+**As of Python version 3.7, dictionaries are
+ordered
+. 
+  In Python 3.6 and earlier, dictionaries are
+unordered
+.
+When choosing a co",Python Dictionaries,https://www.w3schools.com/python/python_dictionaries.asp,3
+"henever you like.
+**As of Python version 3.7, dictionaries are
+ordered
+. 
+  In Python 3.6 and earlier, dictionaries are
+unordered
+.
+When choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.
+★
++1",Python Dictionaries,https://www.w3schools.com/python/python_dictionaries.asp,4
+"Python
+If Statement
+Share
+Link Copied
+Python Conditions and If statements
+Python supports the usual logical conditions from mathematics:
+Equals:
+a == b
+Not Equals:
+a != b
+Less than:
+a < b
+Less than or equal to:
+a <= b
+Greater than:
+a > b
+Greater than or equal to:
+a >= b
+These conditions can be used in several ways, most commonly in ""if statements"" and loops.
+An ""if statement"" is written by using the
+if
+keyword.
+Example
+If statement:
+a = 33
+b = 200
+if b > a:
+print(""b is greater than a"")
+In this example we use two variables,
+a
+and
+b
+,
+which are used as part of the if statement to test whether
+b
+is greater than
+a
+.
+As
+a
+is
+33
+, and
+b
+is
+200
+,
+we know that 200 is greater than 33, and so we print to screen that ""b is greater than a"".
+How If Statements Work
+The if statement evaluates a condition (an expression that results in
+True
+or
+False
+). If the condition is true, the code block inside the",Python If Statement,https://www.w3schools.com/python/python_conditions.asp,0
+"ements Work
+The if statement evaluates a condition (an expression that results in
+True
+or
+False
+). If the condition is true, the code block inside the if statement is executed. If the condition is false, the code block is skipped.
+Example
+Checking if a number is positive:
+number = 15
+if number > 0:
+print(""The number is positive"")
+Indentation
+Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose.
+Example
+If statement, without indentation (will raise an error):
+a = 33
+b = 200
+if b > a:
+print(""b is greater than a"")
+# you will get an error
+Note:
+You can use spaces or tabs for indentation, but you must use the same amount of indentation for all statements within the same code block.
+Multiple Statements in If Block
+You can have multiple statements inside an if block. All statements",Python If Statement,https://www.w3schools.com/python/python_conditions.asp,1
+"ion for all statements within the same code block.
+Multiple Statements in If Block
+You can have multiple statements inside an if block. All statements must be indented at the same level.
+Example
+Multiple statements in an if block:
+age = 20
+if age >= 18:
+print(""You are an adult"")
+print(""You can vote"")
+print(""You have full legal rights"")
+Using Variables in Conditions
+Boolean variables can be used directly in if statements without comparison operators.
+Example
+Using a boolean variable:
+is_logged_in = True
+if is_logged_in:
+print(""Welcome back!"")
+Python can evaluate many types of values as
+True
+or
+False
+in an if statement.
+Zero (
+0
+), empty strings (
+""""
+),
+None
+, and empty collections are treated as
+False
+. Everything else is treated as
+True
+.
+This includes positive numbers (
+5
+), negative numbers (
+-3
+), and any non-empty string (even
+""False""
+is treated as
+True
+because it's a non-empty strin",Python If Statement,https://www.w3schools.com/python/python_conditions.asp,2
+"his includes positive numbers (
+5
+), negative numbers (
+-3
+), and any non-empty string (even
+""False""
+is treated as
+True
+because it's a non-empty string).
+★
++1",Python If Statement,https://www.w3schools.com/python/python_conditions.asp,3
+"Python
+While Loops
+Share
+Link Copied
+Python Loops
+Python has two primitive loop commands:
+while
+loops
+for
+loops
+The while Loop
+With the
+while
+loop we can execute a set of statements as long as a condition is true.
+Example
+Print i as long as i is less than 6:
+i = 1
+while i < 6:
+print(i)
+i += 1
+Note:
+remember to increment i, or else the loop will continue forever.
+The
+while
+loop requires relevant variables to be ready, in this example we need to define an indexing variable,
+i
+, 
+which we set to 1.
+The break Statement
+With the
+break
+statement we can stop the loop even if the 
+while condition is true:
+Example
+Exit the loop when i is 3:
+i = 1
+while i < 6:
+print(i)
+if i == 3:
+break
+i += 1
+The continue Statement
+With the
+continue
+statement we can stop the 
+current iteration, and continue with the next:
+Example
+Continue to the next iteration if i is 3:
+i = 0
+while i < 6:
+i += 1
+if i == 3:
+contin",Python While Loops,https://www.w3schools.com/python/python_while_loops.asp,0
+"stop the 
+current iteration, and continue with the next:
+Example
+Continue to the next iteration if i is 3:
+i = 0
+while i < 6:
+i += 1
+if i == 3:
+continue
+print(i)
+The else Statement
+With the
+else
+statement we can run a block of code once when the 
+condition no longer is true:
+Example
+Print a message once the condition is false:
+i = 1
+while i < 6:
+print(i)
+i += 1
+else:
+print(""i is no longer less than 6"")
+Note:
+The
+else
+block will NOT be executed if the loop is stopped by a
+break
+statement.
+★
++1",Python While Loops,https://www.w3schools.com/python/python_while_loops.asp,1
+"Python
+For Loops
+Share
+Link Copied
+Python For Loops
+A
+for
+loop is used for iterating over a sequence (that is either a list, a tuple, 
+a dictionary, a set, or a string).
+This is less like the
+for
+keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
+With the
+for
+loop we can execute a set of statements, once for each item in a list, tuple, set etc.
+Example
+Print each fruit in a fruit list:
+fruits = [""apple"", ""banana"", ""cherry""]
+for 
+  x in fruits:
+print(x)
+The
+for
+loop does not require an indexing variable to set beforehand.
+Looping Through a String
+Even strings are iterable objects, they contain a sequence of characters:
+Example
+Loop through the letters in the word ""banana"":
+for x in ""banana"":
+print(x)
+The break Statement
+With the
+break
+statement we can stop the 
+loop before it has looped through all the",Python For Loops,https://www.w3schools.com/python/python_for_loops.asp,0
+"he word ""banana"":
+for x in ""banana"":
+print(x)
+The break Statement
+With the
+break
+statement we can stop the 
+loop before it has looped through all the items:
+Example
+Exit the loop when
+x
+is ""banana"":
+fruits = [""apple"", ""banana"", ""cherry""]
+for x in fruits:
+print(x)
+if x == 
+  ""banana"":
+break
+Example
+Exit the loop when
+x
+is ""banana"", 
+but this time the break comes before the print:
+fruits = [""apple"", ""banana"", ""cherry""]
+for x in fruits:
+if x == 
+  ""banana"":
+break
+print(x)
+The continue Statement
+With the
+continue
+statement we can stop the 
+current iteration of the loop, and continue with the next:
+Example
+Do not print banana:
+fruits = [""apple"", ""banana"", ""cherry""]
+for x in fruits:
+if x == 
+  ""banana"":
+continue
+print(x)
+The range() Function
+To loop through a set of code a specified number of times, we can use the
+range()
+function,
+The
+range()
+function returns a sequence of numbers, starting f",Python For Loops,https://www.w3schools.com/python/python_for_loops.asp,1
+"oop through a set of code a specified number of times, we can use the
+range()
+function,
+The
+range()
+function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+Example
+Using the range() function:
+for x in range(6):
+print(x)
+Note that
+range(6)
+is not the values of 0 to 6, but the values 0 to 5.
+The
+range()
+function defaults to 0 as a starting value, however it is possible to specify the starting value by adding a parameter:
+range(2, 6)
+, which 
+means values from 2 to 6 (but not including 6):
+Example
+Using the start parameter:
+for x in range(2, 6):
+print(x)
+The
+range()
+function defaults to increment the sequence by 1,
+however it is possible to specify the increment value by adding a third parameter:
+range(2, 30,
+3
+)
+:
+Example
+Increment the sequence with 3 (default is 1):
+for x in range(2, 30, 3):
+print(x)
+Else in For",Python For Loops,https://www.w3schools.com/python/python_for_loops.asp,2
+"e by adding a third parameter:
+range(2, 30,
+3
+)
+:
+Example
+Increment the sequence with 3 (default is 1):
+for x in range(2, 30, 3):
+print(x)
+Else in For Loop
+The
+else
+keyword in a
+for
+loop specifies a block of code to be 
+executed when the loop is finished:
+Example
+Print all numbers from 0 to 5, and print a message when the loop has ended:
+for x in range(6):
+print(x)
+else:
+print(""Finally finished!"")
+Note:
+The
+else
+block will NOT be executed if the loop is stopped by a
+break
+statement.
+Example
+Break the loop when
+x
+is 3, and see what happens with the
+else
+block:
+for x in range(6):
+if x == 3: break
+print(x)
+else:
+print(""Finally finished!"")
+Nested Loops
+A nested loop is a loop inside a loop.
+The ""inner loop"" will be executed one time for each iteration of the ""outer 
+loop"":
+Example
+Print each adjective for every fruit:
+adj = [""red"", ""big"", ""tasty""]
+fruits = [""apple"", ""banana"", ""cherry""]
+for x",Python For Loops,https://www.w3schools.com/python/python_for_loops.asp,3
+"eration of the ""outer 
+loop"":
+Example
+Print each adjective for every fruit:
+adj = [""red"", ""big"", ""tasty""]
+fruits = [""apple"", ""banana"", ""cherry""]
+for x in adj:
+for y in fruits:
+print(x, y)
+The pass Statement
+for
+loops cannot be empty, but if you for 
+some reason have a
+for
+loop with no content, put in the
+pass
+statement to avoid getting an error.
+Example
+for x in [0, 1, 2]:
+pass
+★
++1",Python For Loops,https://www.w3schools.com/python/python_for_loops.asp,4
+"Python
+Functions
+Share
+Link Copied
+Python Functions
+A function is a block of code which only runs when it is called.
+A function can return data as a result.
+A function helps avoiding code repetition.
+Creating a Function
+In Python, a function is defined using the
+def
+keyword, followed by a function name and parentheses:
+Example
+def my_function():
+print(""Hello from a function"")
+This creates a function named
+my_function
+that prints ""Hello from a function"" when called.
+The code inside the function must be indented. Python uses indentation to define code blocks.
+Calling a Function
+To call a function, write its name followed by parentheses:
+Example
+def my_function():
+print(""Hello from a function"")
+my_function()
+You can call the same function multiple times:
+Example
+def my_function():
+print(""Hello from a function"")
+my_function()
+my_function()
+my_function()
+Function Names
+Function names follow t",Python Functions,https://www.w3schools.com/python/python_functions.asp,0
+"iple times:
+Example
+def my_function():
+print(""Hello from a function"")
+my_function()
+my_function()
+my_function()
+Function Names
+Function names follow the same rules as variable names in Python:
+A function name must start with a letter or underscore
+A function name can only contain letters, numbers, and underscores
+Function names are case-sensitive (
+myFunction
+and
+myfunction
+are different)
+Example
+Valid function names:
+calculate_sum()
+_private_function()
+myFunction2()
+It's good practice to use descriptive names that explain what the function does.
+Why Use Functions?
+Imagine you need to convert temperatures from Fahrenheit to Celsius several times in your program. Without functions, you would have to write the same calculation code repeatedly:
+Example
+Without functions - repetitive code:
+temp1 = 77
+celsius1 = (temp1 - 32) * 5 / 9
+print(celsius1)
+temp2 = 95
+celsius2 = (temp2 - 32) * 5 / 9
+p",Python Functions,https://www.w3schools.com/python/python_functions.asp,1
+":
+Example
+Without functions - repetitive code:
+temp1 = 77
+celsius1 = (temp1 - 32) * 5 / 9
+print(celsius1)
+temp2 = 95
+celsius2 = (temp2 - 32) * 5 / 9
+print(celsius2)
+temp3 = 50
+celsius3 = (temp3 - 32) * 5 / 9
+print(celsius3)
+With functions, you write the code once and reuse it:
+Example
+With functions - reusable code:
+def fahrenheit_to_celsius(fahrenheit):
+return (fahrenheit - 32) * 5 / 9
+print(fahrenheit_to_celsius(77))
+print(fahrenheit_to_celsius(95))
+print(fahrenheit_to_celsius(50))
+Return Values
+Functions can send data back to the code that called them using the
+return
+statement.
+When a function reaches a
+return
+statement, it stops executing and sends the result back:
+Example
+A function that returns a value:
+def get_greeting():
+return ""Hello from a function""
+message = get_greeting()
+print(message)
+You can use the returned value directly:
+Example
+Using the return value directly:
+def get",Python Functions,https://www.w3schools.com/python/python_functions.asp,2
+"llo from a function""
+message = get_greeting()
+print(message)
+You can use the returned value directly:
+Example
+Using the return value directly:
+def get_greeting():
+return ""Hello from a function""
+print(get_greeting())
+If a function doesn't have a
+return
+statement, it returns
+None
+by default.
+The pass Statement
+Function definitions cannot be empty. If you need to create a function placeholder without any code, use the
+pass
+statement:
+Example
+def my_function():
+pass
+The
+pass
+statement is often used when developing, allowing you to define the structure first and implement details later.
+★
++1",Python Functions,https://www.w3schools.com/python/python_functions.asp,3
+"Python
+Lambda
+Share
+Link Copied
+Lambda Functions
+A lambda function is a small anonymous function.
+A lambda function can take any number of arguments, but can only have one expression.
+Syntax
+lambda
+arguments
+:
+expression
+The expression is executed and the result is returned:
+Example
+Add 10 to argument
+a
+, and 
+  return the result:
+x = lambda a : a + 10
+print(x(5))
+Lambda functions can take any number of arguments:
+Example
+Multiply argument
+a
+with argument
+b
+and return the 
+  result:
+x = lambda a, b : a * b
+print(x(5, 6))
+Example
+Summarize argument
+a
+,
+b
+, and
+c
+and 
+  return the 
+  result:
+x = lambda a, b, c : a + b + c
+print(x(5, 6, 
+  2))
+Why Use Lambda Functions?
+The power of lambda is better shown when you use them as an anonymous 
+function inside another function.
+Say you have a function definition that takes one argument, and that argument 
+will be multiplied with an unknown number",Python Lambda,https://www.w3schools.com/python/python_lambda.asp,0
+"tion inside another function.
+Say you have a function definition that takes one argument, and that argument 
+will be multiplied with an unknown number:
+def myfunc(n):
+return lambda a : a * n
+Use that function definition to make a function that always doubles the 
+number you send in:
+Example
+def myfunc(n):
+return lambda a : a * n
+mydoubler = myfunc(2)
+print(mydoubler(11))
+Or, use the same function definition to make a function that always
+triples
+the 
+number you send in:
+Example
+def myfunc(n):
+return lambda a : a * n
+mytripler = myfunc(3)
+print(mytripler(11))
+Or, use the same function definition to make both functions, in the same 
+program:
+Example
+def myfunc(n):
+return lambda a : a * n
+mydoubler = myfunc(2)
+mytripler = myfunc(3)
+print(mydoubler(11))
+print(mytripler(11))
+Use lambda functions when an anonymous function is required for a short period of time.
+Lambda with Built-in Functions",Python Lambda,https://www.w3schools.com/python/python_lambda.asp,1
+"bler(11))
+print(mytripler(11))
+Use lambda functions when an anonymous function is required for a short period of time.
+Lambda with Built-in Functions
+Lambda functions are commonly used with built-in functions like
+map()
+,
+filter()
+, and
+sorted()
+.
+Using Lambda with map()
+The
+map()
+function applies a function to every item in an iterable:
+Example
+Double all numbers in a list:
+numbers = [1, 2, 3, 4, 5]
+doubled = list(map(lambda x: x * 2, numbers))
+print(doubled)
+Using Lambda with filter()
+The
+filter()
+function creates a list of items for which a function returns
+True
+:
+Example
+Filter out odd numbers from a list:
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+odd_numbers = list(filter(lambda x: x % 2 != 0, numbers))
+print(odd_numbers)
+Using Lambda with sorted()
+The
+sorted()
+function can use a lambda as a key for custom sorting:
+Example
+Sort a list of tuples by the second element:
+students = [(""Emil"", 2",Python Lambda,https://www.w3schools.com/python/python_lambda.asp,2
+"rted()
+The
+sorted()
+function can use a lambda as a key for custom sorting:
+Example
+Sort a list of tuples by the second element:
+students = [(""Emil"", 25), (""Tobias"", 22), (""Linus"", 28)]
+sorted_students = sorted(students, key=lambda x: x[1])
+print(sorted_students)
+Example
+Sort strings by length:
+words = [""apple"", ""pie"", ""banana"", ""cherry""]
+sorted_words = sorted(words, key=lambda x: len(x))
+print(sorted_words)
+★
++1",Python Lambda,https://www.w3schools.com/python/python_lambda.asp,3
+"Python
+Arrays
+Note:
+Python does not have built-in support for Arrays, 
+  but
+Python Lists
+can be used instead.
+Share
+Link Copied
+Arrays
+Note:
+This page shows you how to use LISTS as ARRAYS, however, to work with arrays in Python you will have to import
+  a library, like the
+NumPy library
+.
+Arrays are used to store multiple values in one single variable:
+Example
+Create an array containing car names:
+cars = [""Ford"", ""Volvo"", ""BMW""]
+What is an Array?
+An array is a special variable, which can hold more than one value at a time.
+If you have a list of items (a list of car names, for example), storing the 
+cars in single variables could look like this:
+car1 = ""Ford""
+car2 = ""Volvo""
+car3 = ""BMW""
+However, what if you want to loop through the cars and find a specific one? 
+And what if you had not 3 cars, but 300?
+The solution is an array!
+An array can hold many values under a single name, and you c",Python Arrays,https://www.w3schools.com/python/python_arrays.asp,0
+"find a specific one? 
+And what if you had not 3 cars, but 300?
+The solution is an array!
+An array can hold many values under a single name, and you can 
+access the values by referring to an index number.
+Access the Elements of an Array
+You refer to an array element by referring to the
+index number
+.
+Example
+Get the value of the first array item:
+x = cars[0]
+Example
+Modify the value of the first array item:
+cars[0] = ""Toyota""
+The Length of an Array
+Use the
+len()
+method to return the length of 
+an array (the number of elements in an array).
+Example
+Return the number of elements in the
+cars
+array:
+x = len(cars)
+Note:
+The length of an array is always one more than the highest array index.
+Looping Array Elements
+You can use the
+for in
+loop to loop through all the elements of an array.
+Example
+Print each item in the
+cars
+array:
+for x in cars:
+print(x)
+Adding Array Elements
+You can use the
+app",Python Arrays,https://www.w3schools.com/python/python_arrays.asp,1
+"oop through all the elements of an array.
+Example
+Print each item in the
+cars
+array:
+for x in cars:
+print(x)
+Adding Array Elements
+You can use the
+append()
+method to add an element to an array.
+Example
+Add one more element to the
+cars
+array:
+cars.append(""Honda"")
+Removing Array Elements
+You can use the
+pop()
+method to remove an element from the array.
+Example
+Delete the second element of the
+cars
+array:
+cars.pop(1)
+You can also use the
+remove()
+method to remove an element from the array.
+Example
+Delete the element that has the value ""Volvo"":
+cars.remove(""Volvo"")
+Note:
+The list's
+remove()
+method 
+  only removes the first occurrence of the specified value.
+Array Methods
+Python has a set of built-in methods that you can use on lists/arrays.
+Method
+Description
+append()
+Adds an element at 
+  the end of the list
+clear()
+Removes all the 
+  elements from the list
+copy()
+Returns a copy of the 
+  l",Python Arrays,https://www.w3schools.com/python/python_arrays.asp,2
+"hod
+Description
+append()
+Adds an element at 
+  the end of the list
+clear()
+Removes all the 
+  elements from the list
+copy()
+Returns a copy of the 
+  list
+count()
+Returns the number of 
+  elements with the specified value
+extend()
+Add the elements of a 
+  list (or any iterable), to the end of the current list
+index()
+Returns the index of 
+  the first element with the specified value
+insert()
+Adds an element at 
+  the specified position
+pop()
+Removes the element at the 
+  specified position
+remove()
+Removes the first 
+  item with the specified value
+reverse()
+Reverses the order 
+  of the list
+sort()
+Sorts the list
+Note:
+Python does not have built-in support for Arrays, 
+  but Python Lists can be used instead.
+★
++1",Python Arrays,https://www.w3schools.com/python/python_arrays.asp,3
+"Python
+Classes and Objects
+Share
+Link Copied
+Python Classes/Objects
+Python is an object oriented programming language.
+Almost everything in Python is an object, with its properties and methods.
+A Class is like an object constructor, or a ""blueprint"" for creating objects.
+Create a Class
+To create a class, use the keyword
+class
+:
+Example
+Create a class named MyClass, with a property named x:
+class MyClass:
+x = 5
+Create Object
+Now we can use the class named MyClass to create objects:
+Example
+Create an object named p1, and print the value of x:
+p1 = MyClass()
+print(p1.x)
+Delete Objects
+You can delete objects by using the
+del
+keyword:
+Example
+Delete the p1 object:
+del p1
+Multiple Objects
+You can create multiple objects from the same class:
+Example
+Create three objects from the MyClass class:
+p1 = MyClass()
+p2 = MyClass()
+p3 = MyClass()
+print(p1.x)
+print(p2.x)
+print(p3.x)
+Note:
+Each object is",Python Classes and Objects,https://www.w3schools.com/python/python_classes.asp,0
+"le
+Create three objects from the MyClass class:
+p1 = MyClass()
+p2 = MyClass()
+p3 = MyClass()
+print(p1.x)
+print(p2.x)
+print(p3.x)
+Note:
+Each object is independent and has its own copy of the class properties.
+The pass Statement
+class
+definitions cannot be empty, but if 
+you for some reason have a
+class
+definition with no content, put in the
+pass
+statement to avoid getting an error.
+Example
+class Person:
+pass
+★
++1",Python Classes and Objects,https://www.w3schools.com/python/python_classes.asp,1
+"Python
+Inheritance
+Share
+Link Copied
+Python Inheritance
+Inheritance allows us to define a class that inherits all the methods and properties from another class.
+Parent class
+is the class being inherited from, also called 
+base class.
+Child class
+is the class that inherits from another class, 
+also called derived class.
+Create a Parent Class
+Any class can be a parent class, so the syntax is the same as creating any 
+other class:
+Example
+Create a class named
+Person
+, with
+firstname
+and
+lastname
+properties, 
+and a
+printname
+method:
+class Person:
+def __init__(self, fname, lname):
+self.firstname = fname
+self.lastname = lname
+def printname(self):
+print(self.firstname, 
+  self.lastname)
+#Use the Person class to create an object, and then 
+  execute the printname method:
+x = Person(""John"", ""Doe"")
+x.printname()
+Create a Child Class
+To create a class that inherits the functionality from another cl",Python Inheritance,https://www.w3schools.com/python/python_inheritance.asp,0
+"e the printname method:
+x = Person(""John"", ""Doe"")
+x.printname()
+Create a Child Class
+To create a class that inherits the functionality from another class, send the parent class as a parameter when creating the child 
+class:
+Example
+Create a class named
+Student
+, which will inherit the properties 
+and methods from 
+the
+Person
+class:
+class Student(Person):
+pass
+Note:
+Use the
+pass
+keyword when you do not want to add any other properties or methods to the 
+  class.
+Now the Student class has the same properties and methods as the Person 
+class.
+Example
+Use the
+Student
+class to create an object, 
+and then execute the
+printname
+method:
+x = Student(""Mike"", ""Olsen"")
+x.printname()
+Add the __init__() Function
+So far we have created a child class that inherits the properties and methods 
+from its parent.
+We want to add the
+__init__()
+function to the child class (instead of the
+pass
+keyword).
+Note:
+T",Python Inheritance,https://www.w3schools.com/python/python_inheritance.asp,1
+"inherits the properties and methods 
+from its parent.
+We want to add the
+__init__()
+function to the child class (instead of the
+pass
+keyword).
+Note:
+The
+__init__()
+function is called automatically every time the class is being used to create a new object.
+Example
+Add the
+__init__()
+function to the
+Student
+class:
+class Student(Person):
+def __init__(self, fname, lname):
+#add properties etc.
+When you add the
+__init__()
+function, the child class will no longer inherit 
+the parent's
+__init__()
+function.
+Note:
+The child's
+__init__()
+function
+overrides
+the inheritance of the parent's
+__init__()
+function.
+To keep the inheritance of the parent's
+__init__()
+function, add a call to the 
+parent's
+__init__()
+function:
+Example
+class Student(Person):
+def __init__(self, fname, lname):
+Person.__init__(self, fname, lname)
+Now we have successfully added the
+__init__()
+function, and kept the 
+inheritance of",Python Inheritance,https://www.w3schools.com/python/python_inheritance.asp,2
+"__init__(self, fname, lname):
+Person.__init__(self, fname, lname)
+Now we have successfully added the
+__init__()
+function, and kept the 
+inheritance of the parent class, and we are ready to add functionality in the
+__init__()
+function.
+Use the super() Function
+Python also has a
+super()
+function that 
+will make the child class inherit all the methods and properties from its 
+parent:
+Example
+class Student(Person):
+def __init__(self, fname, lname):
+super().__init__(fname, lname)
+By using the
+super()
+function, you do not 
+have to use the name of the parent element, it will automatically inherit the 
+methods and properties from its parent.
+Add Properties
+Example
+Add a property called
+graduationyear
+to the
+Student
+class:
+class Student(Person):
+def __init__(self, fname, lname):
+super().__init__(fname, lname)
+self.graduationyear 
+  = 2019
+In the example below, the year
+2019
+should be a variable,",Python Inheritance,https://www.w3schools.com/python/python_inheritance.asp,3
+"__init__(self, fname, lname):
+super().__init__(fname, lname)
+self.graduationyear 
+  = 2019
+In the example below, the year
+2019
+should be a variable, and passed into the
+Student
+class when creating student objects.
+To do so, add another parameter in the
+__init__()
+function:
+Example
+Add a
+year
+parameter, and pass the correct 
+year when creating objects:
+class Student(Person):
+def __init__(self, fname, lname, year):
+super().__init__(fname, lname)
+self.graduationyear 
+  = year
+x = Student(""Mike"", ""Olsen"", 2019)
+Add Methods
+Example
+Add a method called
+welcome
+to the
+Student
+class:
+class Student(Person):
+def __init__(self, fname, lname, year):
+super().__init__(fname, lname)
+self.graduationyear 
+  = year
+def welcome(self):
+print(""Welcome"", 
+  self.firstname, self.lastname, ""to the class of"", self.graduationyear)
+If you add a method in the child class with the same name as a function in 
+the pa",Python Inheritance,https://www.w3schools.com/python/python_inheritance.asp,4
+"f.firstname, self.lastname, ""to the class of"", self.graduationyear)
+If you add a method in the child class with the same name as a function in 
+the parent class, the inheritance of the parent method will be overridden.
+★
++1",Python Inheritance,https://www.w3schools.com/python/python_inheritance.asp,5
+"Python
+Iterators
+Share
+Link Copied
+Python Iterators
+An iterator is an object that contains a countable number of values.
+An iterator is an object that can be iterated upon, meaning that you can 
+traverse through all the values.
+Technically, in Python, an iterator is an object which implements the 
+iterator protocol, which consist of the methods
+__iter__()
+and
+__next__()
+.
+Iterator vs Iterable
+Lists, tuples, dictionaries, and sets are all iterable objects. They are iterable
+containers
+which you can get an iterator from.
+All these objects have a
+iter()
+method which is used to get an iterator:
+Example
+Return an iterator from a tuple, and print each value:
+mytuple = (""apple"", ""banana"", ""cherry"")
+myit = iter(mytuple)
+print(next(myit))
+print(next(myit))
+print(next(myit))
+Even strings are iterable objects, and can return an iterator:
+Example
+Strings are also iterable objects, containing a seque",Python Iterators,https://www.w3schools.com/python/python_iterators.asp,0
+"(myit))
+print(next(myit))
+Even strings are iterable objects, and can return an iterator:
+Example
+Strings are also iterable objects, containing a sequence of characters:
+mystr = ""banana""
+myit = iter(mystr)
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+Looping Through an Iterator
+We can also use a
+for
+loop to iterate through an iterable object:
+Example
+Iterate the values of a tuple:
+mytuple = (""apple"", ""banana"", ""cherry"")
+for x in mytuple:
+print(x)
+Example
+Iterate the characters of a string:
+mystr = ""banana""
+for x in mystr:
+print(x)
+The
+for
+loop actually creates an iterator object and executes the
+next()
+method for each loop.
+Create an Iterator
+To create an object/class as an iterator you have to implement the methods
+__iter__()
+and
+__next__()
+to your object.
+As you will learn in the
+Python 
+Classes/Objects
+chapter, all classes",Python Iterators,https://www.w3schools.com/python/python_iterators.asp,1
+"tor you have to implement the methods
+__iter__()
+and
+__next__()
+to your object.
+As you will learn in the
+Python 
+Classes/Objects
+chapter, all classes have a function called
+__init__()
+, which allows you to do some 
+initializing when the object is being created.
+The
+__iter__()
+method acts similar, you can 
+do operations (initializing etc.), but must always return the iterator object 
+itself.
+The
+__next__()
+method also allows you to do 
+operations, and must return the next item in the sequence.
+Example
+Create an iterator that returns numbers, starting with 1, and each sequence 
+will increase by one (returning 1,2,3,4,5 etc.):
+class MyNumbers:
+def __iter__(self):
+self.a = 
+  1
+return self
+def __next__(self):
+x = self.a
+self.a += 1
+return x
+myclass = MyNumbers()
+myiter =
+   iter(myclass)
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+StopI",Python Iterators,https://www.w3schools.com/python/python_iterators.asp,2
+"lass = MyNumbers()
+myiter =
+   iter(myclass)
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+StopIteration
+The example above would continue forever if you had enough next() statements, or if it was used in a
+for
+loop.
+To prevent the iteration from going on forever, we can use the
+StopIteration
+statement.
+In the
+__next__()
+method, we can add a terminating condition to raise an error if the iteration is done a specified number of times:
+Example
+Stop after 20 iterations:
+class MyNumbers:
+def __iter__(self):
+self.a = 
+  1
+return self
+def __next__(self):
+if self.a <= 20:
+x = self.a
+self.a += 1
+return x
+else:
+raise StopIteration
+myclass = 
+  MyNumbers()
+myiter =
+   iter(myclass)
+for x in myiter:
+print(x)
+★
++1",Python Iterators,https://www.w3schools.com/python/python_iterators.asp,3
+"Python
+Polymorphism
+The word ""polymorphism"" means ""many forms"", and in programming it refers to
+methods/functions/operators with the same name that can be executed on many 
+objects or classes.
+Share
+Link Copied
+Function Polymorphism
+An example of a Python function that can be used on different objects is the
+len()
+function.
+String
+For strings
+len()
+returns the number of characters:
+Example
+x = ""Hello World!""
+print(len(x))
+Tuple
+For tuples
+len()
+returns the number of items 
+in the tuple:
+Example
+mytuple = (""apple"", ""banana"", ""cherry"")
+print(len(mytuple))
+Dictionary
+For dictionaries
+len()
+returns the number of key/value pairs 
+in the dictionary:
+Example
+thisdict =	{
+""brand"": ""Ford"",
+""model"": ""Mustang"",
+""year"": 1964
+}
+print(len(thisdict))
+Class Polymorphism
+Polymorphism is often used in Class methods, where we can have multiple 
+classes with the same method name.
+For example, say we have th",Python Polymorphism,https://www.w3schools.com/python/python_polymorphism.asp,0
+"s Polymorphism
+Polymorphism is often used in Class methods, where we can have multiple 
+classes with the same method name.
+For example, say we have three classes:
+Car
+,
+Boat
+, and
+Plane
+, and they all have 
+a method called
+move()
+:
+Example
+Different classes with the same method:
+class Car:
+def __init__(self, brand, model):
+self.brand = brand
+self.model = model
+def move(self):
+print(""Drive!"")
+class Boat:
+def __init__(self, brand, model):
+self.brand = brand
+self.model = model
+def move(self):
+print(""Sail!"")
+class Plane:
+def __init__(self, brand, model):
+self.brand = brand
+self.model = model
+def move(self):
+print(""Fly!"")
+car1 = Car(""Ford"", ""Mustang"")        #Create a Car object
+boat1 = Boat(""Ibiza"", ""Touring 20"") #Create a Boat object
+plane1 = Plane(""Boeing"", ""747"")     #Create a Plane object
+for x in (car1, boat1, plane1):
+x.move()
+Look at the for loop at the end.
+Because of polymorphism we",Python Polymorphism,https://www.w3schools.com/python/python_polymorphism.asp,1
+"Plane(""Boeing"", ""747"")     #Create a Plane object
+for x in (car1, boat1, plane1):
+x.move()
+Look at the for loop at the end.
+Because of polymorphism we can execute the same method for all three classes.
+Inheritance Class Polymorphism
+What about classes with child classes with the same name? Can we use polymorphism there?
+Yes. If we use the example above and make a parent class called
+Vehicle
+, and make
+Car
+,
+Boat
+,
+Plane
+child classes of
+Vehicle
+, the child classes 
+inherits the
+Vehicle
+methods, but can override 
+them:
+Example
+Create a class called
+Vehicle
+and make
+Car
+,
+Boat
+,
+Plane
+child classes of
+Vehicle
+:
+class Vehicle:
+def __init__(self, brand, model):
+self.brand = brand
+self.model = model
+def move(self):
+print(""Move!"")
+class 
+    Car(Vehicle):
+pass
+class Boat(Vehicle):
+def 
+    move(self):
+print(""Sail!"")
+class 
+    Plane(Vehicle):
+def move(self):
+print(""Fly!"")
+car1 = Car(""Ford"", ""M",Python Polymorphism,https://www.w3schools.com/python/python_polymorphism.asp,2
+"Vehicle):
+pass
+class Boat(Vehicle):
+def 
+    move(self):
+print(""Sail!"")
+class 
+    Plane(Vehicle):
+def move(self):
+print(""Fly!"")
+car1 = Car(""Ford"", ""Mustang"")       #Create a Car object
+boat1 = Boat(""Ibiza"", ""Touring 20"") #Create a Boat object
+plane1 = 
+    Plane(""Boeing"", ""747"")     #Create a Plane object
+for x in (car1, boat1, 
+    plane1):
+print(x.brand)
+print(x.model)
+x.move()
+Child classes inherits the properties and methods from the parent class.
+In the example above you can see that the
+Car
+class is empty, but 
+it inherits
+brand
+,
+model
+, and
+move()
+from
+Vehicle
+.
+The
+Boat
+and
+Plane
+classes also 
+inherit
+brand
+,
+model
+, 
+and
+move()
+from
+Vehicle
+, but they both override the
+move()
+method.
+Because of polymorphism we can execute the same method for all classes.
+★
++1",Python Polymorphism,https://www.w3schools.com/python/python_polymorphism.asp,3
+"Python
+Scope
+Share
+Link Copied
+Scope
+A variable is only available from inside the region it is 
+created. This is called
+scope
+.
+Local Scope
+A variable created inside a function belongs to the
+local scope
+of 
+that function, and can only be used inside that function.
+Example
+A variable created inside a function is available inside that function:
+def myfunc():
+x = 300
+print(x)
+myfunc()
+Function Inside Function
+As explained in the example above, the variable
+x
+is not available outside the function, 
+but it is available for any function inside the function:
+Example
+The local variable can be accessed from a function within the function:
+def myfunc():
+x = 300
+def myinnerfunc():
+print(x)
+myinnerfunc()
+myfunc()
+Global Scope
+A variable created in the main body of the Python code is a global variable 
+and belongs to the global scope.
+Global variables are available from within any scope, global and",Python Scope,https://www.w3schools.com/python/python_scope.asp,0
+"main body of the Python code is a global variable 
+and belongs to the global scope.
+Global variables are available from within any scope, global and local.
+Example
+A variable created outside of a function is global and can be used by 
+  anyone:
+x = 300
+def myfunc():
+print(x)
+myfunc()
+print(x)
+Naming Variables
+If you operate with the same variable name inside and outside of a function, Python will treat them as two 
+separate variables,
+one available in the global scope (outside the function) and one available in the local scope (inside the function):
+Example
+The function will print the local
+x
+, and 
+  then the code will print the global
+x
+:
+x = 300
+def myfunc():
+x = 200
+print(x)
+myfunc()
+print(x)
+Global Keyword
+If you need to create a global variable, but are stuck in the local scope, you can use the
+global
+keyword.
+The
+global
+keyword makes the variable global.
+Example
+If you use the
+gl",Python Scope,https://www.w3schools.com/python/python_scope.asp,1
+"al variable, but are stuck in the local scope, you can use the
+global
+keyword.
+The
+global
+keyword makes the variable global.
+Example
+If you use the
+global
+keyword, the variable belongs to the global scope:
+def myfunc():
+global x
+x = 300
+myfunc()
+print(x)
+Also, use the
+global
+keyword if you want to 
+make a change to a global variable inside a function.
+Example
+To change the value of a global variable inside a function, refer to the 
+  variable by using the
+global
+keyword:
+x = 300
+def myfunc():
+global x
+x = 200
+myfunc()
+print(x)
+Nonlocal Keyword
+The
+nonlocal
+keyword is used to work with variables inside nested functions.
+The
+nonlocal
+keyword makes the variable belong to the outer function.
+Example
+If you use the
+nonlocal
+keyword, the variable will belong to the outer function:
+def myfunc1():
+x = ""Jane""
+def myfunc2():
+nonlocal x
+x = ""hello""
+myfunc2()
+return x
+print(myfunc1())
+The LEGB Rule",Python Scope,https://www.w3schools.com/python/python_scope.asp,2
+"will belong to the outer function:
+def myfunc1():
+x = ""Jane""
+def myfunc2():
+nonlocal x
+x = ""hello""
+myfunc2()
+return x
+print(myfunc1())
+The LEGB Rule
+Python follows the LEGB rule when looking up variable names, and searches for them in this order:
+L
+ocal - Inside the current function
+E
+nclosing - Inside enclosing functions (from inner to outer)
+G
+lobal - At the top level of the module
+B
+uilt-in - In Python's built-in namespace
+Example
+Understanding the LEGB rule:
+x = ""global""
+def outer():
+x = ""enclosing""
+def inner():
+x = ""local""
+print(""Inner:"", x)
+inner()
+print(""Outer:"", x)
+outer()
+print(""Global:"", x)
+★
++1",Python Scope,https://www.w3schools.com/python/python_scope.asp,3
+"Python
+Modules
+Share
+Link Copied
+What is a Module?
+Consider a module to be the same as a code library.
+A file containing a set of functions you want to include in your application.
+Create a Module
+To create a module just save the code you want in a file with the file extension
+.py
+:
+Example
+Save this code in a file named
+mymodule.py
+def greeting(name):
+print(""Hello, "" + name)
+Use a Module
+Now we can use the module we just created, by using the
+import
+statement:
+Example
+Import the module named mymodule, and call the greeting function:
+import mymodule
+mymodule.greeting(""Jonathan"")
+Note:
+When using a function from a module, use the syntax:
+module_name.function_name
+.
+Variables in Module
+The module can contain functions, as already described, but also variables of 
+all types (arrays, dictionaries, objects etc):
+Example
+Save this code in the file
+mymodule.py
+person1 = {
+""name"": ""John"",
+""age"":",Python Modules,https://www.w3schools.com/python/python_modules.asp,0
+"ut also variables of 
+all types (arrays, dictionaries, objects etc):
+Example
+Save this code in the file
+mymodule.py
+person1 = {
+""name"": ""John"",
+""age"": 36,
+""country"": ""Norway""
+}
+Example
+Import the module named mymodule, and access the person1 dictionary:
+import mymodule
+a = mymodule.person1[""age""]
+print(a)
+Naming a Module
+You can name the module file whatever you like, but it must have the file extension
+.py
+Re-naming a Module
+You can create an alias when you import a module, by using the
+as
+keyword:
+Example
+Create an alias for
+mymodule
+called
+mx
+:
+import mymodule as mx
+a = mx.person1[""age""]
+print(a)
+Built-in Modules
+There are several built-in modules in Python, which you can import whenever you like.
+Example
+Import and use the
+platform
+module:
+import platform
+x = platform.system()
+print(x)
+Using the dir() Function
+There is a built-in function to list all the function names (or variable",Python Modules,https://www.w3schools.com/python/python_modules.asp,1
+"le:
+import platform
+x = platform.system()
+print(x)
+Using the dir() Function
+There is a built-in function to list all the function names (or variable 
+names) in a module. The
+dir()
+function:
+Example
+List all the defined names belonging to the platform module:
+import platform
+x = dir(platform)
+print(x)
+Note:
+The
+dir()
+function can be used on
+all
+modules, also the ones you create yourself.
+Import From Module
+You can choose to import only parts from a module, by using the
+from
+keyword.
+Example
+The module named
+mymodule
+has one function 
+and one dictionary:
+def greeting(name):
+print(""Hello, "" + name)
+person1 
+  = {
+""name"": ""John"",
+""age"": 36,
+""country"": 
+  ""Norway""
+}
+Example
+Import only the person1 dictionary from the module:
+from mymodule import person1
+print (person1[""age""])
+Note:
+When importing using the
+from
+keyword, do not use the module name when referring to elements in the module. 
+  E",Python Modules,https://www.w3schools.com/python/python_modules.asp,2
+"person1
+print (person1[""age""])
+Note:
+When importing using the
+from
+keyword, do not use the module name when referring to elements in the module. 
+  Example:
+person1[""age""]
+,
+not
+mymodule.person1[""age""]
+★
++1",Python Modules,https://www.w3schools.com/python/python_modules.asp,3
+"Python
+Datetime
+Share
+Link Copied
+Python Dates
+A date in Python is not a data type of its own, but we can import a module 
+named
+datetime
+to work with dates as date 
+objects.
+Example
+Import the datetime module and display the current date:
+import datetime
+x = datetime.datetime.now()
+print(x)
+Date Output
+When we execute the code from the example above the result will be:
+The date contains year, month, day, hour, minute, second, and microsecond.
+The
+datetime
+module has many methods to return information about the date 
+object.
+Here are a few examples, you will learn more about them later in this 
+chapter:
+Example
+Return the year and name of weekday:
+import datetime
+x = datetime.datetime.now()
+print(x.year)
+print(x.strftime(""%A""))
+Creating Date Objects
+To create a date, we can use the
+datetime()
+class (constructor) of the
+datetime
+module.
+The
+datetime()
+class requires three parameters to cr",Python Datetime,https://www.w3schools.com/python/python_datetime.asp,0
+"e Objects
+To create a date, we can use the
+datetime()
+class (constructor) of the
+datetime
+module.
+The
+datetime()
+class requires three parameters to create a date: year, 
+month, day.
+Example
+Create a date object:
+import datetime
+x = datetime.datetime(2020, 5, 17)
+print(x)
+The
+datetime()
+class also takes parameters for time and timezone (hour, 
+minute, second, microsecond, tzone), but they are optional, and has a default 
+value of
+0
+, (
+None
+for timezone).
+The strftime() Method
+The
+datetime
+object has a method for formatting date objects into readable strings.
+The method is called
+strftime()
+, and takes one parameter,
+format
+, to specify the format of the returned string:
+Example
+Display the name of the month:
+import datetime
+x = datetime.datetime(2018, 6, 1)
+print(x.strftime(""%B""))
+A reference of all the legal format codes:
+Directive
+Description
+Example
+Try it
+%a
+Weekday, short version
+We",Python Datetime,https://www.w3schools.com/python/python_datetime.asp,1
+"etime(2018, 6, 1)
+print(x.strftime(""%B""))
+A reference of all the legal format codes:
+Directive
+Description
+Example
+Try it
+%a
+Weekday, short version
+Wed
+%A
+Weekday, full version
+Wednesday
+%w
+Weekday as a number 0-6, 0 is Sunday
+3
+%d
+Day of month 01-31
+31
+%b
+Month name, short version
+Dec
+%B
+Month name, full version
+December
+%m
+Month as a number 01-12
+12
+%y
+Year, short version, without century
+18
+%Y
+Year, full version
+2018
+%H
+Hour 00-23
+17
+%I
+Hour 00-12
+05
+%p
+AM/PM
+PM
+%M
+Minute 00-59
+41
+%S
+Second 00-59
+08
+%f
+Microsecond 000000-999999
+548513
+%z
+UTC offset
++0100
+%Z
+Timezone
+CST
+%j
+Day number of year 001-366
+365
+%U
+Week number of year, Sunday as the first day of week, 00-53
+52
+%W
+Week number of year, Monday as the first day of week, 00-53
+52
+%c
+Local version of date and time
+Mon Dec 31 17:41:00 2018
+%C
+Century
+20
+%x
+Local version of date
+12/31/18
+%X
+Local version of time
+17:41:00
+%%
+A % charac",Python Datetime,https://www.w3schools.com/python/python_datetime.asp,2
+"ocal version of date and time
+Mon Dec 31 17:41:00 2018
+%C
+Century
+20
+%x
+Local version of date
+12/31/18
+%X
+Local version of time
+17:41:00
+%%
+A % character
+%
+%G
+ISO 8601 year
+2018
+%u
+ISO 8601 weekday (1-7)
+1
+%V
+ISO 8601 weeknumber (01-53)
+01
+★
++1",Python Datetime,https://www.w3schools.com/python/python_datetime.asp,3
+"Python
+Math
+Python has a set of built-in math functions, including an extensive math module, that allows you to perform mathematical tasks on numbers.
+Share
+Link Copied
+Built-in Math Functions
+The
+min()
+and
+max()
+functions can be used to find the lowest or highest value in an iterable:
+Example
+x = min(5, 10, 25)
+y = max(5, 10, 25)
+print(x)
+print(y)
+The
+abs()
+function returns the absolute (positive) value of the specified number:
+Example
+x = abs(-7.25)
+print(x)
+The
+pow(
+x
+,
+y
+)
+function returns the value of x to the power of y (x
+y
+).
+Example
+Return the value of 4 to the power of 3 (same as 4 * 4 * 4):
+x = pow(4, 3)
+print(x)
+The Math Module
+Python has also a built-in module called
+math
+, which extends the list of mathematical functions.
+To use it, you must import the
+math
+module:
+import math
+When you have imported the
+math
+module, you 
+can start using methods and constants of the module.",Python Math,https://www.w3schools.com/python/python_math.asp,0
+"se it, you must import the
+math
+module:
+import math
+When you have imported the
+math
+module, you 
+can start using methods and constants of the module.
+The
+math.sqrt()
+method for example, returns the square root of a number:
+Example
+import 
+    math
+x = math.sqrt(64)
+print(x)
+The
+math.ceil()
+method rounds a number upwards to 
+its nearest integer, and the
+math.floor()
+method rounds a number downwards to its nearest integer, and returns the result:
+Example
+import 
+    math
+x = math.ceil(1.4)
+y = math.floor(1.4)
+print(x) # 
+    returns 2
+print(y) # returns 1
+The
+math.pi
+constant, returns the value of 
+PI (3.14...):
+Example
+import 
+    math
+x = math.pi
+print(x)
+Complete Math Module Reference
+In our
+Math Module Reference
+you will 
+find a complete reference of all methods and constants that belongs to the Math module.
+★
++1",Python Math,https://www.w3schools.com/python/python_math.asp,1
+"Python
+JSON
+JSON is a syntax for storing and exchanging data.
+JSON is text, written with JavaScript object notation.
+Share
+Link Copied
+JSON in Python
+Python has a built-in package called
+json
+, which can be used to work with JSON data.
+Example
+Import the json module:
+import json
+Parse JSON - Convert from JSON to Python
+If you have a JSON string, you can parse it by using the
+json.loads()
+method.
+The result will be a
+Python dictionary
+.
+Example
+Convert from JSON to Python:
+import json
+# some JSON:
+x =  '{ ""name"":""John"", ""age"":30, ""city"":""New 
+  York""}'
+# parse x:
+y = json.loads(x)
+# the result is a 
+  Python dictionary:
+print(y[""age""])
+Convert from Python to JSON
+If you have a Python object, you can convert it into a JSON string by 
+using the
+json.dumps()
+method.
+Example
+Convert from Python to JSON:
+import json
+# a Python object (dict):
+x = {
+""name"": 
+  ""John"",
+""age"": 30,
+""city"": ""New Yor",Python JSON,https://www.w3schools.com/python/python_json.asp,0
+"e
+json.dumps()
+method.
+Example
+Convert from Python to JSON:
+import json
+# a Python object (dict):
+x = {
+""name"": 
+  ""John"",
+""age"": 30,
+""city"": ""New York""
+}
+# 
+  convert into JSON:
+y = json.dumps(x)
+# the result is a JSON string:
+print(y)
+You can convert Python objects of the following types, into JSON strings:
+dict
+list
+tuple
+string
+int
+float
+True
+False
+None
+Example
+Convert Python objects into JSON strings, and print the values:
+import json
+print(json.dumps({""name"": ""John"", ""age"": 30}))
+print(json.dumps([""apple"", 
+  ""bananas""]))
+print(json.dumps((""apple"", ""bananas"")))
+print(json.dumps(""hello""))
+print(json.dumps(42))
+print(json.dumps(31.76))
+print(json.dumps(True))
+print(json.dumps(False))
+print(json.dumps(None))
+When you convert from Python to JSON, Python objects are converted into the JSON (JavaScript) equivalent:
+Python
+JSON
+dict
+Object
+list
+Array
+tuple
+Array
+str
+String
+int
+Number
+floa",Python JSON,https://www.w3schools.com/python/python_json.asp,1
+"to JSON, Python objects are converted into the JSON (JavaScript) equivalent:
+Python
+JSON
+dict
+Object
+list
+Array
+tuple
+Array
+str
+String
+int
+Number
+float
+Number
+True
+true
+False
+false
+None
+null
+Example
+Convert a Python object containing all the legal data types:
+import json
+x = {
+""name"": 
+  ""John"",
+""age"": 30,
+""married"": True,
+""divorced"": False,
+""children"": (""Ann"",""Billy""),
+""pets"": 
+  None,
+""cars"": [
+{""model"": ""BMW 230"", ""mpg"": 
+  27.5},
+{""model"": ""Ford Edge"", ""mpg"": 24.1}
+]
+}
+print(json.dumps(x))
+Format the Result
+The example above prints a JSON string, but it is not very easy to read, with no indentations and line breaks.
+The
+json.dumps()
+method has parameters to 
+make it easier to read the result:
+Example
+Use the
+indent
+parameter to define the numbers 
+of indents:
+json.dumps(x, indent=4)
+You can also define the separators, default value is ("", "", "": ""), which 
+means using a comma and a sp",Python JSON,https://www.w3schools.com/python/python_json.asp,2
+"he numbers 
+of indents:
+json.dumps(x, indent=4)
+You can also define the separators, default value is ("", "", "": ""), which 
+means using a comma and a space to separate each object, and a colon and a space 
+to separate keys from values:
+Example
+Use the
+separators
+parameter to change the 
+default separator:
+json.dumps(x, indent=4, separators=("". "", "" = ""))
+Order the Result
+The
+json.dumps()
+method has parameters to 
+order the keys in the result:
+Example
+Use the
+sort_keys
+parameter to specify if 
+the result should be sorted or not:
+json.dumps(x, indent=4, sort_keys=True)
+★
++1",Python JSON,https://www.w3schools.com/python/python_json.asp,3
+"Python
+RegEx
+A RegEx, or Regular Expression, is a sequence of characters that forms a search pattern.
+RegEx can be used to check if a string contains the specified search pattern.
+Share
+Link Copied
+RegEx Module
+Python has a built-in package called
+re
+, which can be used to work with 
+Regular Expressions.
+Import the
+re
+module:
+import re
+RegEx in Python
+When you have imported the
+re
+module, you 
+can start using regular expressions:
+Example
+Search the string to see if it starts with ""The"" and ends with ""Spain"":
+import 
+    re
+txt = ""The rain in Spain""
+x = re.search(""^The.*Spain$"", txt)
+RegEx Functions
+The
+re
+module offers a set of functions that allows 
+us to search a string for a match:
+Function
+Description
+findall
+Returns a list containing all matches
+search
+Returns a
+Match object
+if there is a match anywhere in the string
+split
+Returns a list where the string has been split at each match",Python RegEx,https://www.w3schools.com/python/python_regex.asp,0
+"ll matches
+search
+Returns a
+Match object
+if there is a match anywhere in the string
+split
+Returns a list where the string has been split at each match
+sub
+Replaces one or many matches with a string
+Metacharacters
+Metacharacters are characters with a special meaning:
+Character
+Description
+Example
+Try it
+[]
+A set of characters
+""[a-m]""
+\
+Signals a special sequence (can also be used to escape special characters)
+""\d""
+.
+Any character (except newline character)
+""he..o""
+^
+Starts with
+""^hello""
+$
+Ends with
+""planet$""
+*
+Zero or more occurrences
+""he.*o""
++
+One or more occurrences
+""he.+o""
+?
+Zero or one occurrences
+""he.?o""
+{}
+Exactly the specified number of occurrences
+""he.{2}o""
+|
+Either or
+""falls|stays""
+()
+Capture and group
+Flags
+You can add flags to the pattern when using regular expressions.
+Flag
+Shorthand
+Description
+Try it
+re.ASCII
+re.A
+Returns only ASCII matches
+re.DEBUG
+Returns debug information",Python RegEx,https://www.w3schools.com/python/python_regex.asp,1
+"pattern when using regular expressions.
+Flag
+Shorthand
+Description
+Try it
+re.ASCII
+re.A
+Returns only ASCII matches
+re.DEBUG
+Returns debug information
+re.DOTALL
+re.S
+Makes the . character match all characters (including newline character)
+re.IGNORECASE
+re.I
+Case-insensitive matching
+re.MULTILINE
+re.M
+Returns matches at the start/end of each line
+re.NOFLAG
+Specifies that no flag is set for this pattern
+re.UNICODE
+re.U
+Returns Unicode matches. This is default from Python 3. For Python 2: use this flag to return only Unicode matches
+re.VERBOSE
+re.X
+Allows whitespaces and comments inside patterns. Makes the pattern more readable
+Special Sequences
+A special sequence is a
+\
+followed by one of the characters in the list below, and has a special meaning:
+Character
+Description
+Example
+Try it
+\A
+Returns a match if the specified characters are at the beginning of the 
+string
+""\AThe""
+\b
+Returns a ma",Python RegEx,https://www.w3schools.com/python/python_regex.asp,2
+"aning:
+Character
+Description
+Example
+Try it
+\A
+Returns a match if the specified characters are at the beginning of the 
+string
+""\AThe""
+\b
+Returns a match where the specified characters are at the beginning or at the 
+end of a word
+(the ""r"" in the beginning is making sure that the string is 
+being treated as a ""raw string"")
+r""\bain""
+r""ain\b""
+\B
+Returns a match where the specified characters are present, but NOT at the beginning 
+(or at 
+the end) of a word
+(the ""r"" in the beginning is making sure that the string 
+is being treated as a ""raw string"")
+r""\Bain""
+r""ain\B""
+\d
+Returns a match where the string contains digits (numbers from 0-9)
+""\d""
+\D
+Returns a match where the string DOES NOT contain digits
+""\D""
+\s
+Returns a match where the string contains a white space character
+""\s""
+\S
+Returns a match where the string DOES NOT contain a white space character
+""\S""
+\w
+Returns a match where the str",Python RegEx,https://www.w3schools.com/python/python_regex.asp,3
+"ntains a white space character
+""\s""
+\S
+Returns a match where the string DOES NOT contain a white space character
+""\S""
+\w
+Returns a match where the string contains any word characters (characters from 
+a to Z, digits from 0-9, and the underscore _ character)
+""\w""
+\W
+Returns a match where the string DOES NOT contain any word characters
+""\W""
+\Z
+Returns a match if the specified characters are at the end of the string
+""Spain\Z""
+Sets
+A set is a set of characters inside a pair of square brackets
+[]
+with a special meaning:
+Set
+Description
+Try it
+[arn]
+Returns a match where one of the specified characters (
+a
+,
+r
+, or
+n
+) is 
+present
+[a-n]
+Returns a match for any lower case character, alphabetically between
+a
+and
+n
+[^arn]
+Returns a match for any character EXCEPT
+a
+,
+r
+, and
+n
+[0123]
+Returns a match where any of the specified digits (
+0
+,
+1
+,
+2
+, or
+3
+) are 
+present
+[0-9]
+Returns a match for any d",Python RegEx,https://www.w3schools.com/python/python_regex.asp,4
+"racter EXCEPT
+a
+,
+r
+, and
+n
+[0123]
+Returns a match where any of the specified digits (
+0
+,
+1
+,
+2
+, or
+3
+) are 
+present
+[0-9]
+Returns a match for any digit between
+0
+and
+9
+[0-5][0-9]
+Returns a match for any two-digit numbers from
+00
+and
+59
+[a-zA-Z]
+Returns a match for any character alphabetically between
+a
+and
+z
+, lower case OR upper case
+[+]
+In sets,
++
+,
+*
+,
+.
+,
+|
+,
+()
+,
+$
+,
+{}
+has no special meaning, so
+[+]
+means: return a match for any
++
+character in the string
+The findall() Function
+The
+findall()
+function returns a list containing all matches.
+Example
+Print a list of all matches:
+import re
+txt = ""The rain in Spain""
+x = re.findall(""ai"", 
+  txt)
+print(x)
+The list contains the matches in the order they are found.
+If no matches are found, an empty list is returned:
+Example
+Return an empty list if no match was found:
+import re
+txt = ""The rain in Spain""
+x = re.findall(""Portugal"", 
+  txt)
+pr",Python RegEx,https://www.w3schools.com/python/python_regex.asp,5
+"empty list is returned:
+Example
+Return an empty list if no match was found:
+import re
+txt = ""The rain in Spain""
+x = re.findall(""Portugal"", 
+  txt)
+print(x)
+The search() Function
+The
+search()
+function searches the string 
+for a match, and returns a
+Match object
+if there is a 
+match.
+If there is more than one match, 
+only the first occurrence of the match will be returned:
+Example
+Search for the first white-space character in the string:
+import re
+txt = ""The rain in Spain""
+x = re.search(""\s"", 
+  txt)
+print(""The first white-space character is located in 
+  position:"", x.start())
+If no matches are found, the value
+None
+is returned:
+Example
+Make a search that returns no match:
+import re
+txt = ""The rain in Spain""
+x = re.search(""Portugal"", 
+  txt)
+print(x)
+The split() Function
+The
+split()
+function returns a list where 
+the string has been split at each match:
+Example
+Split at each white-space",Python RegEx,https://www.w3schools.com/python/python_regex.asp,6
+")
+print(x)
+The split() Function
+The
+split()
+function returns a list where 
+the string has been split at each match:
+Example
+Split at each white-space character:
+import re
+txt = ""The rain in Spain""
+x = re.split(""\s"", 
+  txt)
+print(x)
+You can control the number of occurrences by specifying the
+maxsplit
+parameter:
+Example
+Split the string only at the first occurrence:
+import re
+txt = ""The rain in Spain""
+x = re.split(""\s"", 
+  txt, 
+  1)
+print(x)
+The sub() Function
+The
+sub()
+function replaces the matches with 
+the text of your choice:
+Example
+Replace every white-space character with the number 9:
+import re
+txt = ""The rain in Spain""
+x = re.sub(""\s"", 
+  ""9"", txt)
+print(x)
+You can control the number of replacements by specifying the
+count
+parameter:
+Example
+Replace the first 2 occurrences:
+import re
+txt = ""The rain in Spain""
+x = re.sub(""\s"", 
+  ""9"", txt, 2)
+print(x)
+Match Object
+A Match Object i",Python RegEx,https://www.w3schools.com/python/python_regex.asp,7
+":
+Example
+Replace the first 2 occurrences:
+import re
+txt = ""The rain in Spain""
+x = re.sub(""\s"", 
+  ""9"", txt, 2)
+print(x)
+Match Object
+A Match Object is an object containing information 
+about the search and the result.
+Note:
+If there is no match, the value
+None
+will be 
+returned, instead of the Match Object.
+Example
+Do a search that will return a Match Object:
+import re
+txt = ""The rain in Spain""
+x = re.search(""ai"", 
+  txt)
+print(x) #this will print an object
+The Match object has properties and methods used to retrieve information 
+about the search, and the result:
+.span()
+returns a tuple containing the start-, and end positions of the match.
+.string
+returns the string passed into the function
+.group()
+returns the part of the string where there was a match
+Example
+Print the position (start- and end-position) of the first match occurrence.
+The regular expression looks for any words that st",Python RegEx,https://www.w3schools.com/python/python_regex.asp,8
+"ere was a match
+Example
+Print the position (start- and end-position) of the first match occurrence.
+The regular expression looks for any words that starts with an upper case 
+  ""S"":
+import re
+txt = ""The rain in Spain""
+x = re.search(r""\bS\w+"", txt)
+print(
+x.span()
+)
+Example
+Print the string passed into the function:
+import re
+txt = ""The rain in Spain""
+x = re.search(r""\bS\w+"", txt)
+print(
+x.string
+)
+Example
+Print the part of the string where there was a match.
+The regular expression looks for any words that starts with an upper case 
+  ""S"":
+import re
+txt = ""The rain in Spain""
+x = re.search(r""\bS\w+"", txt)
+print(
+x.group()
+)
+Note:
+If there is no match, the value
+None
+will be 
+returned, instead of the Match Object.
+★
++1",Python RegEx,https://www.w3schools.com/python/python_regex.asp,9
+"Python
+PIP
+Share
+Link Copied
+What is PIP?
+PIP is a package manager for Python packages, or modules if you like.
+Note:
+If you have Python version 3.4 or later, PIP is included by default.
+What is a Package?
+A package contains all the files you need for a module.
+Modules are Python code libraries you can include in your project.
+Check if PIP is Installed
+Navigate your command line to the location of Python's script directory, and type the following:
+Example
+Check PIP version:
+C:\Users\
+Your Name
+\AppData\Local\Programs\Python\Python36-32\Scripts>pip --version
+Install PIP
+If you do not have PIP installed, you can download and install it from this page:
+https://pypi.org/project/pip/
+Download a Package
+Downloading a package is very easy.
+Open the command line interface and tell PIP to download the package you 
+want.
+Navigate your command line to the location of Python's script directory, and",Python PIP,https://www.w3schools.com/python/python_pip.asp,0
+"e command line interface and tell PIP to download the package you 
+want.
+Navigate your command line to the location of Python's script directory, and type the following:
+Example
+Download a package named ""camelcase"":
+C:\Users\
+Your Name
+\AppData\Local\Programs\Python\Python36-32\Scripts>pip 
+  install camelcase
+Now you have downloaded and installed your first package!
+Using a Package
+Once the package is installed, it is ready to use.
+Import the ""camelcase"" package into your project.
+Example
+Import and use ""camelcase"":
+import camelcase
+c = camelcase.CamelCase()
+txt = ""hello world""
+print(c.hump(txt))
+Find Packages
+Find more packages at
+https://pypi.org/
+.
+Remove a Package
+Use the
+uninstall
+command to remove a package:
+Example
+Uninstall the package named ""camelcase"":
+C:\Users\
+Your Name
+\AppData\Local\Programs\Python\Python36-32\Scripts>pip 
+  uninstall camelcase
+The PIP Package Manager will",Python PIP,https://www.w3schools.com/python/python_pip.asp,1
+"kage named ""camelcase"":
+C:\Users\
+Your Name
+\AppData\Local\Programs\Python\Python36-32\Scripts>pip 
+  uninstall camelcase
+The PIP Package Manager will ask you to confirm that you want to remove the 
+camelcase package:
+Uninstalling camelcase-02.1:
+Would remove:
+c:\users\
+Your Name
+\appdata\local\programs\python\python36-32\lib\site-packages\camelcase-0.2-py3.6.egg-info
+c:\users\
+Your Name
+\appdata\local\programs\python\python36-32\lib\site-packages\camelcase\*
+Proceed (y/n)?
+Press
+y
+and the package will be removed.
+List Packages
+Use the
+list
+command to list all the packages installed on your system:
+Example
+List installed packages:
+C:\Users\
+Your Name
+\AppData\Local\Programs\Python\Python36-32\Scripts>pip list
+Result:
+Package         Version
+-----------------------
+camelcase       0.2
+mysql-connector 2.1.6
+pip             
+  18.1
+pymongo         3.6.1
+setuptools      39.0.1
+★
++1",Python PIP,https://www.w3schools.com/python/python_pip.asp,2
+"Python
+Try Except
+The
+try
+block lets you test a 
+block of code for errors.
+The
+except
+block lets you 
+handle the error.
+The
+else
+block lets you 
+execute code when there is no error.
+The
+finally
+block lets you 
+execute code, regardless of the result of the try- and except blocks.
+Share
+Link Copied
+Exception Handling
+When an error occurs, or exception as we call it, Python will normally stop and 
+generate an error message.
+These exceptions can be handled using the
+try
+statement:
+Example
+The
+try
+block will generate an exception, 
+  because
+x
+is not defined:
+try:
+print(x)
+except:
+print(""An exception occurred"")
+Since the try block raises an error, the except block will be executed.
+Without the try block, the program will crash and raise an error:
+Example
+This statement will raise an error, 
+  because
+x
+is not defined:
+print(x)
+Many Exceptions
+You can define as many exception blocks as you wan",Python Try Except,https://www.w3schools.com/python/python_try_except.asp,0
+":
+Example
+This statement will raise an error, 
+  because
+x
+is not defined:
+print(x)
+Many Exceptions
+You can define as many exception blocks as you want, e.g. if you want to execute a 
+special block of code for a special kind of error:
+Example
+Print one message if the try block raises a
+NameError
+and another 
+  for other errors:
+try:
+print(x)
+except NameError:
+print(""Variable x 
+  is not defined"")
+except:
+print(""Something else went 
+  wrong"")
+See more Error types in our
+Python Built-in Exceptions Reference
+.
+Else
+You can use the
+else
+keyword to define a 
+block of code to be executed if no errors were raised:
+Example
+In this example, the
+try
+block does not 
+  generate any error:
+try:
+print(""Hello"")
+except:
+print(""Something went 
+  wrong"")
+else:
+print(""Nothing went wrong"")
+Finally
+The
+finally
+block, if specified, will be executed 
+regardless if the try block 
+raises an error or not.
+Example",Python Try Except,https://www.w3schools.com/python/python_try_except.asp,1
+"e:
+print(""Nothing went wrong"")
+Finally
+The
+finally
+block, if specified, will be executed 
+regardless if the try block 
+raises an error or not.
+Example
+try:
+print(x)
+except:
+print(""Something went 
+  wrong"")
+finally:
+print(""The 'try except' is finished"")
+This can be useful to close objects and clean up resources:
+Example
+Try to open and write to a file that is not writable:
+try:
+f = open(""demofile.txt"")
+try:
+f.write(""Lorum Ipsum"")
+except:
+print(""Something went wrong when writing to the file"")
+finally:
+f.close()
+except:
+print(""Something went wrong when opening the 
+  file"")
+The program can continue, without leaving the file object open.
+Raise an exception
+As a Python developer you can choose to throw an exception if a condition occurs.
+To throw (or raise) an exception, use the
+raise
+keyword.
+Example
+Raise an error and stop the program if x is lower than 0:
+x = -1
+if x < 0:
+raise Exception(""",Python Try Except,https://www.w3schools.com/python/python_try_except.asp,2
+"w (or raise) an exception, use the
+raise
+keyword.
+Example
+Raise an error and stop the program if x is lower than 0:
+x = -1
+if x < 0:
+raise Exception(""Sorry, no numbers below 
+    zero"")
+The
+raise
+keyword is used to raise an 
+exception.
+You can define what kind of error to raise, and the text to print to the user.
+Example
+Raise a TypeError if x is not an integer:
+x = ""hello""
+if not type(x) is int:
+raise TypeError(""Only 
+    integers are allowed"")
+★
++1",Python Try Except,https://www.w3schools.com/python/python_try_except.asp,3
+"Python
+User Input
+Share
+Link Copied
+User Input
+Python allows for user input.
+That means we are able to ask the user for input.
+The following example asks for your name, and when you enter a name, it gets printed on the screen:
+Example
+Ask for user input:
+print(""Enter your name:"")
+name = input()
+print(f""Hello {name}"")
+Python stops executing when it comes to the
+input()
+function, and continues 
+when the user has given some input.
+Using prompt
+In the example above, the user had to input their name on a new line. The Python
+input()
+function has a
+prompt
+parameter,
+which acts as a message you can put in front of the user input, on the same line:
+Example
+Add a message in front of the user input:
+name = input(""Enter your name:"")
+print(f""Hello {name}"")
+Multiple Inputs
+You can add as many inputs as you want, Python will stop executing at each of them,
+waiting for user input:
+Example
+Multiple inpu",Python User Input,https://www.w3schools.com/python/python_user_input.asp,0
+"e}"")
+Multiple Inputs
+You can add as many inputs as you want, Python will stop executing at each of them,
+waiting for user input:
+Example
+Multiple inputs:
+name = input(""Enter your name:"")
+print(f""Hello {name}"")
+fav1 = input(""What is your favorite animal:"")
+fav2 = input(""What is your favorite color:"")
+fav3 = input(""What is your favorite number:"")
+print(f""Do you want a {fav2} {fav1} with {fav3} legs?"")
+Input Number
+The input from the user is treated as a string. Even if, in the example above, you can input a number,
+the Python interpreter will still treat it as a string.
+You can convert the input into a number with the
+float()
+function:
+Example
+To find the square root, the input has to be converted into a number:
+x = input(""Enter a number:"")
+#find the square root of the number:
+y = math.sqrt(float(x))
+print(f""The square root of {x} is {y}"")
+Validate Input
+It is a good practice to validate a",Python User Input,https://www.w3schools.com/python/python_user_input.asp,1
+"find the square root of the number:
+y = math.sqrt(float(x))
+print(f""The square root of {x} is {y}"")
+Validate Input
+It is a good practice to validate any input from the user. In the example above, 
+an error will occur if the user inputs something other than a number.
+To avoid getting an error, we can test the input, and if it is not a number, the user could get a message like ""Wrong input, please try again"",
+and allowed to make a new input:
+Example
+Keep asking until you get a number:
+y = True
+while y == True:
+x = input(""Enter a number:"")
+try:
+x = float(x);
+y = False
+except:
+print(""Wrong input, please try again."")
+print(""Thank you!"")
+★
++1",Python User Input,https://www.w3schools.com/python/python_user_input.asp,2
+"Python
+File Open
+File handling is an important part of any web application.
+Python has several functions for creating, reading, updating, and 
+deleting files.
+Share
+Link Copied
+File Handling
+The key function for working with files in Python is the
+open()
+function.
+The
+open()
+function takes two parameters;
+filename
+, and
+mode
+.
+There are four different methods (modes) for opening a file:
+""r""
+- Read - Default value. Opens a 
+file for reading, error if the file does not exist
+""a""
+- Append - Opens a file for 
+appending, creates the file if it does not exist
+""w""
+- Write - Opens a file for writing, 
+creates the file if it does not exist
+""x""
+- Create - Creates the specified file, returns 
+an error if the file exists
+In addition you can specify if the file should be handled as binary or text mode
+""t""
+- Text - Default value. Text mode
+""b""
+- Binary - Binary mode (e.g. 
+  images)
+Syntax
+To open a f",Python File Open,https://www.w3schools.com/python/python_file_handling.asp,0
+"the file should be handled as binary or text mode
+""t""
+- Text - Default value. Text mode
+""b""
+- Binary - Binary mode (e.g. 
+  images)
+Syntax
+To open a file for reading it is enough to specify the name of the file:
+f = open(""demofile.txt"")
+The code above is the same as:
+f = open(""demofile.txt"", ""rt"")
+Because
+""r""
+for read, and
+""t""
+for text are the default values, you do not need to specify them.
+Note:
+Make sure the file exists, or else you will get an error.
+★
++1",Python File Open,https://www.w3schools.com/python/python_file_handling.asp,1
+"Python
+File Open
+Share
+Link Copied
+Open a File on the Server
+Assume we have the following file, located in the same folder as Python:
+demofile.txt
+Hello! Welcome to demofile.txt
+This file is for testing purposes.
+Good 
+  Luck!
+To open the file, use the built-in
+open()
+function.
+The
+open()
+function returns a file object, which has a
+read()
+method for reading the content of the file:
+Example
+f = open(""demofile.txt"")
+print(f.read())
+If the file is located in a different location, you will have to specify the file path, 
+like this:
+Example
+Open a file on a different location:
+f = open(""D:\\myfiles\welcome.txt"")
+print(f.read())
+Using the
+with
+statement
+You can also use the
+with
+statement when opening a file:
+Example
+Using the
+with
+keyword:
+with open(""demofile.txt"") as f:
+print(f.read())
+Then you do not have to worry about closing your files, the
+with
+statement takes care of that.
+Close Files",Python File Open,https://www.w3schools.com/python/python_file_open.asp,0
+"open(""demofile.txt"") as f:
+print(f.read())
+Then you do not have to worry about closing your files, the
+with
+statement takes care of that.
+Close Files
+It is a good practice to always close the file when you are done with it.
+If you are not using the
+with
+statement, you must write a close statement in order to close the file:
+Example
+Close the file when you are finished with it:
+f = open(""demofile.txt"")
+print(f.readline())
+f.close()
+Note:
+You should always close your files. In some cases, due to buffering, changes made to a file may not show until you close the file.
+Read Only Parts of the File
+By default the
+read()
+method returns the whole text, but you can also specify how many characters you want to return:
+Example
+Return the 5 first characters of the file:
+with open(""demofile.txt"") as f:
+print(f.read(
+5
+))
+Read Lines
+You can return one line by using the
+readline()
+method:
+Example
+Read",Python File Open,https://www.w3schools.com/python/python_file_open.asp,1
+"cters of the file:
+with open(""demofile.txt"") as f:
+print(f.read(
+5
+))
+Read Lines
+You can return one line by using the
+readline()
+method:
+Example
+Read one line of the file:
+with open(""demofile.txt"") as f:
+print(f.readline())
+By calling
+readline()
+two times, you can read the 
+two first lines:
+Example
+Read two lines of the file:
+with open(""demofile.txt"") as f:
+print(f.readline())
+print(f.readline())
+By looping through the lines of the file, you can read the whole file, line by line:
+Example
+Loop through the file line by line:
+with open(""demofile.txt"") as f:
+for x in f:
+print(x)
+★
++1",Python File Open,https://www.w3schools.com/python/python_file_open.asp,2
+"Python
+File Write
+Share
+Link Copied
+Write to an Existing File
+To write to an existing file, you must add a parameter to the
+open()
+function:
+""a""
+- Append - will append to the end of the file
+""w""
+- Write - will overwrite any existing content
+Example
+Open the file ""demofile.txt"" and append content to the file:
+with open(""demofile.txt"", ""a"") as f:
+f.write(""Now the file has more content!"")
+#open and read the file after the appending:
+with open(""demofile.txt"") 
+  as f:
+print(f.read())
+Overwrite Existing Content
+To overwrite the existing content to the file, use the
+w
+parameter:
+Example
+Open the file ""demofile.txt"" and overwrite the content:
+with open(""demofile.txt"", ""w"") as f:
+f.write(""Woops! I have deleted the content!"")
+#open and read the file after the overwriting:
+with open(""demofile.txt"") 
+  as f:
+print(f.read())
+Note:
+the ""w"" method will overwrite the entire file.
+Create a New File
+To c",Python File Write,https://www.w3schools.com/python/python_file_write.asp,0
+"after the overwriting:
+with open(""demofile.txt"") 
+  as f:
+print(f.read())
+Note:
+the ""w"" method will overwrite the entire file.
+Create a New File
+To create a new file in Python, use the
+open()
+method, 
+with one of the following parameters:
+""x""
+- Create - will create a file, returns 
+an error if the file exists
+""a""
+- Append - will create a file if the 
+specified file does not exists
+""w""
+- Write - will create a file if the 
+specified file does not exists
+Example
+Create a new file called ""myfile.txt"":
+f = open(""myfile.txt"", ""x"")
+Result: a new empty file is created.
+Note:
+If the file already exists, an error will be raised.
+★
++1",Python File Write,https://www.w3schools.com/python/python_file_write.asp,1
+"Python
+Delete File
+Share
+Link Copied
+Delete a File
+To delete a file, you must import the OS module, and run its
+os.remove()
+function:
+Example
+Remove the file ""demofile.txt"":
+import os
+os.remove(""demofile.txt"")
+Check if File exist:
+To avoid getting an error, you might want to check if the file exists before you try to delete it:
+Example
+Check if file exists,
+then
+delete it:
+import os
+if os.path.exists(""demofile.txt""):
+os.remove(""demofile.txt"")
+else:
+print(""The file does not exist"")
+Delete Folder
+To delete an entire folder, use the
+os.rmdir()
+method:
+Example
+Remove the folder ""myfolder"":
+import os
+os.rmdir(""myfolder"")
+Note:
+You can only remove
+empty
+folders.
+★
++1",Python Delete File,https://www.w3schools.com/python/python_file_remove.asp,0
