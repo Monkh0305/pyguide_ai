@@ -94,7 +94,8 @@ def load_local(data_path, model_name, model_factory=None):
 
     if model_factory is None:
         from sentence_transformers import SentenceTransformer
-        model = SentenceTransformer(model_name, local_files_only=True)
+        # Cloud instances start without the model cache; download it when needed.
+        model = SentenceTransformer(model_name)
     else:
         model = model_factory(model_name)
     if model.get_sentence_embedding_dimension() != vectors.shape[1]:
